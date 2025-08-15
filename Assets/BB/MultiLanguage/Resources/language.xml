@@ -1,0 +1,2413 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Translations>
+	<Translation key="KEY">
+		<Language>English</Language>
+		<Language>Vietnamese</Language>
+		<Language>French</Language>
+		<Language>Japanese</Language>
+		<Language>Korean</Language>
+		<Language>Chinese</Language>
+		<Language>Dutch</Language>
+		<Language>German</Language>
+		<Language>Italian</Language>
+		<Language>Portuguese</Language>
+		<Language>Russian</Language>
+		<Language>Spanish</Language>
+	</Translation>
+	<!--      DEFALT TRANSLATE       -->
+	<Translation key="play">
+		<Value>PLAY</Value>
+		<Value>Chơi!</Value>
+		<Value>JOUER</Value>
+		<Value>演奏する</Value>
+		<Value>플레이</Value>
+		<Value>玩</Value>
+		<Value>SPEEL</Value>
+		<Value>ABSPIELEN</Value>
+		<Value>GIOCARE</Value>
+		<Value>TOQUE</Value>
+		<Value>ИГРАТЬ В</Value>
+		<Value>TOCA</Value>
+	</Translation>
+	<Translation key="purchase_success">
+		<Value>Thank you for your purchase!</Value>
+		<Value>Cảm ơn bạn đã mua hàng!</Value>
+		<Value>Merci pour votre achat !</Value>
+		<Value>ご購入ありがとうございます！</Value>
+		<Value>구매해 주셔서 감사합니다!</Value>
+		<Value>感谢您的购买！</Value>
+		<Value>Bedankt voor je aankoop!</Value>
+		<Value>Vielen Dank für Ihren Einkauf!</Value>
+		<Value>Grazie per il tuo acquisto!</Value>
+		<Value>Obrigado(a) pela sua compra!</Value>
+		<Value>Спасибо за покупку!</Value>
+		<Value>¡Gracias por tu compra!</Value>
+	</Translation>
+	<Translation key="purchase_fail">
+		<Value>Failed to purchase product!</Value>
+		<Value>Mua sản phẩm không thành công!</Value>
+		<Value>Échec de l'achat du produit !</Value>
+		<Value>製品の購入に失敗しました！</Value>
+		<Value>제품 구매 실패!</Value>
+		<Value>购买产品失败！</Value>
+		<Value>Product aankoop mislukt!</Value>
+		<Value>Produktkauf fehlgeschlagen!</Value>
+		<Value>Acquisto prodotto fallito!</Value>
+		<Value>Falha na compra do produto!</Value>
+		<Value>Не удалось приобрести товар!</Value>
+		<Value>¡Error al comprar el producto!</Value>
+	</Translation>
+	<Translation key="noti_quit">
+		<Value>About to lose 1 Heart, keep challenging!</Value>
+		<Value>Bạn sẽ mất 1 Mạng, hãy tiếp tục thử thách!</Value>
+		<Value>Sur le point de perdre 1 cœur, continuez à relever le défi !</Value>
+		<Value>ハートを1つ失いそうです、挑戦し続けてください！</Value>
+		<Value>하트 1개를 잃을 예정입니다. 계속 도전하세요!</Value>
+		<Value>即将失去 1 颗心，继续挑战！</Value>
+		<Value>Je staat op het punt 1 hart te verliezen, blijf uitdagen!</Value>
+		<Value>Du bist dabei, 1 Herz zu verlieren, fordere weiter heraus!</Value>
+		<Value>Stai per perdere 1 cuore, continua a sfidare!</Value>
+		<Value>Prestes a perder 1 coração, continue desafiando!</Value>
+		<Value>Скоро потеряете 1 сердце, продолжайте испытание!</Value>
+		<Value>¡A punto de perder 1 Corazón, sigue desafiando!</Value>
+	</Translation>
+	<Translation key="all_levels_completed">
+		<Value>You have completed all levels!</Value>
+		<Value>Bạn đã hoàn thành hết các level!</Value>
+		<Value>Vous avez terminé tous les niveaux !</Value>
+		<Value>すべてのレベルをクリアしました！</Value>
+		<Value>모든 레벨을 완료했습니다!</Value>
+		<Value>你已经完成了所有关卡！</Value>
+		<Value>Je hebt alle levels voltooid!</Value>
+		<Value>Du hast alle Level abgeschlossen!</Value>
+		<Value>Hai completato tutti i livelli!</Value>
+		<Value>Você completou todos os níveis!</Value>
+		<Value>Вы прошли все уровни!</Value>
+		<Value>¡Has completado todos los niveles!</Value>
+	</Translation>
+	<Translation key="quit_level">
+		<Value>Quit Level</Value>
+		<Value>Thoát màn chơi</Value>
+		<Value>Quitter le niveau</Value>
+		<Value>レベルを終了</Value>
+		<Value>레벨 종료</Value>
+		<Value>退出关卡</Value>
+		<Value>Niveau verlaten</Value>
+		<Value>Level verlassen</Value>
+		<Value>Esci dal livello</Value>
+		<Value>Sair do nível</Value>
+		<Value>Выйти из уровня</Value>
+		<Value>Salir del nivel</Value>
+	</Translation>
+	<Translation key="restore">
+		<Value>Restore</Value>
+		<Value>Hồi phục</Value>
+		<Value>Restaurer</Value>
+		<Value>復元</Value>
+		<Value>복원</Value>
+		<Value>恢复</Value>
+		<Value>Herstellen</Value>
+		<Value>Wiederherstellen</Value>
+		<Value>Ripristinare</Value>
+		<Value>Restaurar</Value>
+		<Value>Восстановить</Value>
+		<Value>Restaurar</Value>
+	</Translation>
+	<Translation key="received">
+		<Value>Received</Value>
+		<Value>Đã nhận</Value>
+		<Value>Reçu</Value>
+		<Value>受領済み</Value>
+		<Value>수신됨</Value>
+		<Value>已收到</Value>
+		<Value>Ontvangen</Value>
+		<Value>Erhalten</Value>
+		<Value>Ricevuto</Value>
+		<Value>Recebido</Value>
+		<Value>Получено</Value>
+		<Value>Recibido</Value>
+	</Translation>
+	<Translation key="shop">
+		<Value>Shop</Value>
+		<Value>Cửa hàng</Value>
+		<Value>Boutique</Value>
+		<Value>ショップ</Value>
+		<Value>상점</Value>
+		<Value>商店</Value>
+		<Value>Winkel</Value>
+		<Value>Laden</Value>
+		<Value>Negozio</Value>
+		<Value>Loja</Value>
+		<Value>Магазин</Value>
+		<Value>Tienda</Value>
+	</Translation>
+	<Translation key="restore_purchases">
+		<Value>Restore Purchases</Value>
+		<Value>Khôi phục giao dịch mua</Value>
+		<Value>Restaurer les achats</Value>
+		<Value>購入を復元</Value>
+		<Value>구매 복원</Value>
+		<Value>恢复购买</Value>
+		<Value>Herstel aankopen</Value>
+		<Value>Käufe wiederherstellen</Value>
+		<Value>Ripristina acquisti</Value>
+		<Value>Restaurar compras</Value>
+		<Value>Восстановить покупки</Value>
+		<Value>Restaurar compras</Value>
+	</Translation>
+	<Translation key="stage_3_unlocked">
+		<Value>Stage 3 Unlocked</Value>
+		<Value>Màn 3 sẽ mở khóa</Value>
+		<Value>Niveau 3 débloqué</Value>
+		<Value>ステージ3ロック解除</Value>
+		<Value>스테이지 3 잠금 해제</Value>
+		<Value>第3关已解锁</Value>
+		<Value>Fase 3 ontgrendeld</Value>
+		<Value>Stufe 3 freigeschaltet</Value>
+		<Value>Fase 3 sbloccata</Value>
+		<Value>Fase 3 desbloqueada</Value>
+		<Value>Этап 3 разблокирован</Value>
+		<Value>Etapa 3 desbloqueada</Value>
+	</Translation>
+	<Translation key="stage_5_unlocked">
+		<Value>Stage 5 Unlocked</Value>
+		<Value>Màn 5 sẽ mở khóa</Value>
+		<Value>Niveau 5 débloqué</Value>
+		<Value>ステージ5ロック解除</Value>
+		<Value>스테이지 5 잠금 해제</Value>
+		<Value>第5关已解锁</Value>
+		<Value>Fase 5 ontgrendeld</Value>
+		<Value>Stufe 5 freigeschaltet</Value>
+		<Value>Fase 5 sbloccata</Value>
+		<Value>Fase 5 desbloqueada</Value>
+		<Value>Этап 5 разблокирован</Value>
+		<Value>Etapa 5 desbloqueada</Value>
+	</Translation>
+	<Translation key="stage_8_unlocked">
+		<Value>Stage 8 Unlocked</Value>
+		<Value>Màn 8 sẽ mở khóa</Value>
+		<Value>Niveau 8 débloqué</Value>
+		<Value>ステージ8ロック解除</Value>
+		<Value>스테이지 8 잠금 해제</Value>
+		<Value>第8关已解锁</Value>
+		<Value>Fase 8 ontgrendeld</Value>
+		<Value>Stufe 8 freigeschaltet</Value>
+		<Value>Fase 8 sbloccata</Value>
+		<Value>Fase 8 desbloqueada</Value>
+		<Value>Этап 8 разблокирован</Value>
+		<Value>Etapa 8 desbloqueada</Value>
+	</Translation>
+	<Translation key="stage_11_unlocked">
+		<Value>Stage 11 Unlocked</Value>
+		<Value>Màn 11 sẽ mở khóa</Value>
+		<Value>Niveau 11 débloqué</Value>
+		<Value>ステージ11ロック解除</Value>
+		<Value>스테이지 11 잠금 해제</Value>
+		<Value>第11关已解锁</Value>
+		<Value>Fase 11 ontgrendeld</Value>
+		<Value>Stufe 11 freigeschaltet</Value>
+		<Value>Fase 11 sbloccata</Value>
+		<Value>Fase 11 desbloqueada</Value>
+		<Value>Этап 11 разблокирован</Value>
+		<Value>Etapa 11 desbloqueada</Value>
+	</Translation>
+	<Translation key="revive">
+		<Value>Revive</Value>
+		<Value>Hồi sinh</Value>
+		<Value>Réanimer</Value>
+		<Value>復活</Value>
+		<Value>부활</Value>
+		<Value>复活</Value>
+		<Value>Herleef</Value>
+		<Value>Wiederbeleben</Value>
+		<Value>Rianimare</Value>
+		<Value>Reviver</Value>
+		<Value>Оживить</Value>
+		<Value>Revivir</Value>
+	</Translation>
+	<Translation key="time">
+		<Value>Time</Value>
+		<Value>Thời gian</Value>
+		<Value>Temps</Value>
+		<Value>時間</Value>
+		<Value>시간</Value>
+		<Value>时间</Value>
+		<Value>Tyd</Value>
+		<Value>Zeit</Value>
+		<Value>Tempo</Value>
+		<Value>Tempo</Value>
+		<Value>Время</Value>
+		<Value>Tiempo</Value>
+	</Translation>
+	<Translation key="sold_out">
+		<Value>Sold Out</Value>
+		<Value>Đã bán hết</Value>
+		<Value>Épuisé</Value>
+		<Value>売り切れ</Value>
+		<Value>매진</Value>
+		<Value>售罄</Value>
+		<Value>Uitverkoop</Value>
+		<Value>Ausverkauft</Value>
+		<Value>Esaurito</Value>
+		<Value>Esgotado</Value>
+		<Value>Продано</Value>
+		<Value>Agotado</Value>
+	</Translation>
+	<Translation key="bad_day">
+		<Value>Bad day</Value>
+		<Value>Ngày buồn</Value>
+		<Value>Mauvaise journée</Value>
+		<Value>悪い一日</Value>
+		<Value>나쁜 하루</Value>
+		<Value>糟糕的一天</Value>
+		<Value>Slegte dag</Value>
+		<Value>Schlechter Tag</Value>
+		<Value>Brutta giornata</Value>
+		<Value>Mau dia</Value>
+		<Value>Плохой день</Value>
+		<Value>Mal día</Value>
+	</Translation>
+	<Translation key="add_time">
+		<Value>Not enough time, add more?</Value>
+		<Value>Không đủ thời gian, thêm nữa không?</Value>
+		<Value>Pas assez de temps, en ajouter plus ?</Value>
+		<Value>時間が足りません、追加しますか？</Value>
+		<Value>시간이 부족합니다. 더 추가하시겠습니까?</Value>
+		<Value>时间不足，再加点吗？</Value>
+		<Value>Niet genoeg tijd, meer toevoegen?</Value>
+		<Value>Nicht genug Zeit, mehr hinzufügen?</Value>
+		<Value>Tempo insufficiente, aggiungere altro?</Value>
+		<Value>Não há tempo suficiente, adicionar mais?</Value>
+		<Value>Недостаточно времени, добавить еще?</Value>
+		<Value>No hay suficiente tiempo, ¿añadir más?</Value>
+	</Translation>
+	<Translation key="refresh">
+		<Value>Refresh</Value>
+		<Value>Làm mới</Value>
+		<Value>Actualiser</Value>
+		<Value>更新</Value>
+		<Value>새로 고침</Value>
+		<Value>刷新</Value>
+		<Value>Verversen</Value>
+		<Value>Aktualisieren</Value>
+		<Value>Aggiorna</Value>
+		<Value>Atualizar</Value>
+		<Value>Обновить</Value>
+		<Value>Actualizar</Value>
+	</Translation>
+	<Translation key="melt_ice_on_skewer">
+		<Value>Melt the ice on the skewer</Value>
+		<Value>Làm tan băng trên que xiên</Value>
+		<Value>Faire fondre la glace sur la brochette</Value>
+		<Value>串の氷を溶かす</Value>
+		<Value>꼬치에 있는 얼음을 녹여주세요</Value>
+		<Value>融化串上的冰</Value>
+		<Value>Smelt het ijs op de spies</Value>
+		<Value>Das Eis am Spieß schmelzen</Value>
+		<Value>Sciogliere il ghiaccio sullo spiedino</Value>
+		<Value>Derreter o gelo no espeto</Value>
+		<Value>Растопите лед на шампуре</Value>
+		<Value>Derretir el hielo del pincho</Value>
+	</Translation>
+	<Translation key="pack">
+		<Value>Pack</Value>
+		<Value>Gói</Value>
+		<Value>Pack</Value>
+		<Value>パック</Value>
+		<Value>팩</Value>
+		<Value>包</Value>
+		<Value>Verpakking</Value>
+		<Value>Packung</Value>
+		<Value>Pacco</Value>
+		<Value>Pacote</Value>
+		<Value>Пакет</Value>
+		<Value>Paquete</Value>
+	</Translation>
+	<Translation key="pack_3_skewers">
+		<Value>Pack three same skewers</Value>
+		<Value>Đóng gói ba xiên giống nhau</Value>
+		<Value>Emballez trois brochettes identiques</Value>
+		<Value>同じ串を3本パック</Value>
+		<Value>동일한 꼬치 세 개 포장</Value>
+		<Value>打包三串相同的烤串</Value>
+		<Value>Verpak drie identieke spiesen</Value>
+		<Value>Drei gleiche Spieße verpacken</Value>
+		<Value>Impacchetta tre spiedini uguali</Value>
+		<Value>Embalar três espetos iguais</Value>
+		<Value>Упакуйте три одинаковых шампура</Value>
+		<Value>Empaquetar tres brochetas iguales</Value>
+	</Translation>
+	<Translation key="swap">
+		<Value>Swap</Value>
+		<Value>Hoán đổi</Value>
+		<Value>Échanger</Value>
+		<Value>交換</Value>
+		<Value>교환</Value>
+		<Value>交换</Value>
+		<Value>Ruil</Value>
+		<Value>Tauschen</Value>
+		<Value>Scambia</Value>
+		<Value>Trocar</Value>
+		<Value>Поменять</Value>
+		<Value>Intercambiar</Value>
+	</Translation>
+	<Translation key="swap_skewer">
+		<Value>Readjust all skewer positions</Value>
+		<Value>Điều chỉnh lại tất cả vị trí xiên</Value>
+		<Value>Réajuster toutes les positions de brochettes</Value>
+		<Value>すべての串の位置を再調整する</Value>
+		<Value>모든 꼬치 위치 재조정</Value>
+		<Value>重新调整所有串的位置</Value>
+		<Value>Alle spiesposities opnieuw aanpassen</Value>
+		<Value>Alle Spießpositionen neu einstellen</Value>
+		<Value>Riadatta tutte le posizioni degli spiedini</Value>
+		<Value>Reajustar todas as posições dos espetos</Value>
+		<Value>Перенастроить все положения шампуров</Value>
+		<Value>Reajustar todas las posiciones de los pinchos</Value>
+	</Translation>
+	<Translation key="congratulation">
+		<Value>Congratulations</Value>
+		<Value>Chúc mừng</Value>
+		<Value>Félicitations</Value>
+		<Value>おめでとうございます</Value>
+		<Value>축하합니다</Value>
+		<Value>恭喜</Value>
+		<Value>Baie geluk</Value>
+		<Value>Herzlichen Glückwunsch</Value>
+		<Value>Congratulazioni</Value>
+		<Value>Parabéns</Value>
+		<Value>Поздравляем</Value>
+		<Value>Felicidades</Value>
+	</Translation>
+	<Translation key="stop_time">
+		<Value>Stop time</Value>
+		<Value>Dừng thời gian</Value>
+		<Value>Arrêter le temps</Value>
+		<Value>時間を停止</Value>
+		<Value>시간 정지</Value>
+		<Value>停止时间</Value>
+		<Value>Stop tijd</Value>
+		<Value>Zeit anhalten</Value>
+		<Value>Ferma tempo</Value>
+		<Value>Parar o tempo</Value>
+		<Value>Остановить время</Value>
+		<Value>Detener el tiempo</Value>
+	</Translation>
+	<Translation key="No Ads">
+		<Value>No Ads</Value>
+		<Value>Không quảng cáo</Value>
+		<Value>Pas de pubs</Value>
+		<Value>広告なし</Value>
+		<Value>광고 없음</Value>
+		<Value>无广告</Value>
+		<Value>Geen advertensies</Value>
+		<Value>Keine Werbung</Value>
+		<Value>Nessuna pubblicità</Value>
+		<Value>Sem anúncios</Value>
+		<Value>Без рекламы</Value>
+		<Value>Sin anuncios</Value>
+	</Translation>
+	<Translation key="stop_time_30s">
+		<Value>Frezz time for 30 seconds</Value>
+		<Value>Dừng thời gian 30s</Value>
+		<Value>Arrêt du temps 30s</Value>
+		<Value>時間停止30秒</Value>
+		<Value>시간 정지 30초</Value>
+		<Value>时间停止30秒</Value>
+		<Value>Stop tijd 30s</Value>
+		<Value>Zeitstopp 30s</Value>
+		<Value>Interruzione tempo 30s</Value>
+		<Value>Parar tempo 30s</Value>
+		<Value>Остановка времени 30с</Value>
+		<Value>Detener tiempo 30s</Value>
+	</Translation>
+	<Translation key="guide">
+		<Value>Guide</Value>
+		<Value>Hướng dẫn</Value>
+		<Value>Guide</Value>
+		<Value>ガイド</Value>
+		<Value>가이드</Value>
+		<Value>指南</Value>
+		<Value>Gids</Value>
+		<Value>Anleitung</Value>
+		<Value>Guida</Value>
+		<Value>Guia</Value>
+		<Value>Руководство</Value>
+		<Value>Guía</Value>
+	</Translation>
+	<Translation key="confirm">
+		<Value>Confirm</Value>
+		<Value>Xác nhận</Value>
+		<Value>Confirmer</Value>
+		<Value>確認</Value>
+		<Value>확인</Value>
+		<Value>确认</Value>
+		<Value>Bevestigen</Value>
+		<Value>Bestätigen</Value>
+		<Value>Conferma</Value>
+		<Value>Confirmar</Value>
+		<Value>Подтвердить</Value>
+		<Value>Confirmar</Value>
+	</Translation>
+	<Translation key="piggy_bank_not_full">
+		<Value>Complete levels to add Coin to Piggy Bank.\nFill it up to get the most Coins for your money!</Value>
+		<Value>Hoàn thành các cấp độ để thêm Xu vào Heo đất.\nLấp đầy nó để nhận được nhiều Xu nhất cho số tiền của bạn!</Value>
+		<Value>Terminez les niveaux pour ajouter des pièces à la tirelire.\nRemplissez-la pour obtenir le plus de pièces pour votre argent !</Value>
+		<Value>レベルをクリアして貯金箱にコインを追加しましょう\n満タンにして、お金に見合う最大のコインを手に入れましょう！</Value>
+		<Value>레벨을 완료하여 돼지 저금통에 코인을 추가하세요.\n가득 채워서 돈 대비 가장 많은 코인을 얻으세요!</Value>
+		<Value>完成关卡可将金币添加到存钱罐。\n装满它，让您的钱获得最多的金币！</Value>
+		<Value>Voltooi levels om munten aan de spaarpot toe te voegen.\nVul hem helemaal om de meeste munten voor je geld te krijgen!</Value>
+		<Value>Schließe Level ab, um Münzen zum Sparschwein hinzuzufügen.\nFülle es auf, um das meiste Münzgeld für dein Geld zu bekommen!</Value>
+		<Value>Completa i livelli per aggiungere monete al salvadanaio.\nRiempi il salvadanaio per ottenere il massimo delle monete per i tuoi soldi!</Value>
+		<Value>Complete níveis para adicionar moedas ao cofrinho.\nEncha-o para obter o máximo de moedas pelo seu dinheiro!</Value>
+		<Value>Проходите уровни, чтобы добавлять монеты в Копилку.\nЗаполните ее до краев, чтобы получить максимум монет за свои деньги!</Value>
+		<Value>¡Completa niveles para añadir monedas a la Hucha.\nLlénala para obtener la mayor cantidad de monedas por tu dinero!</Value>
+	</Translation>
+	<Translation key="not_enough_coin">
+		<Value>Not enough coins!</Value>
+		<Value>Không đủ xu!</Value>
+		<Value>Pas assez de pièces !</Value>
+		<Value>コインが足りません！</Value>
+		<Value>코인이 부족합니다!</Value>
+		<Value>金币不足！</Value>
+		<Value>Nie genoeg munte nie!</Value>
+		<Value>Nicht genug Münzen!</Value>
+		<Value>Monete insufficienti!</Value>
+		<Value>Moedas insuficientes!</Value>
+		<Value>Недостаточно монет!</Value>
+		<Value>¡No hay suficientes monedas!</Value>
+	</Translation>
+	<Translation key="break_ice">
+		<Value>Break Ice</Value>
+		<Value>Phá băng</Value>
+		<Value>Briser la glace</Value>
+		<Value>氷を割る</Value>
+		<Value>얼음 깨기</Value>
+		<Value>破冰</Value>
+		<Value>Breek Ys</Value>
+		<Value>Eis brechen</Value>
+		<Value>Rompighiaccio</Value>
+		<Value>Quebra Gelo</Value>
+		<Value>Растопить лед</Value>
+		<Value>Rompehielos</Value>
+	</Translation>
+	<Translation key="tap_to_claim">
+		<Value>Tap to claim</Value>
+		<Value>Chạm để nhận</Value>
+		<Value>Appuyez pour réclamer</Value>
+		<Value>タップして獲得</Value>
+		<Value>탭하여 받기</Value>
+		<Value>点击领取</Value>
+		<Value>Tik om te claimen</Value>
+		<Value>Tippen zum Abholen</Value>
+		<Value>Tocca per reclamare</Value>
+		<Value>Toque para reivindicar</Value>
+		<Value>Нажмите, чтобы получить</Value>
+		<Value>Toca para reclamar</Value>
+	</Translation>
+	<Translation key="tap_booster_melt_ice">
+		<Value>Tap the booster to melt the ice on the selected skewer!</Value>
+		<Value>Chạm vào vật phẩm tăng cường để làm tan băng trên xiên đã chọn!</Value>
+		<Value>Touchez le booster pour faire fondre la glace sur la brochette sélectionnée !</Value>
+		<Value>ブースターをタップして、選択した串の氷を溶かしてください！</Value>
+		<Value>선택한 꼬치의 얼음을 녹이려면 부스터를 탭하세요!</Value>
+		<Value>点击助推器融化选中串上的冰！</Value>
+		<Value>Tik op de booster om het ijs op de geselecteerde spies te smelten!</Value>
+		<Value>Tippe auf den Booster, um das Eis am ausgewählten Spieß zu schmelzen!</Value>
+		<Value>Tocca il booster per sciogliere il ghiaccio sullo spiedino selezionato!</Value>
+		<Value>Toque no impulsionador para derreter o gelo no espeto selecionado!</Value>
+		<Value>Нажмите на бустер, чтобы растопить лед на выбранном шампуре!</Value>
+		<Value>¡Toca el refuerzo para derretir el hielo del pincho seleccionado!</Value>
+	</Translation>
+	<Translation key="tap_booster_stop_time_30s">
+		<Value>Tap the booster to stop time for 30 seconds!</Value>
+		<Value>Chạm vào vật phẩm tăng cường để dừng thời gian trong 30 giây!</Value>
+		<Value>Touchez le booster pour arrêter le temps pendant 30 secondes !</Value>
+		<Value>ブースターをタップして、時間を30秒間停止してください！</Value>
+		<Value>부스터를 탭하여 30초 동안 시간을 멈추세요!</Value>
+		<Value>点击助推器，让时间停止30秒！</Value>
+		<Value>Tik op de booster om de tijd 30 seconden stil te zetten!</Value>
+		<Value>Tippe auf den Booster, um die Zeit für 30 Sekunden anzuhalten!</Value>
+		<Value>Tocca il booster per fermare il tempo per 30 secondi!</Value>
+		<Value>Toque no impulsionador para parar o tempo por 30 segundos!</Value>
+		<Value>Нажмите на бустер, чтобы остановить время на 30 секунд!</Value>
+		<Value>¡Toca el refuerzo para detener el tiempo durante 30 segundos!</Value>
+	</Translation>
+	<Translation key="tap_booster_auto_match_3_skewers">
+		<Value>Tap the booster to auto-match 3 skewers!</Value>
+		<Value>Chạm vào vật phẩm tăng cường để tự động ghép 3 xiên!</Value>
+		<Value>Touchez le booster pour associer automatiquement 3 brochettes !</Value>
+		<Value>ブースターをタップして、3本の串を自動でマッチングしてください！</Value>
+		<Value>부스터를 탭하여 꼬치 3개를 자동 매치하세요!</Value>
+		<Value>点击助推器自动匹配3串！</Value>
+		<Value>Tik op de booster om automatisch 3 spiesen te matchen!</Value>
+		<Value>Tippe auf den Booster, um 3 Spieße automatisch zuzuordnen!</Value>
+		<Value>Tocca il booster per abbinare automaticamente 3 spiedini!</Value>
+		<Value>Toque no impulsionador para combinar automaticamente 3 espetos!</Value>
+		<Value>Нажмите на бустер, чтобы автоматически подобрать 3 шампура!</Value>
+		<Value>¡Toca el refuerzo para emparejar automáticamente 3 pinchos!</Value>
+	</Translation>
+	<Translation key="tap_booster_shuffle_skewers">
+		<Value>Tap the booster to shuffle the skewers!</Value>
+		<Value>Chạm vào vật phẩm tăng cường để xáo trộn các xiên!</Value>
+		<Value>Touchez le booster pour mélanger les brochettes !</Value>
+		<Value>ブースターをタップして、串をシャッフルしてください！</Value>
+		<Value>부스터를 탭하여 꼬치를 섞으세요!</Value>
+		<Value>点击助推器洗牌烤串！</Value>
+		<Value>Tik op de booster om de spiesen te schudden!</Value>
+		<Value>Tippe auf den Booster, um die Spieße zu mischen!</Value>
+		<Value>Tocca il booster per mescolare gli spiedini!</Value>
+		<Value>Toque no impulsionador para embaralhar os espetos!</Value>
+		<Value>Нажмите на бустер, чтобы перемешать шампуры!</Value>
+		<Value>¡Toca el refuerzo para barajar los pinchos!</Value>
+	</Translation>
+	<Translation key="order">
+		<Value>Order</Value>
+		<Value>Đặt hàng</Value>
+		<Value>Commande</Value>
+		<Value>注文</Value>
+		<Value>주문</Value>
+		<Value>订单</Value>
+		<Value>Bestelling</Value>
+		<Value>Bestellung</Value>
+		<Value>Ordine</Value>
+		<Value>Ordem</Value>
+		<Value>Заказ</Value>
+		<Value>Pedido</Value>
+	</Translation>
+	<Translation key="spicy_order">
+		<Value>Spicy Order</Value>
+		<Value>Đơn hàng đồ cay</Value>
+		<Value>Commande épicée</Value>
+		<Value>スパイシーな注文</Value>
+		<Value>매운 주문</Value>
+		<Value>辣味订单</Value>
+		<Value>Spesery bestelling</Value>
+		<Value>Würzige Bestellung</Value>
+		<Value>Ordine piccante</Value>
+		<Value>Pedido picante</Value>
+		<Value>Острый заказ</Value>
+		<Value>Pedido picante</Value>
+	</Translation>
+	<Translation key="complete_skewers_in_order">
+		<Value>Complete the skewers specified in the order</Value>
+		<Value>Hoàn thành các xiên được chỉ định trong đơn hàng</Value>
+		<Value>Complétez les brochettes spécifiées dans la commande</Value>
+		<Value>注文で指定された串を完成させる</Value>
+		<Value>주문에서 지정된 꼬치를 완성하세요</Value>
+		<Value>完成订单中指定的烤串</Value>
+		<Value>Voltooi de spiesen zoals gespecificeerd in de bestelling</Value>
+		<Value>Schließe die im Auftrag angegebenen Spieße ab</Value>
+		<Value>Completa gli spiedini specificati nell'ordine</Value>
+		<Value>Completar os espetos especificados no pedido</Value>
+		<Value>Завершите шампуры, указанные в заказе</Value>
+		<Value>Completa los pinchos especificados en el pedido</Value>
+	</Translation>
+	<Translation key="spicy_orders_spicy_pot">
+		<Value>Spicy orders can only be completed in the spicy pot</Value>
+		<Value>Các đơn hàng cay chỉ có thể được hoàn thành trong nồi lẩu cay</Value>
+		<Value>Les commandes épicées ne peuvent être complétées que dans la marmite épicée</Value>
+		<Value>辛い注文は辛い鍋でのみ完了できます</Value>
+		<Value>매운 주문은 매운 냄비에서만 완료할 수 있습니다</Value>
+		<Value>辣味订单只能在辣锅中完成</Value>
+		<Value>Pittige bestellingen kunnen alleen in de pittige pot worden voltooid</Value>
+		<Value>Scharfe Bestellungen können nur im scharfen Topf abgeschlossen werden</Value>
+		<Value>Gli ordini piccanti possono essere completati solo nella pentola piccante</Value>
+		<Value>Pedidos picantes só podem ser concluídos na panela picante</Value>
+		<Value>Острые заказы могут быть выполнены только в остром котле</Value>
+		<Value>Los pedidos picantes solo se pueden completar en la olla picante</Value>
+	</Translation>
+	<Translation key="oven_cover">
+		<Value>Oven Cover</Value>
+		<Value>Nắp lò nướng</Value>
+		<Value>Couvercle du four</Value>
+		<Value>オーブンカバー</Value>
+		<Value>오븐 덮개</Value>
+		<Value>烤箱盖</Value>
+		<Value>Ovenkap</Value>
+		<Value>Ofenabdeckung</Value>
+		<Value>Coperchio del forno</Value>
+		<Value>Tampa do Forno</Value>
+		<Value>Крышка духовки</Value>
+		<Value>Tapa del horno</Value>
+	</Translation>
+	<Translation key="finish_order_to_unlock_grill">
+		<Value>Finish Order to Unlock Grill</Value>
+		<Value>Hoàn thành đơn hàng để mở khóa lò nướng</Value>
+		<Value>Terminez la commande pour déverrouiller le grill</Value>
+		<Value>グリルをアンロックするために注文を完了してください</Value>
+		<Value>그릴 잠금 해제를 위해 주문 완료</Value>
+		<Value>完成订单以解锁烤架</Value>
+		<Value>Voltooi de bestelling om de grill te ontgrendelen</Value>
+		<Value>Bestellung abschließen, um den Grill freizuschalten</Value>
+		<Value>Completa l'ordine per sbloccare la griglia</Value>
+		<Value>Conclua o pedido para desbloquear a grelha</Value>
+		<Value>Завершите заказ, чтобы разблокировать гриль</Value>
+		<Value>Termina el pedido para desbloquear la parrilla</Value>
+	</Translation>
+	<Translation key="pack_3_skewers_together">
+		<Value>Pack 3 Skewers Together</Value>
+		<Value>Đóng gói 3 xiên cùng loại</Value>
+		<Value>Emballez 3 brochettes ensemble</Value>
+		<Value>串3本を一緒にパック</Value>
+		<Value>꼬치 3개 함께 포장</Value>
+		<Value>将3串打包在一起</Value>
+		<Value>Verpak 3 spiesen samen</Value>
+		<Value>3 Spieße zusammenpacken</Value>
+		<Value>Impacchetta 3 spiedini insieme</Value>
+		<Value>Embalar 3 espetos juntos</Value>
+		<Value>Упаковать 3 шампура вместе</Value>
+		<Value>Empacar 3 pinchos juntos</Value>
+	</Translation>
+	<Translation key="watch_ads_help_shipper">
+		<Value>Watch an ads to help shipper</Value>
+		<Value>Xem quảng cáo để giúp người giao hàng</Value>
+		<Value>Regardez une pub pour aider le livreur</Value>
+		<Value>広告を見て配達員を助ける</Value>
+		<Value>배송 기사를 돕기 위해 광고 시청</Value>
+		<Value>观看广告以帮助发货人</Value>
+		<Value>Bekijk een advertentie om de bezorger te helpen</Value>
+		<Value>Sieh dir eine Werbung an, um den Lieferanten zu helfen</Value>
+		<Value>Guarda un annuncio per aiutare il corriere</Value>
+		<Value>Assista a um anúncio para ajudar o entregador</Value>
+		<Value>Посмотрите рекламу, чтобы помочь курьеру</Value>
+		<Value>Mira un anuncio para ayudar al repartidor</Value>
+	</Translation>
+	<Translation key="secret_skewer">
+		<Value>Secret Skewer</Value>
+		<Value>Xiên bí mật</Value>
+		<Value>Brochette secrète</Value>
+		<Value>秘密の串</Value>
+		<Value>비밀 꼬치</Value>
+		<Value>秘密烤串</Value>
+		<Value>Geheime spies</Value>
+		<Value>Geheimer Spieß</Value>
+		<Value>Spiedino segreto</Value>
+		<Value>Espeto Secreto</Value>
+		<Value>Секретный шампур</Value>
+		<Value>Pincho Secreto</Value>
+	</Translation>
+	<Translation key="skewers_foil_only_grill">
+		<Value>Skewers with foil can only be opened on the grill</Value>
+		<Value>Xiên có giấy bạc chỉ có thể mở trên lò nướng</Value>
+		<Value>Les brochettes avec du papier d'aluminium ne peuvent être ouvertes que sur le gril</Value>
+		<Value>ホイルに包まれた串はグリルでしか開けられません</Value>
+		<Value>포일이 있는 꼬치는 그릴에서만 열 수 있습니다</Value>
+		<Value>带锡纸的烤串只能在烤架上打开</Value>
+		<Value>Spiesen met folie kunnen alleen op de grill geopend worden</Value>
+		<Value>Spieße mit Folie können nur auf dem Grill geöffnet werden</Value>
+		<Value>Gli spiedini con la stagnola possono essere aperti solo sulla griglia</Value>
+		<Value>Espetos com papel alumínio só podem ser abertos na grelha</Value>
+		<Value>Шампуры в фольге можно открывать только на гриле</Value>
+		<Value>Los pinchos con papel de aluminio solo se pueden abrir en la parrilla</Value>
+	</Translation>
+	<Translation key="tray_des">
+		<Value>The tray can only store, not eliminate.</Value>
+		<Value>Khay chỉ có thể lưu trữ, không thể loại bỏ xiên.</Value>
+		<Value>Le plateau ne peut que stocker, pas éliminer.</Value>
+		<Value>トレイは保存のみ可能で、削除はできません。</Value>
+		<Value>쟁반은 저장만 할 수 있고, 제거할 수는 없습니다.</Value>
+		<Value>托盘只能存放，不能消除。</Value>
+		<Value>Het dienblad kan alleen opslaan, niet verwijderen.</Value>
+		<Value>Das Tablett kann nur speichern, nicht eliminieren.</Value>
+		<Value>Il vassoio può solo contenere, non eliminare.</Value>
+		<Value>A bandeja pode apenas armazenar, não eliminar.</Value>
+		<Value>Лоток может только хранить, но не удалять.</Value>
+		<Value>La bandeja solo puede almacenar, no eliminar.</Value>
+	</Translation>
+	<Translation key="grill_lock_by_num">
+		<Value>Each successful match reduces the lock number.</Value>
+		<Value>Mỗi lần ghép thành công sẽ giảm số khóa.</Value>
+		<Value>Chaque correspondance réussie réduit le numéro de verrouillage.</Value>
+		<Value>マッチが成功するたびにロック数が減少します。</Value>
+		<Value>성공적인 매치마다 잠금 번호가 감소합니다.</Value>
+		<Value>每次成功匹配都会降低锁定数字。</Value>
+		<Value>Elke succesvolle match verlaagt het slotnummer.</Value>
+		<Value>Jedes erfolgreiche Match reduziert die Schlossnummer.</Value>
+		<Value>Ogni abbinamento riuscito riduce il numero di blocco.</Value>
+		<Value>Cada partida bem-sucedida reduz o número de bloqueio.</Value>
+		<Value>Каждое успешное совпадение уменьшает номер замка.</Value>
+		<Value>Cada partida exitosa reduce el número de bloqueo.</Value>
+	</Translation>
+	<Translation key="tray">
+		<Value>Tray</Value>
+		<Value>Khay</Value>
+		<Value>Plateau</Value>
+		<Value>トレイ</Value>
+		<Value>쟁반</Value>
+		<Value>托盘</Value>
+		<Value>Dienblad</Value>
+		<Value>Tablett</Value>
+		<Value>Vassoio</Value>
+		<Value>Bandeja</Value>
+		<Value>Лоток</Value>
+		<Value>Bandeja</Value>
+	</Translation>
+	<Translation key="locked_oven">
+		<Value>Locked Oven</Value>
+		<Value>Bếp nướng bị khóa</Value>
+		<Value>Four verrouillé</Value>
+		<Value>ロックされたオーブン</Value>
+		<Value>잠긴 오븐</Value>
+		<Value>锁定烤箱</Value>
+		<Value>Vergrendelde oven</Value>
+		<Value>Verriegelter Ofen</Value>
+		<Value>Forno bloccato</Value>
+		<Value>Forno travado</Value>
+		<Value>Заблокированная духовка</Value>
+		<Value>Horno bloqueado</Value>
+	</Translation>
+	<Translation key="win">
+		<Value>Win</Value>
+		<Value>Thắng</Value>
+		<Value>Gagner</Value>
+		<Value>勝利</Value>
+		<Value>승리</Value>
+		<Value>赢</Value>
+		<Value>Winnen</Value>
+		<Value>Gewinnen</Value>
+		<Value>Vincere</Value>
+		<Value>Vencer</Value>
+		<Value>Победа</Value>
+		<Value>Ganar</Value>
+	</Translation>
+	<Translation key="max">
+		<Value>Max</Value>
+		<Value>Max</Value>
+		<Value>Max</Value>
+		<Value>最大</Value>
+		<Value>최대</Value>
+		<Value>最大</Value>
+		<Value>Max</Value>
+		<Value>Max</Value>
+		<Value>Max</Value>
+		<Value>Máx.</Value>
+		<Value>Макс.</Value>
+		<Value>Máx.</Value>
+	</Translation>
+	<Translation key="triple_rewards">
+		<Value>Triple rewards</Value>
+		<Value>Phần thưởng gấp ba</Value>
+		<Value>Récompenses triples</Value>
+		<Value>3倍の報酬</Value>
+		<Value>세 배 보상</Value>
+		<Value>三倍奖励</Value>
+		<Value>Drievoudige beloningen</Value>
+		<Value>Dreifache Belohnung</Value>
+		<Value>Ricompense triple</Value>
+		<Value>Recompensas triplas</Value>
+		<Value>Тройные награды</Value>
+		<Value>Recompensas triples</Value>
+	</Translation>
+	<Translation key="failed">
+		<Value>Failed</Value>
+		<Value>Thất bại</Value>
+		<Value>Échec</Value>
+		<Value>失敗</Value>
+		<Value>실패</Value>
+		<Value>失败</Value>
+		<Value>Mislukt</Value>
+		<Value>Fehlgeschlagen</Value>
+		<Value>Fallito</Value>
+		<Value>Falha</Value>
+		<Value>Провал</Value>
+		<Value>Fallido</Value>
+	</Translation>
+	<Translation key="restart">
+		<Value>Restart</Value>
+		<Value>Chơi lại</Value>
+		<Value>Redémarrer</Value>
+		<Value>再起動</Value>
+		<Value>재시작</Value>
+		<Value>重新开始</Value>
+		<Value>Opnieuw starten</Value>
+		<Value>Neustarten</Value>
+		<Value>Riavvia</Value>
+		<Value>Reiniciar</Value>
+		<Value>Перезапустить</Value>
+		<Value>Reiniciar</Value>
+	</Translation>
+	<Translation key="starter_pack">
+		<Value>Starter Pack</Value>
+		<Value>Gói bắt đầu</Value>
+		<Value>Kit de départ</Value>
+		<Value>スターターパック</Value>
+		<Value>스타터 팩</Value>
+		<Value>入门包</Value>
+		<Value>Starterspakket</Value>
+		<Value>Anfänger Packet</Value>
+		<Value>Starter pack</Value>
+		<Value>Pacote de iniciante</Value>
+		<Value>Стартовый пакет</Value>
+		<Value>Paquete de inicio</Value>
+	</Translation>
+	<Translation key="weekend_sale">
+		<Value>Weekend Sale</Value>
+		<Value>Gói tuần</Value>
+		<Value>Vente week-end</Value>
+		<Value>週末の販売</Value>
+		<Value>주말 세일</Value>
+		<Value>周末销售</Value>
+		<Value>weekend Sale</Value>
+		<Value>Räumungsverkauf</Value>
+		<Value>Weekend Sale</Value>
+		<Value>Venda fim de semana</Value>
+		<Value>Продажа выходные</Value>
+		<Value>Venta de fin de semana</Value>
+	</Translation>
+	<Translation key="monthly_pack">
+		<Value>Monthly Pack</Value>
+		<Value>Gói tháng</Value>
+		<Value>Paquet mensuel</Value>
+		<Value>月刊パック</Value>
+		<Value>월간 팩</Value>
+		<Value>每月包</Value>
+		<Value>Maandelijks Pack</Value>
+		<Value>Monatspaket</Value>
+		<Value>Confezione mensile</Value>
+		<Value>Pacote mensal</Value>
+		<Value>Ежемесячный пакет</Value>
+		<Value>mensile confezione</Value>
+	</Translation>
+	<Translation key="full">
+		<Value>Full</Value>
+		<Value>Đầy</Value>
+		<Value>Complet</Value>
+		<Value>いっぱい</Value>
+		<Value>완전한</Value>
+		<Value>满的</Value>
+		<Value>vol</Value>
+		<Value>Voll</Value>
+		<Value>Pieno</Value>
+		<Value>Completo</Value>
+		<Value>Полный</Value>
+		<Value>pieno</Value>
+	</Translation>
+	<Translation key="continue">
+		<Value>Continue</Value>
+		<Value>Tiếp tục</Value>
+		<Value>Continuer</Value>
+		<Value>続ける</Value>
+		<Value>계속</Value>
+		<Value>继续</Value>
+		<Value>Doorgaan</Value>
+		<Value>Fortsetzen</Value>
+		<Value>Continua</Value>
+		<Value>Continuar</Value>
+		<Value>Продолжить</Value>
+		<Value>Continuar</Value>
+	</Translation>
+	<Translation key="setting">
+		<Value>Settings</Value>
+		<Value>Cài đặt</Value>
+		<Value>Réglage</Value>
+		<Value>セッティング</Value>
+		<Value>환경</Value>
+		<Value>环境</Value>
+		<Value>omgeving</Value>
+		<Value>Rahmen</Value>
+		<Value>Ambientazione</Value>
+		<Value>Contexto</Value>
+		<Value>Параметр</Value>
+		<Value>ambientazione</Value>
+	</Translation>
+	<Translation key="loading">
+		<Value>Loading...</Value>
+		<Value>Đang tải...</Value>
+		<Value>Chargement...</Value>
+		<Value>読み込んでいます...</Value>
+		<Value>로드 중 ...</Value>
+		<Value>载入中...</Value>
+		<Value>Bezig met laden...</Value>
+		<Value>Wird geladen...</Value>
+		<Value>Caricamento in corso...</Value>
+		<Value>Carregando...</Value>
+		<Value>Loading ...</Value>
+		<Value>Cargando ... Iniciar</Value>
+	</Translation>
+	<Translation key="no_thank">
+		<Value>No, thanks</Value>
+		<Value>Không, cám ơn</Value>
+		<Value>Non merci</Value>
+		<Value>結構です</Value>
+		<Value>고맙지 만 사양 할게</Value>
+		<Value>不用了，谢谢</Value>
+		<Value>Nee bedankt</Value>
+		<Value>Nein danke</Value>
+		<Value>No grazie</Value>
+		<Value>Não, obrigado</Value>
+		<Value>Спасибо, не надо</Value>
+		<Value>no grazie</Value>
+	</Translation>
+	<Translation key="or">
+		<Value>Or</Value>
+		<Value>Hoặc</Value>
+		<Value>Ou</Value>
+		<Value>若しくは</Value>
+		<Value>또는</Value>
+		<Value>或者</Value>
+		<Value>Of</Value>
+		<Value>Oder</Value>
+		<Value>O</Value>
+		<Value>Ou</Value>
+		<Value>Или же</Value>
+		<Value>O</Value>
+	</Translation>
+	<Translation key="skip">
+		<Value>Skip</Value>
+		<Value>Bỏ qua</Value>
+		<Value>Sauter</Value>
+		<Value>スキップ</Value>
+		<Value>건너 뛰기</Value>
+		<Value>跳过</Value>
+		<Value>Overspringen</Value>
+		<Value>Überspringen</Value>
+		<Value>Salta</Value>
+		<Value>Pular</Value>
+		<Value>Пропускать</Value>
+		<Value>Salta</Value>
+	</Translation>
+	<Translation key="more_stamina">
+		<Value>Get more stamina</Value>
+		<Value>Nhận thêm mạng</Value>
+		<Value>Plus d'endurance</Value>
+		<Value>もっとスタミナを取得</Value>
+		<Value>더 많은 체력을 얻기</Value>
+		<Value>获取更多的精力</Value>
+		<Value>Haal meer uithoudingsvermogen</Value>
+		<Value>Mehr Ausdauer</Value>
+		<Value>Più capacità di resistenza</Value>
+		<Value>Obter mais resistência</Value>
+		<Value>Получить больше выносливости</Value>
+		<Value>Più di capacità resistenza</Value>
+	</Translation>
+	<Translation key="refill">
+		<Value>Refill</Value>
+		<Value>Hồi phục</Value>
+		<Value>Recharge</Value>
+		<Value>リフィル</Value>
+		<Value>다시 채우다</Value>
+		<Value>笔芯</Value>
+		<Value>hervullen</Value>
+		<Value>Nachfüllung</Value>
+		<Value>Ricarica</Value>
+		<Value>reabastecer</Value>
+		<Value>Пополнение</Value>
+		<Value>ricarica</Value>
+	</Translation>
+	<Translation key="more_coins">
+		<Value>More Coins</Value>
+		<Value>Nhiều vàng hơn</Value>
+		<Value>plus de pièces</Value>
+		<Value>多くのコイン</Value>
+		<Value>더 많은 동전</Value>
+		<Value>更多的硬币</Value>
+		<Value>meer Munten</Value>
+		<Value>Weitere Münzen</Value>
+		<Value>più monete</Value>
+		<Value>mais moedas</Value>
+		<Value>Другие монеты</Value>
+		<Value>più Monete</Value>
+	</Translation>
+	<Translation key="remove_ad">
+		<Value>Remove Ads</Value>
+		<Value>Xóa quảng cáo</Value>
+		<Value>Supprimez la pub</Value>
+		<Value>広告を削除</Value>
+		<Value>광고를 제거하다</Value>
+		<Value>移除广告</Value>
+		<Value>Verwijder advertenties</Value>
+		<Value>Anzeigen entfernen</Value>
+		<Value>Rimuovere gli annunci</Value>
+		<Value>Remover propagandas</Value>
+		<Value>Удалить объявления</Value>
+		<Value>Rimuovere gli annunci</Value>
+	</Translation>
+	<Translation key="hate_ad_title">
+		<Value>Hate interrupted by ads?</Value>
+		<Value>Bạn ghét quảng cáo?</Value>
+		<Value>La haine interrompue par des annonces?</Value>
+		<Value>広告によって中断嫌い？</Value>
+		<Value>광고에 의해 중단 싫어?</Value>
+		<Value>讨厌的广告打断？</Value>
+		<Value>Haat onderbroken door advertenties?</Value>
+		<Value>Hass durch Anzeigen unterbrochen?</Value>
+		<Value>Odio interrotti da annunci?</Value>
+		<Value>Odeio interrompidos por anúncios?</Value>
+		<Value>Ненависть прерываться рекламой?</Value>
+		<Value>Odio interrotti da annunci?</Value>
+	</Translation>
+	<Translation key="hate_ad">
+		<Value>Remove ads permanently immediately</Value>
+		<Value>Xóa quảng cáo vĩnh viễn ngay lập tức</Value>
+		<Value>Retirez les annonces en permanence immédiatement</Value>
+		<Value>すぐに永久に広告を削除します</Value>
+		<Value>즉시 광고를 영구적으로 제거하십시오</Value>
+		<Value>立即永久刪除廣告</Value>
+		<Value>Verwijder advertenties onmiddellijk</Value>
+		<Value>Die Anzeigen sofort dauerhaft entfernen</Value>
+		<Value>Rimuovere gli annunci in modo permanente immediatamente</Value>
+		<Value>Remova os anúncios permanentemente imediatamente</Value>
+		<Value>Немедленно удалите рекламу навсегда</Value>
+		<Value>Retire los anuncios de forma permanente inmediatamente</Value>
+	</Translation>
+	<Translation key="item_unlocked">
+		<Value>Item Unlocked</Value>
+		<Value>Mở khóa</Value>
+		<Value>Article déverrouillé</Value>
+		<Value>アイテムのロックが解除されました</Value>
+		<Value>항목 잠금 해제</Value>
+		<Value>項目解鎖</Value>
+		<Value>Item ontgrendeld</Value>
+		<Value>Artikel entsperrt</Value>
+		<Value>Articolo sbloccato</Value>
+		<Value>Item desbloqueado</Value>
+		<Value>Предмет разблокирован</Value>
+		<Value>Artículo desbloqueado</Value>
+	</Translation>
+	<Translation key="fun">
+		<Value>Having fun?</Value>
+		<Value>Bạn thấy vui không?</Value>
+		<Value>S'amuser?</Value>
+		<Value>楽しんでますか？</Value>
+		<Value>재미?</Value>
+		<Value>正玩得开心？</Value>
+		<Value>Plezier hebben?</Value>
+		<Value>Spaß haben?</Value>
+		<Value>Divertirsi?</Value>
+		<Value>Se divertindo?</Value>
+		<Value>Веселиться?</Value>
+		<Value>Divertirsi?</Value>
+	</Translation>
+	<Translation key="rate">
+		<Value>Do you like this game? Give us 5 stars to support us!</Value>
+		<Value>Bạn thích game này chứ? Hãy ủng hộ chúng tôi với 5 sao!</Value>
+		<Value>Aimez-vous ce jeu? Donnez-nous 5 étoiles pour nous soutenir!</Value>
+		<Value>あなたはこのゲームが好きですか？私たちに私たちをサポートするために5つ星を与えます！</Value>
+		<Value>당신은이 게임을 좋아합니까? 우리에게 우리를 지원하기 위해 5 점을 줘!</Value>
+		<Value>你喜欢这个游戏吗？给我们5星支持我们！</Value>
+		<Value>Vind je dit spelletje leuk? Geef ons 5 sterren om ons te steunen!</Value>
+		<Value>Magst du dieses Spiel? Geben Sie uns 5 Sterne, uns zu unterstützen!</Value>
+		<Value>Ti piace questo gioco? Dacci 5 stelle per sostenerci!</Value>
+		<Value>Você gosta deste jogo? Dá-nos 5 estrelas para nos apoiar!</Value>
+		<Value>Тебе нравится эта игра? Дайте нам 5 звезд, чтобы поддержать нас!</Value>
+		<Value>Ti piace questo gioco? Dacci 5 Stelle por sostenerci!</Value>
+	</Translation>
+	<Translation key="14star">
+		<Value>1-4 stars</Value>
+		<Value>1-4 sao</Value>
+		<Value>1-4 étoiles</Value>
+		<Value>1-4星</Value>
+		<Value>1-4 별</Value>
+		<Value>1-4颗</Value>
+		<Value>1-4 sterren</Value>
+		<Value>1-4 Sterne</Value>
+		<Value>1-4 stelle</Value>
+		<Value>1-4 estrelas</Value>
+		<Value>1-4 звезды</Value>
+		<Value>1-4 Stelle</Value>
+	</Translation>
+	<Translation key="14star2">
+		<Value>Unhappy</Value>
+		<Value>Chưa tốt</Value>
+		<Value>Malheureux</Value>
+		<Value>不幸</Value>
+		<Value>불행한</Value>
+		<Value>不開心</Value>
+		<Value>Ongelukkig</Value>
+		<Value>Unzufrieden</Value>
+		<Value>Infelice</Value>
+		<Value>Infeliz</Value>
+		<Value>Несчастный</Value>
+		<Value>Infeliz</Value>
+	</Translation>
+	<Translation key="5star">
+		<Value>5 stars</Value>
+		<Value>5 sao</Value>
+		<Value>5 étoiles</Value>
+		<Value>5つ星</Value>
+		<Value>별 5 개</Value>
+		<Value>5星</Value>
+		<Value>5 sterren</Value>
+		<Value>5 Sterne</Value>
+		<Value>5 stelle</Value>
+		<Value>5 estrelas</Value>
+		<Value>5 звезд</Value>
+		<Value>5 Stelle</Value>
+	</Translation>
+	<Translation key="quit_game">
+		<Value>Quit game</Value>
+		<Value>Thoát trò chơi</Value>
+		<Value>Quitter le jeu</Value>
+		<Value>ゲームをやめる</Value>
+		<Value>게임을 종료</Value>
+		<Value>退出游戏</Value>
+		<Value>Quit spel</Value>
+		<Value>Spiel verlassen</Value>
+		<Value>Abbandonare il gioco</Value>
+		<Value>Desistir do jogo</Value>
+		<Value>Выйти из игры</Value>
+		<Value>Abbandonare il gioco</Value>
+	</Translation>
+	<Translation key="ask_quit">
+		<Value>Are you sure you want to quit this awesome game?</Value>
+		<Value>Bạn có chắc muốn thoát trò chơi tuyệt với này?</Value>
+		<Value>Etes-vous sûr de vouloir quitter ce jeu génial?</Value>
+		<Value>あなたは、この素晴らしいゲームを終了してもよろしいですか？</Value>
+		<Value>이 멋진 게임을 종료 하시겠습니까?</Value>
+		<Value>你确定要退出这个真棒游戏？</Value>
+		<Value>Bent u zeker dat u dit geweldige spel stoppen?</Value>
+		<Value>Sind Sie sicher, dass Sie dieses tolle Spiel zu beenden?</Value>
+		<Value>Sei sicuro di voler uscire da questo gioco fantastico?</Value>
+		<Value>Tem certeza de que deseja sair este jogo incrível?</Value>
+		<Value>Вы уверены, что хотите бросить эту удивительную игру?</Value>
+		<Value>¿Estás seguro di voler uscire da questo gioco Fantastico?</Value>
+	</Translation>
+	<Translation key="resume">
+		<Value>Continue</Value>
+		<Value>Tiếp tục</Value>
+		<Value>Continuez</Value>
+		<Value>継続する</Value>
+		<Value>계속하다</Value>
+		<Value>继续</Value>
+		<Value>Doorgaan met</Value>
+		<Value>Fortsetzen</Value>
+		<Value>Continua</Value>
+		<Value>Continuar</Value>
+		<Value>Продолжать</Value>
+		<Value>Continua</Value>
+	</Translation>
+	<Translation key="purchaseitem">
+		<Value>Purchase item</Value>
+		<Value>Mua vật phẩm</Value>
+		<Value>Article d'achat</Value>
+		<Value>アイテムを購入します</Value>
+		<Value>구매 품목</Value>
+		<Value>購買項目</Value>
+		<Value>Koopitem</Value>
+		<Value>Artikel kaufen</Value>
+		<Value>Articolo di acquisto</Value>
+		<Value>artigo da compra</Value>
+		<Value>Покупать товар</Value>
+		<Value>Adquirir artículo</Value>
+	</Translation>
+	<Translation key="quit">
+		<Value>Quit</Value>
+		<Value>Thoát</Value>
+		<Value>Quitter</Value>
+		<Value>終了する</Value>
+		<Value>떠나다</Value>
+		<Value>辞职</Value>
+		<Value>ophouden</Value>
+		<Value>Verlassen</Value>
+		<Value>Smettere</Value>
+		<Value>Desistir</Value>
+		<Value>Покидать</Value>
+		<Value>smettere</Value>
+	</Translation>
+	<Translation key="done">
+		<Value>Done</Value>
+		<Value>Xong</Value>
+		<Value>Fait</Value>
+		<Value>終わり</Value>
+		<Value>완료</Value>
+		<Value>完畢</Value>
+		<Value>Gedaan</Value>
+		<Value>Fertig</Value>
+		<Value>Fatto</Value>
+		<Value>Feito</Value>
+		<Value>Сделанный</Value>
+		<Value>Hecho</Value>
+	</Translation>
+	<Translation key="close">
+		<Value>Close</Value>
+		<Value>Đóng</Value>
+		<Value>proche</Value>
+		<Value>近い</Value>
+		<Value>닫다</Value>
+		<Value>關</Value>
+		<Value>Dichtbij</Value>
+		<Value>Nah dran</Value>
+		<Value>Chiudere</Value>
+		<Value>Perto</Value>
+		<Value>Закрывать</Value>
+		<Value>Cerca</Value>
+	</Translation>
+	<Translation key="daily_task">
+		<Value>Daily Task</Value>
+		<Value>Nhiệm vụ hàng ngày</Value>
+		<Value>Tâche quotidienne</Value>
+		<Value>毎日の仕事</Value>
+		<Value>일별 작업</Value>
+		<Value>每日任务</Value>
+		<Value>Dagelijkse taak</Value>
+		<Value>Tägliche Aufgabe</Value>
+		<Value>Compito giornaliero</Value>
+		<Value>Tarefa diária</Value>
+		<Value>Ежедневное задание</Value>
+		<Value>Giornaliero Compito</Value>
+	</Translation>
+	<Translation key="reset_in">
+		<Value>Reset in:</Value>
+		<Value>Thiết lập lại trong:</Value>
+		<Value>Remise à zéro:</Value>
+		<Value>にリセット：</Value>
+		<Value>리셋 :</Value>
+		<Value>复位：</Value>
+		<Value>Reset in:</Value>
+		<Value>Zurücksetzen in:</Value>
+		<Value>Ripristina in:</Value>
+		<Value>Repor em:</Value>
+		<Value>Сброс в:</Value>
+		<Value>Ripristina en:</Value>
+	</Translation>
+	<Translation key="complete_task">
+		<Value>Complete all tasks to get special rewards</Value>
+		<Value>Hoàn thành tất cả các nhiệm vụ để có được phần thưởng đặc biệt</Value>
+		<Value>Terminez toutes les tâches pour obtenir des récompenses spéciales</Value>
+		<Value>特別な報酬を得るためにすべてのタスクを完了します</Value>
+		<Value>특별한 보상을 얻을 수있는 모든 작업을 완료</Value>
+		<Value>完成所有任务获得特殊奖励</Value>
+		<Value>Voltooi alle taken aan speciale beloningen</Value>
+		<Value>Füllen Sie alle Aufgaben besondere Belohnungen zu erhalten</Value>
+		<Value>Completare tutte le attività per ottenere premi speciali</Value>
+		<Value>Completar todas as tarefas para obter recompensas especiais</Value>
+		<Value>Выполните все задания, чтобы получить специальные награды</Value>
+		<Value>Completare tutte le attività por ottenere premi Speciali</Value>
+	</Translation>
+	<Translation key="piggy_bank">
+		<Value>Piggy Bank</Value>
+		<Value>Heo đất</Value>
+		<Value>Tirelire</Value>
+		<Value>貯金箱</Value>
+		<Value>돼지 저금통</Value>
+		<Value>储蓄罐</Value>
+		<Value>Spaarvarken</Value>
+		<Value>Sparschwein</Value>
+		<Value>Salvadanaio</Value>
+		<Value>Cofrinho</Value>
+		<Value>Копилка</Value>
+		<Value>salvadanaio</Value>
+	</Translation>
+	<Translation key="piggy_bank_full">
+		<Value>Your piggy bank is full.\n Smash it to get the reward.</Value>
+		<Value>Heo đất đã đầy.\n Đập luôn để lấy phần thưởng</Value>
+		<Value>Votre tirelire est pleine.\n Smash pour obtenir la récompense.</Value>
+		<Value>あなたの貯金箱がいっぱいです。\n報酬を得るためにそれを粉砕。</Value>
+		<Value>귀하의 돼지 저금통이 꽉 찼습니다.\n 보상을 얻기 위해 그것을 분쇄.</Value>
+		<Value>你的储蓄罐已满。\n粉碎它获得的报酬。</Value>
+		<Value>Uw spaarpot is vol.\n Breek het aan de beloning te krijgen.</Value>
+		<Value>Ihr Sparschwein voll ist.\n Smash es die Belohnung zu erhalten.</Value>
+		<Value>Il tuo salvadanaio è pieno.\n Smash per ottenere la ricompensa.</Value>
+		<Value>Seu cofrinho está cheio.\n Esmagá-lo para obter a recompensa.</Value>
+		<Value>Ваша копилка полон.\n Разбейте его, чтобы получить награду.</Value>
+		<Value>È il tuo salvadanaio pieno.\n Choque por ottenere La ricompensa.</Value>
+	</Translation>
+	<Translation key="level">
+		<Value>Level</Value>
+		<Value>Cấp độ</Value>
+		<Value>Niveau</Value>
+		<Value>レベル</Value>
+		<Value>수평</Value>
+		<Value>等级</Value>
+		<Value>Niveau</Value>
+		<Value>Niveau</Value>
+		<Value>Livello</Value>
+		<Value>Nível</Value>
+		<Value>Уровень</Value>
+		<Value>livello</Value>
+	</Translation>
+	<Translation key="select_booster">
+		<Value>Select Boosters</Value>
+		<Value>Chọn booster</Value>
+		<Value>Choisir amplificateurs</Value>
+		<Value>ブースターを選択</Value>
+		<Value>선택 부스터</Value>
+		<Value>选择助推器</Value>
+		<Value>Select Boosters</Value>
+		<Value>Wählen Sie Boosters</Value>
+		<Value>Selezionare i booster</Value>
+		<Value>Seleccione Boosters</Value>
+		<Value>Выберите бустеры</Value>
+		<Value>Selezionare i refuerzo</Value>
+	</Translation>
+	<Translation key="you_lose">
+		<Value>Opps! You still need to collect</Value>
+		<Value>Opps! Bạn vẫn cần phải thu thập</Value>
+		<Value>Opps! Vous avez encore besoin de recueillir</Value>
+		<Value>OPPS！あなたはまだ収集する必要があります</Value>
+		<Value>OPPS! 당신은 여전히 ​​수집해야</Value>
+		<Value>哎呀！您还需要收集</Value>
+		<Value>Oeps! Je moet nog om te verzamelen</Value>
+		<Value>Upps! Sie müssen noch sammeln</Value>
+		<Value>Opps! Hai ancora bisogno di raccogliere</Value>
+		<Value>Opps! Você ainda precisa coletar</Value>
+		<Value>Opps! Вы все еще нужно собрать</Value>
+		<Value>Opps! Hai ancora di Bisogno raccogliere</Value>
+	</Translation>
+	<Translation key="play_on">
+		<Value>Play on</Value>
+		<Value>Tiếp tục</Value>
+		<Value>Jouer sur</Value>
+		<Value>上の再生</Value>
+		<Value>에 대한 재생</Value>
+		<Value>上播放</Value>
+		<Value>Afspelen op</Value>
+		<Value>Weiterspielen</Value>
+		<Value>giocare su</Value>
+		<Value>jogar em</Value>
+		<Value>Играть</Value>
+		<Value>giocare Do</Value>
+	</Translation>
+	<Translation key="target">
+		<Value>Target</Value>
+		<Value>Mục tiêu</Value>
+		<Value>Cibler</Value>
+		<Value>目標</Value>
+		<Value>표적</Value>
+		<Value>目标</Value>
+		<Value>Doelwit</Value>
+		<Value>Ziel</Value>
+		<Value>Bersaglio</Value>
+		<Value>Alvo</Value>
+		<Value>Цель</Value>
+		<Value>bersaglio</Value>
+	</Translation>
+	<Translation key="day1">
+		<Value>Day 1</Value>
+		<Value>Ngày 1</Value>
+		<Value>Jour 1</Value>
+		<Value>1日目</Value>
+		<Value>1일차</Value>
+		<Value>第1天</Value>
+		<Value>Dag 1</Value>
+		<Value>Tag 1</Value>
+		<Value>Giorno 1</Value>
+		<Value>Dia 1</Value>
+		<Value>День 1</Value>
+		<Value>Día 1</Value>
+	</Translation>
+	<Translation key="day2">
+		<Value>Day 2</Value>
+		<Value>Ngày 2</Value>
+		<Value>Jour 2</Value>
+		<Value>2日目</Value>
+		<Value>2일차</Value>
+		<Value>第2天</Value>
+		<Value>Dag 2</Value>
+		<Value>Tag 2</Value>
+		<Value>Giorno 2</Value>
+		<Value>Dia 2</Value>
+		<Value>День 2</Value>
+		<Value>Día 2</Value>
+	</Translation>
+	<Translation key="day3">
+		<Value>Day 3</Value>
+		<Value>Ngày 3</Value>
+		<Value>Jour 3</Value>
+		<Value>3日目</Value>
+		<Value>3일차</Value>
+		<Value>第3天</Value>
+		<Value>Dag 3</Value>
+		<Value>Tag 3</Value>
+		<Value>Giorno 3</Value>
+		<Value>Dia 3</Value>
+		<Value>День 3</Value>
+		<Value>Día 3</Value>
+	</Translation>
+	<Translation key="day4">
+		<Value>Day 4</Value>
+		<Value>Ngày 4</Value>
+		<Value>Jour 4</Value>
+		<Value>4日目</Value>
+		<Value>4일차</Value>
+		<Value>第4天</Value>
+		<Value>Dag 4</Value>
+		<Value>Tag 4</Value>
+		<Value>Giorno 4</Value>
+		<Value>Dia 4</Value>
+		<Value>День 4</Value>
+		<Value>Día 4</Value>
+	</Translation>
+	<Translation key="day5">
+		<Value>Day 5</Value>
+		<Value>Ngày 5</Value>
+		<Value>Jour 5</Value>
+		<Value>5日目</Value>
+		<Value>5일차</Value>
+		<Value>第5天</Value>
+		<Value>Dag 5</Value>
+		<Value>Tag 5</Value>
+		<Value>Giorno 5</Value>
+		<Value>Dia 5</Value>
+		<Value>День 5</Value>
+		<Value>Día 5</Value>
+	</Translation>
+	<Translation key="day6">
+		<Value>Day 6</Value>
+		<Value>Ngày 6</Value>
+		<Value>Jour 6</Value>
+		<Value>6日目</Value>
+		<Value>6일차</Value>
+		<Value>第6天</Value>
+		<Value>Dag 6</Value>
+		<Value>Tag 6</Value>
+		<Value>Giorno 6</Value>
+		<Value>Dia 6</Value>
+		<Value>День 6</Value>
+		<Value>Día 6</Value>
+	</Translation>
+	<Translation key="day7">
+		<Value>Day 7</Value>
+		<Value>Ngày 7</Value>
+		<Value>Jour 7</Value>
+		<Value>7日目</Value>
+		<Value>7일차</Value>
+		<Value>第7天</Value>
+		<Value>Dag 7</Value>
+		<Value>Tag 7</Value>
+		<Value>Giorno 7</Value>
+		<Value>Dia 7</Value>
+		<Value>День 7</Value>
+		<Value>Día 7</Value>
+	</Translation>
+	<Translation key="replay">
+		<Value>Replay</Value>
+		<Value>Chơi lại</Value>
+		<Value>Rejouer</Value>
+		<Value>リプレイ</Value>
+		<Value>다시 재생</Value>
+		<Value>重播</Value>
+		<Value>Opnieuw afspelen</Value>
+		<Value>Wiederholen</Value>
+		<Value>Ripeti</Value>
+		<Value>Repetir</Value>
+		<Value>Повтор</Value>
+		<Value>Repetir</Value>
+	</Translation>
+	<Translation key="re_play">
+		<Value>Replay</Value>
+		<Value>Chơi</Value>
+		<Value>Rejouer</Value>
+		<Value>リプレイ</Value>
+		<Value>다시 하다</Value>
+		<Value>重播</Value>
+		<Value>Herhaling</Value>
+		<Value>Wiederholung</Value>
+		<Value>Replay</Value>
+		<Value>Repetição</Value>
+		<Value>переигровка</Value>
+		<Value>Repetición</Value>
+	</Translation>
+	<Translation key="home_menu">
+		<Value>Home Menu</Value>
+		<Value>Nhà</Value>
+		<Value>Menu Accueil</Value>
+		<Value>ホームメニュー</Value>
+		<Value>홈 메뉴</Value>
+		<Value>主菜单</Value>
+		<Value>Menu Home</Value>
+		<Value>Home Menu</Value>
+		<Value>HOME MENU</Value>
+		<Value>menu Home</Value>
+		<Value>Главное меню</Value>
+		<Value>MENÚ PRINCIPAL</Value>
+	</Translation>
+	<Translation key="home">
+		<Value>Home</Value>
+		<Value>Trang chủ</Value>
+		<Value>Maison</Value>
+		<Value>家</Value>
+		<Value>집</Value>
+		<Value>家</Value>
+		<Value>Thuis</Value>
+		<Value>Heim</Value>
+		<Value>Casa</Value>
+		<Value>Lar</Value>
+		<Value>Дом</Value>
+		<Value>Hogar</Value>
+	</Translation>
+	<Translation key="get_it">
+		<Value>Get it</Value>
+		<Value>Nhận</Value>
+		<Value>Tu piges</Value>
+		<Value>それを得る</Value>
+		<Value>그것을 얻기</Value>
+		<Value>得到它</Value>
+		<Value>Snap je</Value>
+		<Value>Kapiert</Value>
+		<Value>Prendilo</Value>
+		<Value>Pegue</Value>
+		<Value>Возьми</Value>
+		<Value>Prendilo</Value>
+	</Translation>
+	<Translation key="free">
+		<Value>Free</Value>
+		<Value>Miễn phí</Value>
+		<Value>Gratuit</Value>
+		<Value>無料</Value>
+		<Value>무료</Value>
+		<Value>自由的</Value>
+		<Value>Vrij</Value>
+		<Value>Frei</Value>
+		<Value>Gratuito</Value>
+		<Value>Livre</Value>
+		<Value>Бесплатно</Value>
+		<Value>Gratis</Value>
+	</Translation>
+	<Translation key="Free Coins">
+		<Value>Free Coin</Value>
+		<Value>Xu miễn phí</Value>
+		<Value>Pièce gratuite</Value>
+		<Value>無料コイン</Value>
+		<Value>무료 코인</Value>
+		<Value>免费金币</Value>
+		<Value>Gratis Munt</Value>
+		<Value>Kostenlose Münze</Value>
+		<Value>Moneta gratuita</Value>
+		<Value>Moeda Grátis</Value>
+		<Value>Бесплатная монета</Value>
+		<Value>Moneda Gratis</Value>
+	</Translation>
+	<Translation key="Supply Pack 1">
+		<Value>Supply Pack 1</Value>
+		<Value>Gói hỗ trợ 1</Value>
+		<Value>Pack de ravitaillement 1</Value>
+		<Value>サプライパック 1</Value>
+		<Value>보급 팩 1</Value>
+		<Value>补给包 1</Value>
+		<Value>Voorraadpak 1</Value>
+		<Value>Nachschubpaket 1</Value>
+		<Value>Pacchetto rifornimenti 1</Value>
+		<Value>Pacote de Suprimentos 1</Value>
+		<Value>Пакет снабжения 1</Value>
+		<Value>Paquete de Suministros 1</Value>
+	</Translation>
+	<Translation key="Supply Pack 2">
+		<Value>Supply Pack 2</Value>
+		<Value>Gói hỗ trợ 2</Value>
+		<Value>Pack de ravitaillement 2</Value>
+		<Value>サプライパック 2</Value>
+		<Value>보급 팩 2</Value>
+		<Value>补给包 2</Value>
+		<Value>Voorraadpak 2</Value>
+		<Value>Nachschubpaket 2</Value>
+		<Value>Pacchetto rifornimenti 2</Value>
+		<Value>Pacote de Suprimentos 2</Value>
+		<Value>Пакет снабжения 2</Value>
+		<Value>Paquete de Suministros 2</Value>
+	</Translation>
+	<Translation key="Supply Pack 3">
+		<Value>Supply Pack 3</Value>
+		<Value>Gói hỗ trợ 3</Value>
+		<Value>Pack de ravitaillement 3</Value>
+		<Value>サプライパック 3</Value>
+		<Value>보급 팩 3</Value>
+		<Value>补给包 3</Value>
+		<Value>Voorraadpak 3</Value>
+		<Value>Nachschubpaket 3</Value>
+		<Value>Pacchetto rifornimenti 3</Value>
+		<Value>Pacote de Suprimentos 3</Value>
+		<Value>Пакет снабжения 3</Value>
+		<Value>Paquete de Suministros 3</Value>
+	</Translation>
+	<Translation key="First">
+		<Value>First\n2X</Value>
+		<Value>Lần đầu\n2X</Value>
+		<Value>Premier\n2X</Value>
+		<Value>最初\n2X</Value>
+		<Value>첫 번째\n2X</Value>
+		<Value>第一\n2X</Value>
+		<Value>Eerste\n2X</Value>
+		<Value>Erste\n2X</Value>
+		<Value>Primo\n2X</Value>
+		<Value>Primeiro\n2X</Value>
+		<Value>Первый\n2X</Value>
+		<Value>Primero\n2X</Value>
+	</Translation>
+	<Translation key="Premium Pack 1">
+		<Value>Premium Pack 1</Value>
+		<Value>Gói cao cấp 1</Value>
+		<Value>Pack Premium 1</Value>
+		<Value>プレミアムパック 1</Value>
+		<Value>프리미엄 팩 1</Value>
+		<Value>高级包 1</Value>
+		<Value>Premium Pak 1</Value>
+		<Value>Premium-Paket 1</Value>
+		<Value>Pacchetto Premium 1</Value>
+		<Value>Pacote Premium 1</Value>
+		<Value>Премиум-пакет 1</Value>
+		<Value>Paquete Premium 1</Value>
+	</Translation>
+	<Translation key="Premium Pack 2">
+		<Value>Premium Pack 2</Value>
+		<Value>Gói cao cấp 2</Value>
+		<Value>Pack Premium 2</Value>
+		<Value>プレミアムパック 2</Value>
+		<Value>프리미엄 팩 2</Value>
+		<Value>高级包 2</Value>
+		<Value>Premium Pak 2</Value>
+		<Value>Premium-Paket 2</Value>
+		<Value>Pacchetto Premium 2</Value>
+		<Value>Pacote Premium 2</Value>
+		<Value>Премиум-пакет 2</Value>
+		<Value>Paquete Premium 2</Value>
+	</Translation>
+	<Translation key="daily_reward">
+		<Value>Daily Rewards</Value>
+		<Value>Phần thưởng hằng ngày</Value>
+		<Value>Récompense quotidienne</Value>
+		<Value>デイリー報酬</Value>
+		<Value>매일 보상</Value>
+		<Value>每日奖励</Value>
+		<Value>Dagelijkse beloning</Value>
+		<Value>Tägliche Belohnung</Value>
+		<Value>Ricompensa giornaliera</Value>
+		<Value>Recompensa diária</Value>
+		<Value>Daily Reward</Value>
+		<Value>giornaliera ricompensa</Value>
+	</Translation>
+	<Translation key="day">
+		<Value>Day</Value>
+		<Value>Ngày</Value>
+		<Value>Jour</Value>
+		<Value>日</Value>
+		<Value>일</Value>
+		<Value>天</Value>
+		<Value>Dag</Value>
+		<Value>Tag</Value>
+		<Value>Giorno</Value>
+		<Value>Dia</Value>
+		<Value>День</Value>
+		<Value>Giorno</Value>
+	</Translation>
+	<Translation key="reward">
+		<Value>reward</Value>
+		<Value>Phần thưởng hằng ngày</Value>
+		<Value>récompense</Value>
+		<Value>褒賞</Value>
+		<Value>보상</Value>
+		<Value>报酬</Value>
+		<Value>beloning</Value>
+		<Value>Belohnung</Value>
+		<Value>ricompensa</Value>
+		<Value>recompensa</Value>
+		<Value>награда</Value>
+		<Value>ricompensa</Value>
+	</Translation>
+	<Translation key="next_daily_reward">
+		<Value>Next daily reward in</Value>
+		<Value>Phần thưởng tiếp theo sau</Value>
+		<Value>Prochaine récompense tous les jours</Value>
+		<Value>で次の毎日の報酬</Value>
+		<Value>에서 다음 매일 보상</Value>
+		<Value>接下来每天的报酬在</Value>
+		<Value>Volgende dagelijkse beloning in</Value>
+		<Value>Weiter tägliche Belohnung in</Value>
+		<Value>Successivo ricompensa al giorno in</Value>
+		<Value>recompensa diária próxima em</Value>
+		<Value>Далее ежедневно награда</Value>
+		<Value>Successivo ricompensa al giorno en</Value>
+	</Translation>
+	<Translation key="daily_login">
+		<Value>Daily Login</Value>
+		<Value>Đăng nhập hàng ngày</Value>
+		<Value>Connexion quotidienne</Value>
+		<Value>デイリーログイン</Value>
+		<Value>일일 로그인</Value>
+		<Value>每日登录</Value>
+		<Value>Dagelijkse login</Value>
+		<Value>Täglicher Login</Value>
+		<Value>Accesso giornaliero</Value>
+		<Value>Login diário</Value>
+		<Value>Ежедневный вход</Value>
+		<Value>Inicio de sesión diario</Value>
+	</Translation>
+	<Translation key="claim">
+		<Value>Claim</Value>
+		<Value>Nhận</Value>
+		<Value>Prétendre</Value>
+		<Value>請求</Value>
+		<Value>청구</Value>
+		<Value>宣称</Value>
+		<Value>Beweren</Value>
+		<Value>Anspruch</Value>
+		<Value>Richiesta</Value>
+		<Value>Alegar</Value>
+		<Value>Требовать</Value>
+		<Value>richiesta</Value>
+	</Translation>
+	<Translation key="claimed">
+		<Value>Claimed</Value>
+		<Value>Đã nhận</Value>
+		<Value>Réclamé</Value>
+		<Value>獲得済み</Value>
+		<Value>청구됨</Value>
+		<Value>已领取</Value>
+		<Value>Geclaimd</Value>
+		<Value>Abgeholt</Value>
+		<Value>Reclamato</Value>
+		<Value>Resgatado</Value>
+		<Value>Получено</Value>
+		<Value>Reclamado</Value>
+	</Translation>
+	<Translation key="booster_lock">
+		<Value>Level xxx unlock</Value>
+		<Value>Cấp độ xxx mở khóa</Value>
+		<Value>Débloque le niveau xxx</Value>
+		<Value>レベルxxxのロック解除</Value>
+		<Value>레벨 XXX 잠금 해제</Value>
+		<Value>XXX级解锁</Value>
+		<Value>Level xxx unlock</Value>
+		<Value>Level xxx entsperren</Value>
+		<Value>Livello di sblocco xxx</Value>
+		<Value>desbloqueio xxx nível</Value>
+		<Value>Уровень ххх разблокировки</Value>
+		<Value>Livello di sblocco xxx</Value>
+	</Translation>
+	<Translation key="retry">
+		<Value>Retry</Value>
+		<Value>Thử lại</Value>
+		<Value>Recommencez</Value>
+		<Value>リトライ</Value>
+		<Value>다시 해 보다</Value>
+		<Value>重试</Value>
+		<Value>Opnieuw</Value>
+		<Value>Wiederholen</Value>
+		<Value>Riprova</Value>
+		<Value>Repetir</Value>
+		<Value>Retry</Value>
+		<Value>Riprova</Value>
+	</Translation>
+	<Translation key="rate_us">
+		<Value>Rate us</Value>
+		<Value>Đánh giá chúng tôi</Value>
+		<Value>Évaluez-nous</Value>
+		<Value>私たちを評価してください</Value>
+		<Value>저희를 평가해주세요</Value>
+		<Value>评价我们</Value>
+		<Value>Beoordeel ons</Value>
+		<Value>Bewerte uns</Value>
+		<Value>Valutaci</Value>
+		<Value>Avalie-nos</Value>
+		<Value>Оцените нас</Value>
+		<Value>Califícanos</Value>
+	</Translation>
+	<Translation key="having_fun">
+		<Value>Are you having fun?</Value>
+		<Value>Bạn chơi vui chứ?</Value>
+		<Value>Vous vous amusez ?</Value>
+		<Value>楽しんでいますか？</Value>
+		<Value>재미있게 플레이하고 있나요?</Value>
+		<Value>你玩得开心吗？</Value>
+		<Value>Heb je plezier?</Value>
+		<Value>Hast du Spaß?</Value>
+		<Value>Ti stai divertendo?</Value>
+		<Value>Você está se divertindo?</Value>
+		<Value>Тебе весело?</Value>
+		<Value>¿Te estás divirtiendo?</Value>
+	</Translation>
+	<Translation key="messages_8h_1">
+		<Value>Good morning designer. Continue work and start design right away!</Value>
+		<Value>Chào buổi sáng nhà thiết kế. Tiếp tục công việc và bắt tay vào thiết kế ngay thôi nào!</Value>
+		<Value>Bonjour designer. Continuez à travailler et commencez à concevoir tout de suite!</Value>
+		<Value>おはようデザイナー。仕事を続け、すぐにデザインを始めましょう！</Value>
+		<Value>좋은 아침 디자이너. 작업을 계속하고 즉시 디자인을 시작하십시오!</Value>
+		<Value>早安設計師。繼續工作並立即開始設計！</Value>
+		<Value>Goedemorgen ontwerper. Ga verder met werken en begin meteen te ontwerpen!</Value>
+		<Value>Guten Morgen Designer. Fahren Sie fort und beginnen Sie sofort mit dem Design!</Value>
+		<Value>Buongiorno designer. Continua a lavorare e inizia subito il design!</Value>
+		<Value>Bom dia designer. Continue o trabalho e comece o design imediatamente!</Value>
+		<Value>Доброе утро дизайнер. Продолжайте работать и начинайте дизайн сразу!</Value>
+		<Value>Buenos días diseñador. ¡Continúe trabajando y comience al diseño de inmediato!</Value>
+	</Translation>
+	<Translation key="messages_8h_2">
+		<Value>Continue! We still have a lot of work to do with this new apartment</Value>
+		<Value>Tiếp tục thôi nào! Chúng ta vẫn còn rất nhiều việc phải làm với căn hộ mới này</Value>
+		<Value>Continuer! Nous avons encore beaucoup de travail à voir avec ce nouvel appartement</Value>
+		<Value>継続する！私たちはまだこの新しいアパートと関係があります</Value>
+		<Value>계속하다! 우리는 여전히이 새로운 아파트와 관련하여 많은 일을하고 있습니다.</Value>
+		<Value>繼續！我們仍然與這間新公寓有很多工作關係</Value>
+		<Value>Doorgaan! We hebben nog veel werk te maken met dit nieuwe appartement</Value>
+		<Value>Fortsetzen! Wir haben immer noch viel Arbeit mit dieser neuen Wohnung zu tun</Value>
+		<Value>Continua! Abbiamo ancora molto lavoro da fare con questo nuovo appartamento</Value>
+		<Value>Continuar! Ainda temos muito trabalho a ver com este novo apartamento</Value>
+		<Value>Продолжать! У нас еще много работы с этой новой квартирой</Value>
+		<Value>¡Continuar! Todavía tenemos mucho trabajo que ver con este nuevo apartamento.</Value>
+	</Translation>
+	<Translation key="messages_8h_3">
+		<Value>Hurry up! Your beautiful apartment is about to complete, continue!</Value>
+		<Value>Nhanh nào! Căn hộ tuyệt đẹp của bạn đang sắp hoàn thiện, tiếp tục nào!</Value>
+		<Value>Dépêche-toi! Votre bel appartement est sur le point de terminer, continuer!</Value>
+		<Value>急げ！あなたの美しいアパートが完成しようとしています、続けてください！</Value>
+		<Value>서둘러! 당신의 아름다운 아파트가 완성 될 예정입니다.</Value>
+		<Value>趕快！您美麗的公寓即將完成，繼續！</Value>
+		<Value>Haast je! Je mooie appartement staat op het punt te voltooien, ga verder!</Value>
+		<Value>Beeil dich! Ihre schöne Wohnung ist kurz vor dem Ende, weiter!</Value>
+		<Value>Sbrigati! Il tuo bellissimo appartamento sta per completare, continua!</Value>
+		<Value>Se apresse! Seu lindo apartamento está prestes a completar, continue!</Value>
+		<Value>Торопиться! Ваша красивая квартира собирается завершить, продолжите!</Value>
+		<Value>¡Apresúrate! Tu hermoso apartamento está a punto de completar, ¡continúa!</Value>
+	</Translation>
+	<Translation key="messages_8h_4">
+		<Value>You are a great designer, many people are waiting for you. Come back now</Value>
+		<Value>Bạn là một Nhà Thiết Kế tuyệt vời, rất nhiều người đang đợi bạn. Quay lại ngay thôi</Value>
+		<Value>Vous êtes un grand designer, beaucoup de gens vous attendent. Reviens maintenant</Value>
+		<Value>あなたは素晴らしいデザイナーです、多くの人があなたを待っています。今戻ってきてください</Value>
+		<Value>당신은 훌륭한 디자이너이고 많은 사람들이 당신을 기다리고 있습니다. 지금 돌아와</Value>
+		<Value>您是一位出色的設計師，許多人在等您。現在回來</Value>
+		<Value>Je bent een geweldige ontwerper, veel mensen wachten op je. Kom nu terug</Value>
+		<Value>Sie sind ein großartiger Designer, viele Menschen warten auf Sie. Komm jetzt zurück</Value>
+		<Value>Sei un grande designer, molte persone ti stanno aspettando. Torna indietro adesso</Value>
+		<Value>Você é um ótimo designer, muitas pessoas estão esperando por você. Volte agora</Value>
+		<Value>Вы отличный дизайнер, многие люди ждут вас. Вернись сейчас</Value>
+		<Value>Eres un gran diseñador, mucha gente te está esperando. Vuelve ahora</Value>
+	</Translation>
+	<Translation key="messages_8h_5">
+		<Value>Let's look back at the designs completed by your own hands. Come back now!</Value>
+		<Value>Cùng nhìn lại những bản thiết kế do chính tay bạn hoàn thành. Quay lại ngay nào!</Value>
+		<Value>Revenons sur les conceptions complétées par vos propres mains. Reviens maintenant!</Value>
+		<Value>自分の手で完成したデザインを振り返ってみましょう。今戻ってきて！</Value>
+		<Value>자신의 손으로 완성 된 디자인을 되돌아 보자. 지금 돌아와!</Value>
+		<Value>讓我們回顧一下自己的手。現在回來！</Value>
+		<Value>Laten we terugkijken op de ontwerpen die door uw eigen handen zijn voltooid. Kom nu terug!</Value>
+		<Value>Schauen wir zurück auf die von Ihren eigenen Händen abgeschlossenen Designs. Komm jetzt zurück!</Value>
+		<Value>Diamo un'occhiata ai disegni completati dalle tue mani. Torna indietro adesso!</Value>
+		<Value>Vamos olhar para os designs concluídos por suas próprias mãos. Volte agora!</Value>
+		<Value>Давайте оглянемся на дизайн, завершенные вашими руками. Вернись сейчас!</Value>
+		<Value>Veamos hacia atrás a los diseños completados por sus propias manos. ¡Vuelve ahora!</Value>
+	</Translation>
+	<Translation key="good_evening">
+		<Value>Good evening, designer</Value>
+		<Value>Chào buổi tối, Nhà Thiết Kế</Value>
+		<Value>Bonsoir, designer</Value>
+		<Value>こんばんは、デザイナー</Value>
+		<Value>안녕하세요, 디자이너</Value>
+		<Value>晚上好，設計師</Value>
+		<Value>Goedenavond, ontwerper</Value>
+		<Value>Guten Abend, Designer</Value>
+		<Value>Buonasera, designer</Value>
+		<Value>Boa noite, designer</Value>
+		<Value>Добрый вечер, дизайнер</Value>
+		<Value>Buenas noches, diseñador</Value>
+	</Translation>
+	<Translation key="policy">
+		<Value>Policy</Value>
+		<Value>Điều khoản</Value>
+		<Value>Politique</Value>
+		<Value>ポリシー</Value>
+		<Value>수단</Value>
+		<Value>政策</Value>
+		<Value>Het beleid</Value>
+		<Value>Politik</Value>
+		<Value>politica</Value>
+		<Value>política</Value>
+		<Value>политика</Value>
+		<Value>política</Value>
+	</Translation>
+	<Translation key="messages_20h_1">
+		<Value>Your design is a masterpiece! Continue, everyone is looking forward to you</Value>
+		<Value>Thiết kế của bạn là một kiệt tác! Tiếp tục nào, mọi người đang rất mong chờ bạn</Value>
+		<Value>Votre design est un chef-d'œuvre! Continuez, tout le monde vous attend avec impatience</Value>
+		<Value>あなたのデザインは傑作です！続けて、誰もがあなたを楽しみにしています</Value>
+		<Value>당신의 디자인은 걸작입니다! 계속해서, 모두가 당신을 고대하고 있습니다</Value>
+		<Value>您的設計是傑作！繼續，每個人都期待著你</Value>
+		<Value>Je ontwerp is een meesterwerk! Ga verder, iedereen kijkt uit naar je</Value>
+		<Value>Ihr Design ist ein Meisterwerk! Weiter, alle freuen sich auf Sie</Value>
+		<Value>Il tuo design è un capolavoro! Continua, tutti non vedono l'ora di te</Value>
+		<Value>Seu design é uma obra -prima! Continue, todo mundo está ansioso por você</Value>
+		<Value>Ваш дизайн - шедевр! Продолжайте, все с нетерпением ждут вас</Value>
+		<Value>¡Tu diseño es una obra maestra! Continúa, todos te esperan con ansias</Value>
+	</Translation>
+	<Translation key="messages_20h_2">
+		<Value>Your work today is great. Let's look back!</Value>
+		<Value>Thành quả làm việc hôm nay của bạn thật tuyệt vời. Cùng nhìn lại nào!</Value>
+		<Value>Votre travail aujourd'hui est super. Regardons en arrière!</Value>
+		<Value>今日のあなたの仕事は素晴らしいです。振り返ってみましょう！</Value>
+		<Value>오늘 당신의 일은 훌륭합니다. 되돌아 보자!</Value>
+		<Value>您今天的工作很棒。讓我們回頭！</Value>
+		<Value>Je werk vandaag is geweldig. Laten we terugkijken!</Value>
+		<Value>Ihre heutige Arbeit ist großartig. Lass uns zurückblicken!</Value>
+		<Value>Il tuo lavoro oggi è fantastico. Guardiamo indietro!</Value>
+		<Value>Seu trabalho hoje é ótimo. Vamos olhar para trás!</Value>
+		<Value>Ваша работа сегодня великолепна. Посмотрим!</Value>
+		<Value>Tu trabajo hoy es genial. ¡Miremos hacia atrás!</Value>
+	</Translation>
+	<Translation key="messages_20h_3">
+		<Value>Everyone is very excited to see your apartment. Come Back!</Value>
+		<Value>Mọi người đang rất háo hức để xem căn hộ của bạn. Come Back!</Value>
+		<Value>Tout le monde est très excité de voir votre appartement. Revenir!</Value>
+		<Value>誰もがあなたのアパートを見ることにとても興奮しています。戻ってくる！</Value>
+		<Value>모두가 당신의 아파트를 보게되어 매우 기쁩니다. 돌아와!</Value>
+		<Value>每個人都很高興看到您的公寓。回來！</Value>
+		<Value>Iedereen is erg opgewonden om je appartement te zien. Terugkomen!</Value>
+		<Value>Jeder ist sehr aufgeregt, Ihre Wohnung zu sehen. Komm zurück!</Value>
+		<Value>Tutti sono molto entusiasti di vedere il tuo appartamento. Ritorno!</Value>
+		<Value>Todo mundo está muito animado para ver seu apartamento. Volte!</Value>
+		<Value>Все очень рады видеть вашу квартиру. Вернись!</Value>
+		<Value>Todos están muy emocionados de ver tu apartamento. ¡Regresar!</Value>
+	</Translation>
+	<Translation key="messages_20h_4">
+		<Value>This is the design that everyone wishes. You are the talented designer!</Value>
+		<Value>Đây chính là bản thiết kế mà mọi người đều mong ước. Bạn chính là nhà thiết kế tài ba!</Value>
+		<Value>C'est la conception que tout le monde souhaite. Vous êtes le designer talentueux!</Value>
+		<Value>これは誰もが望むデザインです。あなたは才能のあるデザイナーです！</Value>
+		<Value>이것은 모두가 원하는 디자인입니다. 당신은 재능있는 디자이너입니다!</Value>
+		<Value>這是每個人都希望的設計。您是才華橫溢的設計師！</Value>
+		<Value>Dit is het ontwerp dat iedereen wenst. Jij bent de getalenteerde ontwerper!</Value>
+		<Value>Dies ist das Design, das jeder wünscht. Sie sind der talentierte Designer!</Value>
+		<Value>Questo è il design che tutti desiderano. Sei il talentuoso designer!</Value>
+		<Value>Este é o design que todos desejam. Você é o designer talentoso!</Value>
+		<Value>Это дизайн, который все пожелают. Вы талантливый дизайнер!</Value>
+		<Value>Este es el diseño que todos desean. ¡Eres el diseñador talentoso!</Value>
+	</Translation>
+	<Translation key="messages_20h_5">
+		<Value>Continue to idea new ideas and embark on any design!</Value>
+		<Value>Tiếp tục ý những tưởng mới và bắt tay ngay vào bản thiết kế nào!</Value>
+		<Value>Continuez à idée de nouvelles idées et commencez immédiatement dans n'importe quel design!</Value>
+		<Value>新しいアイデアを考え続け、すぐにどんなデザインでも始めましょう！</Value>
+		<Value>새로운 아이디어를 계속 생각하고 모든 디자인에서 즉시 시작하십시오!</Value>
+		<Value>繼續了解新想法，並立即在任何設計中開始！</Value>
+		<Value>Ga door met het idee nieuwe ideeën en begin onmiddellijk in elk ontwerp!</Value>
+		<Value>Weitere neue Ideen und beginnen Sie sofort in jedem Design!</Value>
+		<Value>Continua a idea di nuove idee e inizia immediatamente in qualsiasi design!</Value>
+		<Value>Continue a ideia de novas idéias e comece imediatamente em qualquer design!</Value>
+		<Value>Продолжайте представлять новые идеи и начните немедленно в любом дизайне!</Value>
+		<Value>¡Continúe con idea de nuevas ideas y comience de inmediato en cualquier diseño!</Value>
+	</Translation>
+	<Translation key="free_gem_noti_tile">
+		<Value>Free Gems Today</Value>
+		<Value>Miễn phí Gems Hôm nay</Value>
+		<Value>Gems Today gratuit</Value>
+		<Value>無料宝石今日</Value>
+		<Value>무료 보석 오늘</Value>
+		<Value>免费宝石今天</Value>
+		<Value>Gratis Gems Vandaag</Value>
+		<Value>Freies Gems Heute</Value>
+		<Value>Libero Gems Oggi</Value>
+		<Value>Livre Gems Hoje</Value>
+		<Value>Free Gems Сегодня</Value>
+		<Value>Libero Gems Oggi</Value>
+	</Translation>
+	<Translation key="free_gem_noti_text">
+		<Value>FREE Gem is now avaiable to Collect!</Value>
+		<Value>Gem miễn phí đang sẵn sàng để thu thập</Value>
+		<Value>FREE Gem est maintenant disponible, à recueillir!</Value>
+		<Value>FREE宝石を収集するために、今下盛です！</Value>
+		<Value>무료로 보석을 수집하는 지금은 avaiable이다입니다!</Value>
+		<Value>免费宝石现在缴费至收藏！</Value>
+		<Value>FREE Gem is nu beschikbaar om te verzamelen!</Value>
+		<Value>FREE Gem ist jetzt verfügbar zu sammeln!</Value>
+		<Value>GRATIS Gem è ora avaiable per la raccolta!</Value>
+		<Value>FREE Gem é agora disponíveis para recolher!</Value>
+		<Value>FREE Gem теперь собирать доклада доступен!</Value>
+		<Value>GRATIS Gema è ora disponible, per la raccolta!</Value>
+	</Translation>
+	<Translation key="language">
+		<Value>Languages</Value>
+		<Value>Ngôn ngữ</Value>
+		<Value>Langue</Value>
+		<Value>言語</Value>
+		<Value>언어</Value>
+		<Value>语言</Value>
+		<Value>Taal</Value>
+		<Value>Sprache</Value>
+		<Value>linguaggio</Value>
+		<Value>Língua</Value>
+		<Value>Язык</Value>
+		<Value>linguaggio</Value>
+	</Translation>
+	<Translation key="support">
+		<Value>Support</Value>
+		<Value>Hỗ trợ</Value>
+		<Value>Support</Value>
+		<Value>サポート</Value>
+		<Value>지원하다</Value>
+		<Value>支持</Value>
+		<Value>Steun</Value>
+		<Value>Unterstützung</Value>
+		<Value>Supporto</Value>
+		<Value>Apoiar</Value>
+		<Value>Служба поддержки</Value>
+		<Value>Apoyo</Value>
+	</Translation>
+	<Translation key="spin">
+		<Value>Start</Value>
+		<Value>Quay</Value>
+		<Value>Début</Value>
+		<Value>開始</Value>
+		<Value>스타트</Value>
+		<Value>开始</Value>
+		<Value>Begin</Value>
+		<Value>Start</Value>
+		<Value>Inizio</Value>
+		<Value>Começar</Value>
+		<Value>Начинать</Value>
+		<Value>inizio</Value>
+	</Translation>
+	<Translation key="next_free_spin">
+		<Value>Next free spin in</Value>
+		<Value>Quay miễn phí sau:</Value>
+		<Value>free spin suivante</Value>
+		<Value>で次のフリースピン</Value>
+		<Value>에서 다음 무료 스핀</Value>
+		<Value>在接下来的自由旋转</Value>
+		<Value>Volgende free spin in</Value>
+		<Value>Weiter Gratis-Spin-in</Value>
+		<Value>Successivo libera rotazione in</Value>
+		<Value>Próxima rodada grátis em</Value>
+		<Value>Следующий свободный спин в</Value>
+		<Value>Successivo libera en rotazione</Value>
+	</Translation>
+	<Translation key="free_ticket">
+		<Value>Free ticket</Value>
+		<Value>Vé miễn phí</Value>
+		<Value>Billet gratuit</Value>
+		<Value>無料チケット</Value>
+		<Value>무료 티켓</Value>
+		<Value>免費門票</Value>
+		<Value>Gratis ticket</Value>
+		<Value>Freikarten</Value>
+		<Value>Biglietto gratuito</Value>
+		<Value>Bilhete grátis</Value>
+		<Value>Бесплатный билет</Value>
+		<Value>Boleto gratis</Value>
+	</Translation>
+	<Translation key="watch_video">
+		<Value>Watch video</Value>
+		<Value>Xem video</Value>
+		<Value>Regarder la vidéo</Value>
+		<Value>ビデオを見る</Value>
+		<Value>비디오를보다</Value>
+		<Value>看视频</Value>
+		<Value>Bekijk video</Value>
+		<Value>Schau Video</Value>
+		<Value>Guarda un video</Value>
+		<Value>Assistir vídeo</Value>
+		<Value>Смотреть видео</Value>
+		<Value>Guarda el vídeo de la ONU</Value>
+	</Translation>
+	<Translation key="lucky_wheel">
+		<Value>Lucky Wheel</Value>
+		<Value>Vòng quay may mắn</Value>
+		<Value>Roue chanceuse</Value>
+		<Value>ラッキーホイール</Value>
+		<Value>행운의 바퀴</Value>
+		<Value>幸運的輪子</Value>
+		<Value>Gelukswiel</Value>
+		<Value>Glücksrad</Value>
+		<Value>Ruota fortunata</Value>
+		<Value>Lucky Wheel</Value>
+		<Value>Счастливчик</Value>
+		<Value>Rueda de la suerte</Value>
+	</Translation>
+	<Translation key="free_spin_available">
+		<Value>Free Lucky Wheel is now available</Value>
+		<Value>Lucky Wheel miễn phí đã sẵn sàng</Value>
+		<Value>Gratuit chanceux Wheel est maintenant disponible</Value>
+		<Value>無料ラッキーホイールが利用可能になりました</Value>
+		<Value>무료 행운의 휠 사용할 수 있습니다</Value>
+		<Value>免费幸运轮现已推出</Value>
+		<Value>Gratis Lucky Wheel is nu beschikbaar</Value>
+		<Value>Gratis Glücksreifen ist jetzt verfügbar</Value>
+		<Value>Lucky Wheel gratuito è ora disponibile</Value>
+		<Value>Roda livre Sorte está agora disponível</Value>
+		<Value>Free Lucky Wheel теперь доступен</Value>
+		<Value>Lucky Wheel gratis è ora disponibile</Value>
+	</Translation>
+	<Translation key="select_jewels">
+		<Value>Select Fruits</Value>
+		<Value>Chọn Trái Cây</Value>
+		<Value>Sélectionner les fruits</Value>
+		<Value>果物を選択します</Value>
+		<Value>과일을 선택하십시오</Value>
+		<Value>選擇水果</Value>
+		<Value>Selecteer fruit</Value>
+		<Value>Wählen Sie Früchte</Value>
+		<Value>Seleziona i frutti</Value>
+		<Value>Selecione frutas</Value>
+		<Value>Выберите фрукты</Value>
+		<Value>Seleccionar frutas</Value>
+	</Translation>
+	<Translation key="unlock">
+		<Value>Unlock</Value>
+		<Value>Mở</Value>
+		<Value>Ouvrir</Value>
+		<Value>ロック解除</Value>
+		<Value>터놓다</Value>
+		<Value>开锁</Value>
+		<Value>Ontgrendelen</Value>
+		<Value>Freischalten</Value>
+		<Value>Sbloccare</Value>
+		<Value>Unlock</Value>
+		<Value>разблокировка</Value>
+		<Value>Sbloccare</Value>
+	</Translation>
+	<Translation key="select">
+		<Value>Select</Value>
+		<Value>Chọn</Value>
+		<Value>Sélectionner</Value>
+		<Value>選択する</Value>
+		<Value>고르다</Value>
+		<Value>选择</Value>
+		<Value>kiezen</Value>
+		<Value>Wählen</Value>
+		<Value>Selezionare</Value>
+		<Value>selecionar</Value>
+		<Value>Выбирать</Value>
+		<Value>Selezionare</Value>
+	</Translation>
+	<Translation key="contact">
+		<Value>Contact Us</Value>
+		<Value>Liên hệ</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+		<Value>Contact Us</Value>
+	</Translation>
+	<Translation key="about">
+		<Value>About</Value>
+		<Value>Thông tin</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+		<Value>About</Value>
+	</Translation>
+	<Translation key="no_connection_title">
+		<Value>No Connection!</Value>
+		<Value>Không có kết nối!</Value>
+		<Value>Pas de connection!</Value>
+		<Value>接続なし！</Value>
+		<Value>연결 없음!</Value>
+		<Value>沒有關聯！</Value>
+		<Value>Geen verbinding!</Value>
+		<Value>Keine Verbindung!</Value>
+		<Value>Nessuna connessione!</Value>
+		<Value>Sem conexão!</Value>
+		<Value>Нет соединения!</Value>
+		<Value>¡Sin conexión!</Value>
+	</Translation>
+	<Translation key="no_connection">
+		<Value>Connect to the Internet to enjoy the best experience!</Value>
+		<Value>Kết nối tới Internet để tận hưởng đầy đủ trải nghiệm tốt nhất!</Value>
+		<Value>Connectez-vous à Internet pour profiter de la meilleure expérience!</Value>
+		<Value>インターネットに接続して、最高の体験を楽しんでください！</Value>
+		<Value>최고의 경험을 즐기려면 인터넷에 연결하십시오!</Value>
+		<Value>連接到互聯網以享受最佳體驗！</Value>
+		<Value>Maak verbinding met internet om te genieten van de beste ervaring!</Value>
+		<Value>Verbinden Sie sich mit dem Internet, um die beste Erfahrung zu genießen!</Value>
+		<Value>Connettiti a Internet per goderti la migliore esperienza!</Value>
+		<Value>Conecte -se à Internet para aproveitar a melhor experiência!</Value>
+		<Value>Подключитесь к Интернету, чтобы насладиться лучшим опытом!</Value>
+		<Value>¡Conéctese a Internet para disfrutar de la mejor experiencia!</Value>
+	</Translation>
+	<Translation key="required_connection">
+		<Value>Connect to the Internet to download level data!</Value>
+		<Value>Kết nối tới Internet để tải xuống dữ liệu các cấp độ!</Value>
+		<Value>Connectez-vous à Internet pour télécharger des données de niveau!</Value>
+		<Value>インターネットに接続してレベルデータをダウンロードしてください！</Value>
+		<Value>인터넷에 연결하여 레벨 데이터를 다운로드하십시오!</Value>
+		<Value>连接到Internet下载级别数据！</Value>
+		<Value>Maak verbinding met internet om gegevens op niveau te downloaden!</Value>
+		<Value>Stellen Sie eine Verbindung zum Internet her, um Level -Daten herunterzuladen!</Value>
+		<Value>Connettiti a Internet per il download di dati a livello di download!</Value>
+		<Value>Conecte -se à Internet para baixar dados de nível!</Value>
+		<Value>Подключитесь к Интернету, чтобы загрузить данные уровня!</Value>
+		<Value>Connettiti A Internet per iL Descargar Di Dati a Livello di descargar!</Value>
+	</Translation>
+	<Translation key="try_now">
+		<Value>Try Now</Value>
+		<Value>Thử ngay</Value>
+		<Value>Essayez maintenant</Value>
+		<Value>今すぐやってみて下さい</Value>
+		<Value>지금 시도하십시오</Value>
+		<Value>現在試試</Value>
+		<Value>Probeer nu</Value>
+		<Value>Versuch's jetzt</Value>
+		<Value>Prova ora</Value>
+		<Value>Tente agora</Value>
+		<Value>Попробуй</Value>
+		<Value>Probar ahora</Value>
+	</Translation>
+	<Translation key="more_games">
+		<Value>More Games</Value>
+		<Value>Thử trò chơi mới</Value>
+		<Value>Plus de jeux</Value>
+		<Value>他のゲーム</Value>
+		<Value>더 많은 게임</Value>
+		<Value>更多遊戲</Value>
+		<Value>Meer spellen</Value>
+		<Value>Mehr Spiele</Value>
+		<Value>Più giochi</Value>
+		<Value>Mais jogos</Value>
+		<Value>Больше игр</Value>
+		<Value>Más juegos</Value>
+	</Translation>
+	<Translation key="more_games_content">
+		<Value>Do you want to try new awesome game?</Value>
+		<Value>Bạn có muốn thử trò chơi tuyệt vời mới không?</Value>
+		<Value>Voulez-vous essayer un nouveau jeu génial?</Value>
+		<Value>新しい素晴らしいゲームを試してみませんか？</Value>
+		<Value>새로운 멋진 게임을 시도하고 싶습니까?</Value>
+		<Value>您想嘗試新的很棒的遊戲嗎？</Value>
+		<Value>Wil je een nieuwe geweldige game proberen?</Value>
+		<Value>Möchten Sie ein neues fantastisches Spiel ausprobieren?</Value>
+		<Value>Vuoi provare un nuovo fantastico gioco?</Value>
+		<Value>Você quer experimentar um novo jogo incrível?</Value>
+		<Value>Вы хотите попробовать новую потрясающую игру?</Value>
+		<Value>¿Quieres probar un nuevo juego increíble?</Value>
+	</Translation>
+	<Translation key="10min">
+		<Value>10 minutes</Value>
+		<Value>10 phút</Value>
+		<Value>10 minutes</Value>
+		<Value>10分</Value>
+		<Value>10 분</Value>
+		<Value>10分钟</Value>
+		<Value>10 minuten</Value>
+		<Value>10 Minuten</Value>
+		<Value>10 minuti</Value>
+		<Value>10 minutos</Value>
+		<Value>10 минут</Value>
+		<Value>10 minuti</Value>
+	</Translation>
+	<Translation key="15min">
+		<Value>15 minutes</Value>
+		<Value>15 phút</Value>
+		<Value>15 minutes</Value>
+		<Value>15分</Value>
+		<Value>15 분</Value>
+		<Value>15分钟</Value>
+		<Value>15 minuten</Value>
+		<Value>15 Minuten</Value>
+		<Value>15 minuti</Value>
+		<Value>15 minutos</Value>
+		<Value>15 минут</Value>
+		<Value>15 minuti</Value>
+	</Translation>
+	<Translation key="20min">
+		<Value>20 minutes</Value>
+		<Value>20 phút</Value>
+		<Value>20 minutes</Value>
+		<Value>20分</Value>
+		<Value>20 분</Value>
+		<Value>20分钟</Value>
+		<Value>20 minuten</Value>
+		<Value>20 Minuten</Value>
+		<Value>20 minuti</Value>
+		<Value>20 minutos</Value>
+		<Value>20 минут</Value>
+		<Value>20 minuti</Value>
+	</Translation>
+	<Translation key="30min">
+		<Value>30 minutes</Value>
+		<Value>30 phút</Value>
+		<Value>30 minutes</Value>
+		<Value>30分</Value>
+		<Value>30 분</Value>
+		<Value>30分钟</Value>
+		<Value>30 minuten</Value>
+		<Value>30 Minuten</Value>
+		<Value>30 minuti</Value>
+		<Value>30 minutos</Value>
+		<Value>30 минут</Value>
+		<Value>30 minuti</Value>
+	</Translation>
+	<Translation key="1h">
+		<Value>1 hour</Value>
+		<Value>1 giờ</Value>
+		<Value>1 heure</Value>
+		<Value>1時間</Value>
+		<Value>1 시간</Value>
+		<Value>1小时</Value>
+		<Value>1 uur</Value>
+		<Value>1 Stunde</Value>
+		<Value>1 ora</Value>
+		<Value>1 hora</Value>
+		<Value>1 час</Value>
+		<Value>1 Ora</Value>
+	</Translation>
+	<Translation key="tap_to_skip">
+		<Value>Tap anywhere to skip</Value>
+		<Value>Chạm vào màn hình để bỏ qua</Value>
+		<Value>Appuyez sur n'importe où pour sauter</Value>
+		<Value>どこでもタップしてスキップします</Value>
+		<Value>건너 뛰려면 어디서나 탭하십시오</Value>
+		<Value>点击任何地方跳过</Value>
+		<Value>Tik overal om over te slaan</Value>
+		<Value>Tippen Sie auf irgendwohin, um zu überspringen</Value>
+		<Value>Tocca ovunque per saltare</Value>
+		<Value>Toque em qualquer lugar para pular</Value>
+		<Value>Нажмите где угодно, чтобы пропустить</Value>
+		<Value>Tocca ovunque por saltare</Value>
+	</Translation>
+	<Translation key="save">
+		<Value>Save</Value>
+		<Value>Lưu</Value>
+		<Value>Sauvegarder</Value>
+		<Value>保存</Value>
+		<Value>구하다</Value>
+		<Value>節省</Value>
+		<Value>Redden</Value>
+		<Value>Speichern</Value>
+		<Value>Salva</Value>
+		<Value>Salvar</Value>
+		<Value>Сохранять</Value>
+		<Value>Ahorrar</Value>
+	</Translation>
+	<Translation key="edit_profile">
+		<Value>Edit Profile</Value>
+		<Value>Chỉnh sửa hồ sơ</Value>
+		<Value>Editer le profil</Value>
+		<Value>プロファイル編集</Value>
+		<Value>프로필 수정</Value>
+		<Value>編輯個人資料</Value>
+		<Value>Bewerk profiel</Value>
+		<Value>Profil bearbeiten</Value>
+		<Value>Modifica Profilo</Value>
+		<Value>Editar Perfil</Value>
+		<Value>Редактировать профиль</Value>
+		<Value>Editar perfil</Value>
+	</Translation>
+	<Translation key="reward_ad_failed">
+		<Value>Something is wrong with the ad. Try later!</Value>
+		<Value>Có gì đó không ổn với quảng cáo. Thử lại sau!</Value>
+		<Value>Quelque chose ne va pas avec l'annonce. Essayer plus tard!</Value>
+		<Value>広告に何か問題があります。後で試してみてください！</Value>
+		<Value>광고에 문제가 있습니다. 나중에 시도하십시오!</Value>
+		<Value>廣告出了問題。稍後再試！</Value>
+		<Value>Er is iets mis met de advertentie. Probeer later!</Value>
+		<Value>Mit der Anzeige stimmt etwas nicht. Versuche es später!</Value>
+		<Value>Qualcosa non va nell'annuncio. Prova più tardi!</Value>
+		<Value>Algo está errado com o anúncio. Tente depois!</Value>
+		<Value>Что -то не так с рекламой. Попробуй позже!</Value>
+		<Value>Algo anda mal con el anuncio. ¡Intenta más tarde!</Value>
+	</Translation>
+	<Translation key="you">
+		<Value>YOU</Value>
+		<Value>BẠN</Value>
+		<Value>TOI</Value>
+		<Value>あなた</Value>
+		<Value>너</Value>
+		<Value>你</Value>
+		<Value>JIJ</Value>
+		<Value>DU</Value>
+		<Value>VOI</Value>
+		<Value>VOCÊ</Value>
+		<Value>ТЫ</Value>
+		<Value>TÚ</Value>
+	</Translation>
+</Translations>

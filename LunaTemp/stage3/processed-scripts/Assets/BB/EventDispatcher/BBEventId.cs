@@ -1,0 +1,20 @@
+﻿public enum BBEventId
+{
+    RemoteConfig,
+    UMPAgree,
+    ShowingAds,
+    ClosedAds,
+    OnWinLv,
+    OnLoseLv,
+    OnRevive,
+    OnHeartCountChanged,
+    OnHeartTimerChanged,
+    OnCoinCountChanged,
+    OnCoutPackChanged,
+    OnCountSwapChanged,
+    OnCountFreezeTimeChanged,
+    OnCountBreakIceChanged,
+    OnLoseShipper,
+    OnInfiniteHeartChanged,
+    OnLoseDirectly,
+}

@@ -1,0 +1,82 @@
+{
+  "levelID": 1,
+  "diff": 1,
+  "time": 120,
+  "order": 0,
+  "width": 3,
+  "height": 4,
+  "skewerDataType": [
+    3,
+    19
+  ],
+  "grillData": [
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "0-0",
+            "12-0",
+            "12-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "0-0",
+            "4-0",
+            "4-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "4-0",
+            "12-0",
+            "0-0"
+          ]
+        ]
+      }
+    ],
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null
+    ]
+  ]
+}

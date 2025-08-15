@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - AdCamera
+  - UICamera
+  - Grill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - UIGamePlay
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Popup
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1323937297
+    locked: 0
+  - name: StaticOB
+    uniqueID: 895185027
+    locked: 0
+  - name: ActiveOB
+    uniqueID: 1067355665
+    locked: 0
+  - name: Booster
+    uniqueID: 3298169903
+    locked: 0
+  - name: Panel
+    uniqueID: 1550353719
+    locked: 0
+  - name: HightLightOB
+    uniqueID: 1848546465
+    locked: 0
+  - name: UI
+    uniqueID: 2952768023
+    locked: 0

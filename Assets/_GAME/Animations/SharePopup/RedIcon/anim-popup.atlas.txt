@@ -1,0 +1,16 @@
+anim-popup.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+scale:0.3
+1
+bounds:749,684,258,283
+2
+bounds:749,382,199,300
+3
+bounds:2,2,134,192
+rotate:90
+4
+bounds:749,148,208,232
+Levels 8
+bounds:2,138,745,829

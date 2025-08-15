@@ -1,0 +1,310 @@
+{
+  "levelID": 4,
+  "diff": 1,
+  "time": 180,
+  "order": 0,
+  "width": 3,
+  "height": 4,
+  "skewerDataType": [
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    17,
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    38,
+    42,
+    44,
+    52
+  ],
+  "grillData": [
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "1-0",
+            "1-0",
+            "0-0"
+          ],
+          [
+            "8-0",
+            "8-0",
+            "0-0"
+          ],
+          [
+            "1-0",
+            "0-0",
+            "26-0"
+          ],
+          [
+            "0-0",
+            "12-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "23-0",
+            "0-0",
+            "23-0"
+          ],
+          [
+            "26-0",
+            "0-0",
+            "3-0"
+          ],
+          [
+            "0-0",
+            "29-0",
+            "29-0"
+          ],
+          [
+            "0-0",
+            "16-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 2,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": []
+      }
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "17-0",
+            "0-0",
+            "30-0"
+          ],
+          [
+            "24-0",
+            "0-0",
+            "24-0"
+          ],
+          [
+            "18-0",
+            "19-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "2-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "11-0",
+            "0-0",
+            "23-0"
+          ],
+          [
+            "30-0",
+            "0-0",
+            "31-0"
+          ],
+          [
+            "8-0",
+            "0-0",
+            "18-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "2-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "2-0",
+            "0-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "31-0",
+            "31-0"
+          ],
+          [
+            "0-0",
+            "17-0",
+            "17-0"
+          ],
+          [
+            "0-0",
+            "26-0",
+            "18-0"
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 0,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "25-0",
+            "3-0",
+            "27-0"
+          ],
+          [
+            "4-0",
+            "4-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "27-0",
+            "27-0"
+          ],
+          [
+            "0-0",
+            "12-0",
+            "16-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 0,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "3-0",
+            "0-0",
+            "25-0"
+          ],
+          [
+            "4-0",
+            "19-0",
+            "19-0"
+          ],
+          [
+            "0-0",
+            "30-0",
+            "25-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "16-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 0,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "11-0",
+            "0-0",
+            "11-0"
+          ],
+          [
+            "7-0",
+            "29-0",
+            "7-0"
+          ],
+          [
+            "7-0",
+            "0-0",
+            "24-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "12-0"
+          ]
+        ]
+      }
+    ]
+  ]
+}

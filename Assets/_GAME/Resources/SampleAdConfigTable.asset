@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06ad05b03a14615ab7348b480f413c0, type: 3}
+  m_Name: SampleAdConfigTable
+  m_EditorClassIdentifier: 
+  adConfig:
+    adPriority: 0100000000000000
+    adConfig:
+    - enable: 1
+      adNetwork: 0
+      adFormat: 0
+      platform: 0
+      adUnitIds:
+      - ca-app-pub-3940256099942544/9257395921
+    - enable: 1
+      adNetwork: 0
+      adFormat: 1
+      platform: 0
+      adUnitIds:
+      - ca-app-pub-3940256099942544/9214589741
+    - enable: 1
+      adNetwork: 0
+      adFormat: 2
+      platform: 0
+      adUnitIds:
+      - ca-app-pub-3940256099942544/8691691433
+    - enable: 1
+      adNetwork: 0
+      adFormat: 3
+      platform: 0
+      adUnitIds:
+      - ca-app-pub-3940256099942544/5224354917
+    - enable: 1
+      adNetwork: 0
+      adFormat: 4
+      platform: 0
+      adUnitIds:
+      - ca-app-pub-3940256099942544/2247696110

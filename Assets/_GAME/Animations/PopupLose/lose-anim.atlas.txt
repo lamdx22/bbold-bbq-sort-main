@@ -1,0 +1,82 @@
+lose-anim.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.5
+12
+bounds:1730,519,103,59
+rotate:90
+1243
+bounds:1634,453,169,94
+rotate:90
+13
+bounds:1918,831,102,112
+24
+bounds:2,2,59,105
+rotate:90
+Group 178
+bounds:1177,236,174,103
+rotate:90
+Group 178 copy
+bounds:1905,1152,193,113
+rotate:90
+Group 25
+bounds:1469,1581,536,443
+Group 27
+bounds:1790,908,149,114
+rotate:90
+Group 34 copy 2
+bounds:2,217,320,193
+Group 34 copy 3
+bounds:1469,905,319,152
+Group 34 copy 4
+bounds:324,262,320,148
+Group 34 copy 5
+bounds:1469,583,320,147
+rotate:90
+Group 34 copy 6
+bounds:2,63,319,152
+Group 37
+bounds:1905,1347,232,131
+rotate:90
+Group 40 copy 2
+bounds:1469,418,163,163
+Layer 10
+bounds:1618,624,184,279
+Layer 10 copy
+bounds:646,304,106,290
+rotate:90
+Layer 10 copy 2
+bounds:938,199,211,237
+rotate:90
+Layer 100
+bounds:1804,738,168,112
+rotate:90
+Layer 101
+bounds:1804,610,114,126
+Layer 102
+bounds:1469,1059,434,520
+Layer 103
+bounds:1918,741,88,123
+rotate:90
+Layer 104
+bounds:1905,1059,91,131
+rotate:90
+Layer 116
+bounds:324,232,28,48
+rotate:90
+Layer 117
+bounds:1906,945,124,112
+Layer 126
+bounds:1288,466,295,179
+rotate:90
+Layer 98
+bounds:1282,261,158,99
+Layer 99
+bounds:1288,362,160,102
+fd
+bounds:1920,627,102,112
+hi
+bounds:2,763,1465,1261
+ribbon
+bounds:2,412,1284,349

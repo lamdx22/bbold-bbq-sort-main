@@ -1,0 +1,342 @@
+{
+  "levelID": 10,
+  "diff": 1,
+  "time": 220,
+  "order": 1,
+  "width": 3,
+  "height": 4,
+  "skewerDataType": [
+    11,
+    12,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    26,
+    27,
+    29,
+    31,
+    34,
+    35,
+    42,
+    43,
+    44,
+    45
+  ],
+  "grillData": [
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 1,
+        "isSaleGrill": false,
+        "skeUnl": 3,
+        "rowIndex": 0,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "0-0",
+            "22-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "7-0",
+            "7-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "17-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 1,
+        "isSaleGrill": false,
+        "skeUnl": 31,
+        "rowIndex": 0,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "21-0",
+            "0-0",
+            "27-0"
+          ],
+          [
+            "19-0",
+            "0-0",
+            "23-0"
+          ],
+          [
+            "1-0",
+            "0-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 2,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 0,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": []
+      }
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "31-0",
+            "8-0",
+            "0-0"
+          ],
+          [
+            "11-0",
+            "0-0",
+            "11-0"
+          ],
+          [
+            "17-0",
+            "0-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "3-0",
+            "0-0",
+            "3-0"
+          ],
+          [
+            "29-0",
+            "29-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "1-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "21-0",
+            "0-0",
+            "22-0"
+          ],
+          [
+            "7-0",
+            "0-0",
+            "23-0"
+          ],
+          [
+            "0-0",
+            "12-0",
+            "0-0"
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "26-0",
+            "26-0",
+            "29-0"
+          ],
+          [
+            "0-0",
+            "8-0",
+            "21-0"
+          ],
+          [
+            "0-0",
+            "12-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "8-0",
+            "0-0",
+            "22-0"
+          ],
+          [
+            "23-0",
+            "11-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "1-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 2,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "31-0",
+            "0-0",
+            "31-0"
+          ],
+          [
+            "19-0",
+            "19-0",
+            "0-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "17-0"
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 3,
+        "colIndex": 0,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "27-0",
+            "0-0",
+            "10-0"
+          ],
+          [
+            "27-0",
+            "18-0",
+            "15-0"
+          ],
+          [
+            "0-0",
+            "9-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 3,
+        "colIndex": 1,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "10-0",
+            "0-0",
+            "3-0"
+          ],
+          [
+            "15-0",
+            "15-0",
+            "18-0"
+          ],
+          [
+            "0-0",
+            "26-0",
+            "0-0"
+          ]
+        ]
+      },
+      {
+        "grillType": 0,
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 3,
+        "colIndex": 2,
+        "numSke": 3,
+        "numSkeUnlock": 0,
+        "ske": [
+          [
+            "9-0",
+            "18-0",
+            "9-0"
+          ],
+          [
+            "12-0",
+            "10-0",
+            "0-0"
+          ]
+        ]
+      }
+    ]
+  ]
+}

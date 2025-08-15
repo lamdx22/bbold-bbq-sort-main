@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9d6477154a4b139a676b7f5fd9b38b, type: 3}
+  m_Name: SampleNativeAdSettings
+  m_EditorClassIdentifier: 
+  placeholderUI: {fileID: 4319510332234353732, guid: 36f1de05588e947ea9d5a2a2e52394a5, type: 3}
+  nativeAdItems:
+  - type: 1
+    prefab: {fileID: 2725821434228970097, guid: e92a445305902e948b332f3d3aea8bca, type: 3}
+  - type: 0
+    prefab: {fileID: 2725821434228970097, guid: e7bd7ec567cf59b4b8c6b09485d06618, type: 3}

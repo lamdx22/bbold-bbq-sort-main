@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a85eb658ad8bf04881c78d0bbb99ffb, type: 3}
+  m_Name: DailyLogInSO
+  m_EditorClassIdentifier: 
+  DayRewards:
+  - day: 1
+    SingleRewards:
+    - rewardType: 0
+      imgReward: {fileID: 21300000, guid: d866a21537239e14fa82eab2edb83d5b, type: 3}
+      amount: 100
+      textAmountPos: {x: 0, y: 0}
+  - day: 2
+    SingleRewards:
+    - rewardType: 1
+      imgReward: {fileID: 21300000, guid: 61836dbfda320b34caeeaafefc5d2e1f, type: 3}
+      amount: 2
+      textAmountPos: {x: 0, y: 0}
+  - day: 3
+    SingleRewards:
+    - rewardType: 2
+      imgReward: {fileID: 21300000, guid: 77947e26d71926441a49529267ffe80e, type: 3}
+      amount: 2
+      textAmountPos: {x: 0, y: 0}
+  - day: 4
+    SingleRewards:
+    - rewardType: 5
+      imgReward: {fileID: 21300000, guid: 89cbc743ac5d2d8478f5b6a77b57ad64, type: 3}
+      amount: 2
+      textAmountPos: {x: 0, y: 0}
+  - day: 5
+    SingleRewards:
+    - rewardType: 4
+      imgReward: {fileID: 21300000, guid: f90726c7bfdea9b499fd3f67fc9673b7, type: 3}
+      amount: 1
+      textAmountPos: {x: 0, y: 0}
+  - day: 6
+    SingleRewards:
+    - rewardType: 3
+      imgReward: {fileID: 21300000, guid: 40bac3b940eaa744e828102edc7b4948, type: 3}
+      amount: 2
+      textAmountPos: {x: 0, y: 0}
+  - day: 7
+    SingleRewards:
+    - rewardType: 0
+      imgReward: {fileID: 21300000, guid: 4de98ae8d4e1b5f4388149c9f9d1a135, type: 3}
+      amount: 500
+      textAmountPos: {x: 0, y: -76}

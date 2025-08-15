@@ -1,0 +1,74 @@
+win-anim.png
+size:2048,1024
+filter:Linear,Linear
+pma:true
+scale:0.3
+Group 25
+bounds:883,756,322,266
+Group 27
+bounds:1214,492,89,68
+Group 29
+bounds:1946,952,70,99
+rotate:90
+Group 30
+bounds:1077,341,67,99
+Group 31
+bounds:774,2,68,95
+rotate:90
+Group 32
+bounds:1559,791,65,92
+rotate:90
+Group 34 copy 2
+bounds:883,324,192,116
+Group 34 copy 3
+bounds:774,72,191,91
+rotate:90
+Group 34 copy 4
+bounds:1752,933,192,89
+Group 34 copy 5
+bounds:1145,562,192,88
+rotate:90
+Group 34 copy 6
+bounds:1559,931,191,91
+Group 37
+bounds:1347,651,139,78
+rotate:90
+Layer 10
+bounds:1235,623,110,167
+Layer 10 copy
+bounds:883,258,64,174
+rotate:90
+Layer 10 copy 2
+bounds:867,114,126,142
+Layer 100
+bounds:1145,459,101,67
+rotate:90
+Layer 101
+bounds:1555,713,68,76
+Layer 102
+bounds:883,442,260,312
+Layer 103
+bounds:1704,855,53,74
+Layer 104
+bounds:1427,656,54,78
+rotate:90
+Layer 81 copy 6
+bounds:1427,712,126,83
+Layer 96
+bounds:1426,797,131,79
+Layer 97
+bounds:1559,858,143,71
+Layer 98
+bounds:1235,562,95,59
+Layer 99
+bounds:995,160,96,61
+rotate:90
+eye
+bounds:1207,792,217,84
+hi
+bounds:2,265,879,757
+ribbon
+bounds:2,54,770,209
+xien
+bounds:1207,878,144,350
+rotate:90

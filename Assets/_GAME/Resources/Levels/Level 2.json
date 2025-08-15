@@ -1,0 +1,104 @@
+{
+  "levelID": 2,
+  "diff": 1,
+  "time": 120,
+  "order": 0,
+  "width": 3,
+  "height": 4,
+  "skewerDataType": [
+    5,
+    6,
+    20,
+    24,
+    37
+  ],
+  "grillData": [
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 0,
+        "numSke": 3,
+        "ske": [
+          [
+            "31-0",
+            "20-0",
+            "31-0"
+          ],
+          [
+            "20-0",
+            "0-0",
+            "16-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "13-0"
+          ]
+        ]
+      },
+      {
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 1,
+        "numSke": 3,
+        "ske": [
+          [
+            "0-0",
+            "30-0",
+            "31-0"
+          ],
+          [
+            "0-0",
+            "16-0",
+            "16-0"
+          ],
+          [
+            "0-0",
+            "0-0",
+            "13-0"
+          ]
+        ]
+      },
+      {
+        "typeUnlock": 0,
+        "isSaleGrill": false,
+        "skeUnl": 0,
+        "rowIndex": 1,
+        "colIndex": 2,
+        "numSke": 3,
+        "ske": [
+          [
+            "30-0",
+            "0-0",
+            "30-0"
+          ],
+          [
+            "13-0",
+            "0-0",
+            "20-0"
+          ]
+        ]
+      }
+    ],
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null
+    ]
+  ]
+}
