@@ -266,7 +266,7 @@ public class Grill : BaseOB
         if (plates.Count > 0)
             plates[0].SkewerAppear();
     }
-    private void OnMouseDown()
+    public void MouseDown()
     {
         if (GameManager.GameState != GameState.Playing) return;
         switch (grillUnlockType)
@@ -280,7 +280,7 @@ public class Grill : BaseOB
                 break;
         }
     }
-    private void OnMouseUp()
+    public void MouseUp()
     {
 
     }

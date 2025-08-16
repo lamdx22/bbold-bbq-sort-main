@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -777816280, guid: d3b540462db772b4e977a3cfa5367cb7, type: 3}
+  m_Script: {fileID: -777816280, guid: 6ee923bbe2db08c46ab4e2e4f0dadc7a, type: 3}
   m_Name: SVC_Luna
   m_EditorClassIdentifier: 
   _svcLunaVersion: 3
@@ -611,9 +611,43 @@ MonoBehaviour:
     subShaderIndex: 0
     upToDate: 0
     keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FADING_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FADING_ON
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _ALPHABLEND_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _ALPHABLEND_ON
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 167
+  version: 204
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -8083,8 +8117,8 @@ MonoBehaviour:
     PointLightCount: 0
     SpotLightCount: 0
     DirectionalLightCount: 0
-    LightmapOn: 0
-    DirlightmapCombined: 0
+    LightmapOn: 1
+    DirlightmapCombined: 1
     DirectionalCookieExists: 0
     PointCookieExists: 0
     SpotCookieExists: 0

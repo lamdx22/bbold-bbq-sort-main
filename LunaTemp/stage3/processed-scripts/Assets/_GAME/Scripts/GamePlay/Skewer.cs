@@ -33,6 +33,7 @@ public class Skewer : BaseOB
     protected Vector2 _offsetDistance;
 
     public Collider2D col;
+    public Collider pickBox;
     public LevelCtr levelCtrl;
     public PosPlaceAtGrill curPosIn, lastPosIn;
     public posAtPlate posAtPlate;
@@ -667,6 +668,7 @@ public class Skewer : BaseOB
     {
         Debug.Log("SetCanUse= " + canUse);
         col.enabled = canUse;
+        pickBox.enabled = canUse;
     }
     public virtual void SetCanDrag(bool canDrag)
     {
