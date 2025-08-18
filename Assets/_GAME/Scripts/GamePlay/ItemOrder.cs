@@ -60,6 +60,7 @@ public class ItemOrder : MonoBehaviour
             if (iconCompleted != null)
                 iconCompleted?.gameObject.SetActive(true);
             isDone = true;
+            level.currOrder = this;
             shipper.CheckCompletetdOrder();
         }
     }

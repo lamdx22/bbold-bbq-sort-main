@@ -43,6 +43,11 @@ public class LevelCtr : MonoBehaviour
     public bool isChoosingSkewerMoving;
     public ComboVfx comboVfx;
     public int maxCombo = 0;
+    public int countMatch = 0;
+    public GameObject coinPrefab;
+    public ItemOrder currOrder;
+    public Transform UITransform;
+    private PlateCompleted currPlate;
 
     //tutorial
     public int typeSkewerCompleted;
@@ -118,6 +123,7 @@ public class LevelCtr : MonoBehaviour
         numOfSkewer = onGrillSkewers.Count + onPlateSkewers.Count;
         orderShipper = levelDatas.order;
         stepShipper = numOfSkewer / (orderShipper + 1);
+        countMatch = 0;
 
         yield return new WaitForSeconds(0.2f);
         //SwapSkewerTypeInit();
@@ -134,6 +140,7 @@ public class LevelCtr : MonoBehaviour
         {
             grill.lockGrillOB.SetUIUnlockInit();
         }
+        CheckSpawnPlate();
         //if (PlayerData.current.level == 1)
         //{
         //    TutorialPlayGame.Instance.Init(this);
@@ -289,7 +296,9 @@ public class LevelCtr : MonoBehaviour
     }
     IEnumerator OnCompletetdOneMatch3(List<Skewer> completetdSkewers, Action completetedMoveToCompletedPlate = null, Action eventHaftMoving = null)
     {
-        PlateCompleted plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, posPlateWinAppear);
+
+        CheckSpawnPlate();
+        PlateCompleted plateCompleted = currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
         var numOfSkewerCompletetdMove = 0;
         float dur = 0f;
         //Tutorial check
@@ -324,24 +333,82 @@ public class LevelCtr : MonoBehaviour
                 comboVfx.UpCombo(completetdSkewers[1].transform.position);
             }
         });
-        var sprPlate = plateCompleted.sprPlate;
-        sprPlate.transform.position = sprPlate.transform.position + new Vector3(5f, 0, 0);
-        sprPlate.transform.DOMove(posPlateWinAppear.position, dur - 0.2f).SetEase(Ease.OutBack).OnComplete(() =>
-        {
-            AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
-            plateCompleted.vfxStar.SetActive(true);
-            //vfx star
-        });
+        //var sprPlate = plateCompleted.sprPlate;
+        //sprPlate.transform.position = sprPlate.transform.position + new Vector3(-150f, 0, 0);
+        //plateCompleted.transform.position =  posPlateWinOut.transform.position;
+        //sprPlate.transform.DOMove(posPlateWinAppear.position, dur - 0.2f).SetEase(Ease.OutBack).OnComplete(() =>
+        //{
+        //    AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
+        //    plateCompleted.vfxStar.SetActive(true);
+        //    //Debug.Log("plate Pos:" + sprPlate.transform.position);
+        //    //vfx star
+        //});
+        AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
         yield return new WaitUntil(() => numOfSkewerCompletetdMove >= plateCompleted.posMoveInCompletedSkewers.Count);
+
+        countMatch++;
+        CoinManager.Instance.OnAddCoin(10, completetdSkewers[1].transform.position);
+
         completetedMoveToCompletedPlate?.Invoke();
         OnCompletedOneMatch3?.Invoke(completetdSkewers);
         NumOfCompletedSkewer += 3;
         yield return new WaitForSeconds(0.1f);
-        plateCompleted.transform.DOMove(plateCompleted.transform.position + new Vector3(8f, 0, 0), 1f).SetEase(Ease.Linear).OnComplete(() =>
+
+        if (currOrder != null)
         {
-            Destroy(plateCompleted.gameObject);
-        });
+            Sequence seq = DOTween.Sequence();
+
+            seq.Join(plateCompleted.transform.DOMove(currOrder.transform.position, 0.5f).SetEase(Ease.Linear));
+            seq.Join(plateCompleted.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack));
+
+            seq.OnComplete(() =>
+            {
+                currOrder = null;
+                ClearPlate();
+            });
+        }
+        else
+        {
+            plateCompleted.transform.DOMove(posPlateWinOut.position, 1f).SetEase(Ease.Linear).OnComplete(() =>
+            {
+                //Debug.Log("plate Pos:" + sprPlate.transform.position);
+
+                ClearPlate();
+            });
+        }
     }
+
+    private void ClearPlate()
+    {
+        Destroy(currPlate.gameObject);
+        currPlate = null;
+        CheckSpawnPlate();
+    }
+
+    public bool CheckSpawnPlate()
+    {
+        if (currPlate == null)
+        {
+            currPlate = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+            return true;
+        }
+        return false;
+        //float height = Camera.main.orthographicSize * 2f;
+        //float width = height * Camera.main.aspect;
+        ////Debug.Log("Chiều ngang trong thế giới: " + width);
+        //for (int i = -7; i <= 7; i++)
+        //{
+        //    PlateCompleted plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear);
+        //    plateCompleted.originPos = new Vector3(300 * i, 0, 0);
+        //    plateCompleted.transform.localPosition = plateCompleted.originPos;
+        //    if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
+        //        plateCompleted.gameObject.SetActive(false);
+        //    else plateCompleted.Appear();
+
+        //    platesHolder.Add(plateCompleted);
+        //}
+    }
+
     protected void SpawnShipper()
     {
         if (shipperPrefab == null) return;

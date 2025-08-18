@@ -141,6 +141,24 @@ public class LevelCtr : MonoBehaviour
         //}
     }
 
+    public void SpawnDisks()
+    {
+        //float height = Camera.main.orthographicSize * 2f;
+        //float width = height * Camera.main.aspect;
+        ////Debug.Log("Chiều ngang trong thế giới: " + width);
+        //for (int i = -7; i <= 7; i++)
+        //{
+        //    PlateCompleted plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear);
+        //    plateCompleted.originPos = new Vector3(300 * i, 0, 0);
+        //    plateCompleted.transform.localPosition = plateCompleted.originPos;
+        //    if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
+        //        plateCompleted.gameObject.SetActive(false);
+        //    else plateCompleted.Appear();
+
+        //    platesHolder.Add(plateCompleted);
+        //}
+    }
+
     protected void ResetLv()
     {
         foreach (var pos in posGrills)
@@ -325,20 +343,24 @@ public class LevelCtr : MonoBehaviour
             }
         });
         var sprPlate = plateCompleted.sprPlate;
-        sprPlate.transform.position = sprPlate.transform.position + new Vector3(5f, 0, 0);
+        sprPlate.transform.position = sprPlate.transform.position + new Vector3(-150f, 0, 0);
         sprPlate.transform.DOMove(posPlateWinAppear.position, dur - 0.2f).SetEase(Ease.OutBack).OnComplete(() =>
         {
             AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
             plateCompleted.vfxStar.SetActive(true);
+            //Debug.Log("plate Pos:" + sprPlate.transform.position);
             //vfx star
         });
         yield return new WaitUntil(() => numOfSkewerCompletetdMove >= plateCompleted.posMoveInCompletedSkewers.Count);
+
         completetedMoveToCompletedPlate?.Invoke();
         OnCompletedOneMatch3?.Invoke(completetdSkewers);
         NumOfCompletedSkewer += 3;
         yield return new WaitForSeconds(0.1f);
         plateCompleted.transform.DOMove(plateCompleted.transform.position + new Vector3(8f, 0, 0), 1f).SetEase(Ease.Linear).OnComplete(() =>
         {
+            //Debug.Log("plate Pos:" + sprPlate.transform.position);
+
             Destroy(plateCompleted.gameObject);
         });
     }

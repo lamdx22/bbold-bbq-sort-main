@@ -26,7 +26,7 @@ public class Shipper : MonoBehaviour
 
     public void Init(LevelCtr level, List<int> idSkewers, Transform posAppear, Transform posDriveTo, Transform posDriveAway)
     {
-        animOrderAppear.gameObject.SetActive(false);
+        animOrderAppear?.gameObject.SetActive(false);
         this.levelCtr = level;
         this.posAppear = posAppear;
         this.posDriveTo = posDriveTo;

@@ -26,7 +26,7 @@ public class Shipper : MonoBehaviour
 
     public void Init(LevelCtr level, List<int> idSkewers, Transform posAppear, Transform posDriveTo, Transform posDriveAway)
     {
-        animOrderAppear.gameObject.SetActive(false);
+        animOrderAppear?.gameObject.SetActive(false);
         this.levelCtr = level;
         this.posAppear = posAppear;
         this.posDriveTo = posDriveTo;
@@ -116,7 +116,7 @@ public class Shipper : MonoBehaviour
         numOfRandItem = randomIds.Count;
         //change Anim Shipper and Shipper Small
         AudioManager.Instance.PlaySFX(AudioClipId.NoticeOrder);
-        animOrderAppear?.gameObject.SetActive(true);
+        //animOrderAppear?.gameObject.SetActive(true);
         animShipperSmall?.SetActive(true);
         animShipperSmall.transform.position = posAppear.position;
         animShipperSmall.transform.DOMove(posDriveTo.position, 1f).SetEase(Ease.Linear)
@@ -142,6 +142,7 @@ public class Shipper : MonoBehaviour
     IEnumerator OnEndOrderCompleted()
     {
         yield return new WaitForSeconds(0.5f);
+        CoinManager.Instance.OnAddCoin(20, animShipperSmall.transform.position + new Vector3(1.5f, 0, 0));
         cover.gameObject.SetActive(false);
         AudioManager.Instance.PlaySFX(AudioClipId.YaHo);
         animShipperSmall.transform.DOMove(posDriveAway.position, 1f).SetEase(Ease.Linear)

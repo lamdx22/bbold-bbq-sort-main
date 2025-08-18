@@ -1,3 +1,6 @@
+﻿using DG.Tweening;
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +12,7 @@ public class UIManager : MonoBehaviour
     public Canvas canvas;
     public Camera camUI;
     public GameObject transition;
+    
 
     private ScreenUI _activeScreen;
 
@@ -42,6 +46,8 @@ public class UIManager : MonoBehaviour
             t.DeActive();
         }
     }
+
+    
 
     public T ActiveScreen<T>(bool showTopUI = true) where T : ScreenUI
     {

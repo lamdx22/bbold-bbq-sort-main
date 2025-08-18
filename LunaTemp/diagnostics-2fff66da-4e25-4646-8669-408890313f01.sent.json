@@ -1,0 +1,442 @@
+{
+    "BuildID": "2fff66da-4e25-4646-8669-408890313f01",
+    "Command": "project:build",
+    "ProjectID": "9fd9c6f453db0854f930de01c72b834f",
+    "ProjectStateHash": "0f355a59829c6edad4d732219f7f4d93b843d5958af518a6822bac7f72b03b4b",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1755492896803,
+    "EndTime": 1755492948794,
+    "PlaygroundUserID": 16373,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2022.3.62f1",
+    "LunaVersion": "6.3.0",
+    "LogCount": 18,
+    "Logs": [
+        {
+            "LogID": "15a40265-fff0-451e-9336-ae6c85a1e6d4",
+            "Order": 9,
+            "Timestamp": 1755492948969,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 77,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\_GAME\\Scripts\\GameStartController.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "529a629a-6121-4642-b5d2-467d63d42d05",
+            "Order": 9,
+            "Timestamp": 1755492949017,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 20,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\Model.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "3cd30d67-8fe1-460e-ae89-0ce93ec5c4fb",
+            "Order": 9,
+            "Timestamp": 1755492949017,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 29,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\Model.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a996e5aa-3774-493f-9924-b2b87c7488cf",
+            "Order": 9,
+            "Timestamp": 1755492949055,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 78,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\Core\\PopupSystem.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "0da37bc7-3674-4c81-bfc6-5ebe7c29b66f",
+            "Order": 9,
+            "Timestamp": 1755492949057,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 56,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\PopupRating.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "705f27b2-ce75-41a2-96c1-a58d98f9c40b",
+            "Order": 9,
+            "Timestamp": 1755492949059,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 250,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\PopupSetting.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "2b710c1c-907e-433c-93d8-b297e1e7e020",
+            "Order": 9,
+            "Timestamp": 1755492949803,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3006",
+            "Description": "You are not using the Luna API: Playable.InstallFullGame",
+            "Details": [
+                "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+            ],
+            "DescriptionValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "DetailsValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "8f6dc263-bfb3-4ce9-a737-984b850701ab",
+            "Order": 9,
+            "Timestamp": 1755492949803,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3015",
+            "Description": "You are not the Game Ended API: LifeCycle.GameEnded",
+            "Details": [
+                "You are not using the Game Ended API: LifeCycle.GameEnded. Some ad networks require this call, please add the event to avoid the ad being rejected."
+            ],
+            "DescriptionValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "DetailsValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "edd3fe3e-c393-4e35-964d-fa05e1b3701e",
+            "Order": 9,
+            "Timestamp": 1755492949803,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a7142677-1b02-4d09-875f-365b730c671b",
+            "Order": 9,
+            "Timestamp": 1755492949803,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a8a98b6e-24c1-4cb4-b581-0c0c1968b184",
+            "Order": 0,
+            "Timestamp": 1755492923961,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1030",
+            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+            "Details": [
+                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF - Fallback",
+                "Dynamic"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "d74417bf-665b-4c70-9e56-cc505555a769",
+            "Order": 1,
+            "Timestamp": 1755492926524,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "af21c20b-d264-4169-992a-5b20a1ab4385",
+            "Order": 2,
+            "Timestamp": 1755492926525,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 115."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "115"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "61390bcc-fa52-4b1f-96dc-fac2ac57639b",
+            "Order": 3,
+            "Timestamp": 1755492926525,
+            "Stage": 1,
+            "ErrorType": 1,
+            "ErrorCode": "LP1023",
+            "Description": "Too many files for facebook platform",
+            "Details": [
+                "Too many files for facebook platform in use ($241) only $100 available"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "241",
+                "100"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "30154b8f-a347-429a-a46a-60e63fb9b608",
+            "Order": 4,
+            "Timestamp": 1755492926551,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a38845a8-4793-4a2f-8419-360afbf63942",
+            "Order": 5,
+            "Timestamp": 1755492926551,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "83274b37-7575-44fa-a11f-05013b6761a5",
+            "Order": 6,
+            "Timestamp": 1755492926551,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.8.6)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "D:/Projects/Unity/bbold-bbq-sort-main/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "84167b4f-f38f-4e75-91ca-04e202182780",
+            "Order": 7,
+            "Timestamp": 1755492926552,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1002",
+            "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF Atlas",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
