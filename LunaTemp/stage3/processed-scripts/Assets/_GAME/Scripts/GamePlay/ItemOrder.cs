@@ -56,6 +56,7 @@ public class ItemOrder : MonoBehaviour
         }
         if (skewers.First().skewerType == idSkewer)
         {
+            level.currOrder = this;
             level.OnCompletedOneMatch3 -= CheckCompletedOrderAndUpdateUi;
             if (iconCompleted != null)
                 iconCompleted?.gameObject.SetActive(true);

@@ -1206,7 +1206,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Download
 --- !u!223 &2882583951404372034
 Canvas:
   m_ObjectHideFlags: 0

@@ -141,7 +141,7 @@ public class Shipper : MonoBehaviour
     }
     IEnumerator OnEndOrderCompleted()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.9f);
         CoinManager.Instance.OnAddCoin(20, animShipperSmall.transform.position + new Vector3(1.5f, 0, 0));
         cover.gameObject.SetActive(false);
         AudioManager.Instance.PlaySFX(AudioClipId.YaHo);

@@ -48,6 +48,7 @@ public class LevelCtr : MonoBehaviour
     public ItemOrder currOrder;
     public Transform UITransform;
     private PlateCompleted currPlate;
+    public List<PlateCompleted> plateCompleteds = new List<PlateCompleted>();
 
     //tutorial
     public int typeSkewerCompleted;
@@ -111,14 +112,17 @@ public class LevelCtr : MonoBehaviour
     public void Init(LevelData levelData)
     {
         StartCoroutine(StartPlay(levelData));
+        StartCoroutine(WaitForEndLevel());
     }
 
     IEnumerator StartPlay(LevelData levelData)
     {
         ResetLv();
+        AudioManager.Instance.PlayMusic(AudioClipId.BackgroundMusic);
         yield return new WaitForSeconds(0.1f);
         levelDatas = levelData;
         SpawnGrills(levelDatas);
+        SpawnPlates();
         yield return new WaitForSeconds(0.1f);
         numOfSkewer = onGrillSkewers.Count + onPlateSkewers.Count;
         orderShipper = levelDatas.order;
@@ -140,12 +144,31 @@ public class LevelCtr : MonoBehaviour
         {
             grill.lockGrillOB.SetUIUnlockInit();
         }
-        CheckSpawnPlate();
+        //CheckSpawnPlate();
         //if (PlayerData.current.level == 1)
         //{
         //    TutorialPlayGame.Instance.Init(this);
         //    TutorialPlayGame.Instance.StartRandomTutorial();
         //}
+    }
+
+    public void OnGoToStore()
+    {
+        Debug.Log("GoToStore");
+        Luna.Unity.Playable.InstallFullGame();
+    }
+
+    public void EndGameAndGoToStore()
+    {
+        Luna.Unity.LifeCycle.GameEnded();
+        Luna.Unity.Playable.InstallFullGame();
+    }
+
+    IEnumerator WaitForEndLevel()
+    {
+        yield return new WaitUntil(() => countMatch >= 7 || isFinishLv);
+        UIManager.Instance.transition.SetActive(true);
+        Luna.Unity.LifeCycle.GameEnded();
     }
 
     protected void ResetLv()
@@ -296,9 +319,11 @@ public class LevelCtr : MonoBehaviour
     }
     IEnumerator OnCompletetdOneMatch3(List<Skewer> completetdSkewers, Action completetedMoveToCompletedPlate = null, Action eventHaftMoving = null)
     {
-
-        CheckSpawnPlate();
-        PlateCompleted plateCompleted = currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+        //CheckSpawnPlate();
+        PlateCompleted plateCompleted = FindPlate();//currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+        if (plateCompleted == null) plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+        currPlate = null;
+        plateCompleted.canChoose = false;
         var numOfSkewerCompletetdMove = 0;
         float dur = 0f;
         //Tutorial check
@@ -343,16 +368,17 @@ public class LevelCtr : MonoBehaviour
         //    //Debug.Log("plate Pos:" + sprPlate.transform.position);
         //    //vfx star
         //});
-        AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
         yield return new WaitUntil(() => numOfSkewerCompletetdMove >= plateCompleted.posMoveInCompletedSkewers.Count);
 
         countMatch++;
+        AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
+        plateCompleted.vfxStar.SetActive(true);
         CoinManager.Instance.OnAddCoin(10, completetdSkewers[1].transform.position);
 
         completetedMoveToCompletedPlate?.Invoke();
         OnCompletedOneMatch3?.Invoke(completetdSkewers);
         NumOfCompletedSkewer += 3;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
 
         if (currOrder != null)
         {
@@ -364,7 +390,8 @@ public class LevelCtr : MonoBehaviour
             seq.OnComplete(() =>
             {
                 currOrder = null;
-                ClearPlate();
+                plateCompleted.ClearDisk();
+                CheckRemainPalete();
             });
         }
         else
@@ -373,16 +400,10 @@ public class LevelCtr : MonoBehaviour
             {
                 //Debug.Log("plate Pos:" + sprPlate.transform.position);
 
-                ClearPlate();
+               plateCompleted.ClearDisk();
+               CheckRemainPalete();
             });
         }
-    }
-
-    private void ClearPlate()
-    {
-        Destroy(currPlate.gameObject);
-        currPlate = null;
-        CheckSpawnPlate();
     }
 
     public bool CheckSpawnPlate()
@@ -393,20 +414,69 @@ public class LevelCtr : MonoBehaviour
             return true;
         }
         return false;
-        //float height = Camera.main.orthographicSize * 2f;
-        //float width = height * Camera.main.aspect;
-        ////Debug.Log("Chiều ngang trong thế giới: " + width);
-        //for (int i = -7; i <= 7; i++)
-        //{
-        //    PlateCompleted plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear);
-        //    plateCompleted.originPos = new Vector3(300 * i, 0, 0);
-        //    plateCompleted.transform.localPosition = plateCompleted.originPos;
-        //    if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
-        //        plateCompleted.gameObject.SetActive(false);
-        //    else plateCompleted.Appear();
+    }
 
-        //    platesHolder.Add(plateCompleted);
-        //}
+
+    PlateCompleted FindPlate()
+    {
+        for (int i = plateCompleteds.Count - 1; i >= 0; i--)
+        {
+            PlateCompleted plateCompleted = plateCompleteds[i];
+            if (plateCompleted.gameObject.activeSelf && plateCompleted.canChoose)
+            {
+                return plateCompleted;
+            }
+        }
+        return null;
+    }
+
+    public void SpawnPlates()
+    {
+        float height = Camera.main.orthographicSize * 2f;
+        float width = height * Camera.main.aspect;
+        for (int i = -1; i <= 1; i++)
+        {
+            PlateCompleted plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+            plateCompleted.originPos = new Vector3(3.38f * i, plateCompleted.transform.position.y, plateCompleted.transform.position.z);
+            plateCompleted.transform.position = plateCompleted.originPos;
+            plateCompleted.Appear();
+            //if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
+            //    plateCompleted.gameObject.SetActive(false);
+            //else plateCompleted.Appear();
+
+            plateCompleteds.Add(plateCompleted);
+        }
+    }
+
+    private void CheckRemainPalete()
+    {
+        bool remain = false;
+        for (int i = plateCompleteds.Count - 1; i >= 0; i--)
+        {
+            PlateCompleted plateCompleted = plateCompleteds[i];
+            if (plateCompleted.gameObject.activeSelf)
+            {
+                remain = true;
+                break;
+            }
+        }
+        if (!remain) ResetPlates();
+    }
+
+    private void ResetPlates()
+    {
+        float height = Camera.main.orthographicSize * 2f;
+        float width = height * Camera.main.aspect;
+        //Debug.Log(platesHolder.Count);
+        for (int i = 0; i < plateCompleteds.Count; i++)
+        {
+            PlateCompleted plateCompleted = plateCompleteds[i];
+            if (Math.Abs(plateCompleted.transform.position.x) < width / 2 - 0.5f)
+            {
+                if (!plateCompleted.gameObject.activeSelf) plateCompleted.Appear();
+            }
+            else plateCompleted.ClearDisk();
+        }
     }
 
     protected void SpawnShipper()
@@ -500,6 +570,7 @@ public class LevelCtr : MonoBehaviour
     public virtual void Win()
     {
         if (isFinishLv) return;
+        EndGameAndGoToStore();
         isFinishLv = true;
         if (comboVfx != null)
         {

@@ -306,6 +306,8 @@ MonoBehaviour:
   - {fileID: 8556073702164428113}
   - {fileID: 5685237901331581391}
   vfxStar: {fileID: 2776578447637321734}
+  canChoose: 1
+  originPos: {x: 0, y: 0, z: 0}
 --- !u!95 &8297620859317334347
 Animator:
   serializedVersion: 5
@@ -314,7 +316,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8848106780754371833}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4dfdf2e435f3ed3469de8cdfe9d8490d, type: 2}
   m_CullingMode: 0
@@ -341,7 +343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 164832, guid: 72b6fc1312f9da442aa1281cef98bd60, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 419440, guid: 72b6fc1312f9da442aa1281cef98bd60, type: 3}
       propertyPath: m_LocalPosition.x

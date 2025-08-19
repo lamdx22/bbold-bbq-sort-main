@@ -116,7 +116,7 @@ public class Shipper : MonoBehaviour
         numOfRandItem = randomIds.Count;
         //change Anim Shipper and Shipper Small
         AudioManager.Instance.PlaySFX(AudioClipId.NoticeOrder);
-        animOrderAppear?.gameObject.SetActive(true);
+        //animOrderAppear?.gameObject.SetActive(true);
         animShipperSmall?.SetActive(true);
         animShipperSmall.transform.position = posAppear.position;
         animShipperSmall.transform.DOMove(posDriveTo.position, 1f).SetEase(Ease.Linear)
@@ -141,7 +141,8 @@ public class Shipper : MonoBehaviour
     }
     IEnumerator OnEndOrderCompleted()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.9f);
+        CoinManager.Instance.OnAddCoin(20, animShipperSmall.transform.position + new Vector3(1.5f, 0, 0));
         cover.gameObject.SetActive(false);
         AudioManager.Instance.PlaySFX(AudioClipId.YaHo);
         animShipperSmall.transform.DOMove(posDriveAway.position, 1f).SetEase(Ease.Linear)

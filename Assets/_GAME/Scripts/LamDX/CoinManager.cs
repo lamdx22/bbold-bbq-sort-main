@@ -11,7 +11,7 @@ public class CoinManager : MonoBehaviour
     public TextMeshProUGUI textCoin;
     public Transform coinBag;
     public GameObject coinPrefab;
-    public TextMeshProUGUI textFloat;
+    public GameObject textFloatPrefab;
 
     int coinCount;
 
@@ -49,7 +49,8 @@ public class CoinManager : MonoBehaviour
 
     public void OnAddCoin(int coinNumeber, Vector3 spawnPosition)
     {
-
+        GameObject textGO = Instantiate(textFloatPrefab, spawnPosition, Quaternion.identity, this.transform);
+        TextMeshProUGUI textFloat = textGO.GetComponent<TextMeshProUGUI>();
         textFloat.text = "+" + coinNumeber;
         textFloat.transform.position = spawnPosition;
         textFloat.gameObject.SetActive(true);
@@ -60,7 +61,7 @@ public class CoinManager : MonoBehaviour
         seq.Append(textFloat.transform.DOScale(0f, 0.3f).SetEase(Ease.InBack));   // thu nhỏ biến mất
         seq.OnComplete(() =>
         {
-            textFloat.gameObject.SetActive(false);
+            Destroy(textGO);
         });
 
         GameObject coin = Instantiate(coinPrefab, spawnPosition, Quaternion.identity, this.transform);

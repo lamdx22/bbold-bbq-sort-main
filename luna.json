@@ -1,7 +1,7 @@
 {
     "version": "6.3.0",
     "projectId": "9fd9c6f453db0854f930de01c72b834f",
-    "applicationID": 0,
+    "applicationID": 8523,
     "creativeName": "",
     "pgServer": "EU",
     "window": {
@@ -87,6 +87,38 @@
         "assets": {
             "export": [],
             "excludes": [
+                "Assets/BB/PopupSystem/Sample/PopupNoInternet.prefab",
+                "Assets/Epic Toon FX/Textures/Text/txt_wtf.png",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+                "Assets/TextMesh Pro/Sprites/EmojiOne.png",
+                "Assets/_GAME/Animations/AnimPopupWin/win-anim.json",
+                "Assets/_GAME/Animations/AnimPopupWin/win-anim.png",
+                "Assets/_GAME/Fonts/Melindya Regular.otf",
+                "Assets/_GAME/Prefabs/FX/ComboVfx/text.png",
+                "Assets/_GAME/Prefabs/FX/ComboVfx/Wtf.prefab",
+                "Assets/_GAME/Prefabs/FX/FreezIce/Group 164 copy.png",
+                "Assets/_GAME/Prefabs/FX/FreezIce/Group 164.png",
+                "Assets/_GAME/Prefabs/FX/FreezIce/Group 165 copy.png",
+                "Assets/_GAME/Prefabs/FX/FreezIce/Group 165.png",
+                "Assets/_GAME/Prefabs/GamePlay/comboSlider.prefab",
+                "Assets/_GAME/Prefabs/Popup/MyPopupLose.prefab",
+                "Assets/_GAME/Prefabs/Popup/PopupWin.prefab",
+                "Assets/_GAME/Sprites/emoji/EmojiOne.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/99daebdb-5022-4568-a2fa-9bc40576c0e4.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/adsLockGrill.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/bster11.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/Group 40.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/headShipper.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/maskbst1.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/setting.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/NewSpr/xich 1.png",
+                "Assets/_GAME/Sprites/GamePlaySpr/UIGamePlay/1.png",
+                "Assets/_GAME/Sprites/Popup/DailyLogin/coin2.png",
+                "Assets/_GAME/Sprites/Popup/DailyLogin/iconStopTime.png",
+                "Assets/_GAME/Sprites/Popup/DailyLogin/packIcon.png",
+                "Assets/_GAME/Sprites/Popup/Share/skipOrderIcon.png",
+                "Assets/_GAME/Sprites/Popup/WinLose/Group 40.png",
+                "Assets/_GAME/Sprites/Popup/WinLose/Light.png",
                 "**/Editor/",
                 "**/FacebookSDK/",
                 "**/googleads**/",
@@ -4974,7 +5006,7 @@
             },
             {
                 "name": "UnityEngine.SpriteTileMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.StackTraceLogType",
@@ -6234,11 +6266,11 @@
             },
             {
                 "name": "UnityEngine.UI.CoroutineTween.ColorTween.ColorTweenCallback",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.CoroutineTween.ColorTween.ColorTweenMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.CoroutineTween.FloatTween.FloatTweenCallback",
@@ -6938,7 +6970,7 @@
             },
             {
                 "name": "DG.Tweening.Core.SafeModeReport.SafeModeReportType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.Core.TargetType",
@@ -6974,7 +7006,7 @@
             },
             {
                 "name": "DG.Tweening.LinkBehaviour",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.PathMode",
@@ -9565,10 +9597,6 @@
                 "excluded": false
             },
             {
-                "name": "PlateCompleted",
-                "excluded": false
-            },
-            {
                 "name": "PlateData",
                 "excluded": false
             },
@@ -9800,11 +9828,11 @@
                     },
                     {
                         "name": "isSeparator",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isPunctuation",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isNumber",
@@ -13298,7 +13326,7 @@
                     },
                     {
                         "name": "remove",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetEnumerator",
@@ -17590,7 +17618,7 @@
                     },
                     {
                         "name": "Invoke",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -17950,7 +17978,7 @@
                     },
                     {
                         "name": "LerpUnclamped",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Approximately",
@@ -19882,7 +19910,7 @@
                     },
                     {
                         "name": "Invoke",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Invoke$1",
@@ -21320,7 +21348,7 @@
                     },
                     {
                         "name": "GetChild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsChildOf",
@@ -21412,7 +21440,7 @@
                     },
                     {
                         "name": "SetAsLastSibling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetSiblingIndex",
@@ -21816,11 +21844,11 @@
                     },
                     {
                         "name": "Get9SlicedMesh",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Get9TiledMesh",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -22002,7 +22030,7 @@
                     },
                     {
                         "name": "_aspect#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "_aspect#set",
@@ -22010,7 +22038,7 @@
                     },
                     {
                         "name": "aspect#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "aspect#set",
@@ -22018,7 +22046,7 @@
                     },
                     {
                         "name": "orthographicSize#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "orthographicSize#set",
@@ -22292,7 +22320,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTexture",
@@ -23896,7 +23924,7 @@
                     },
                     {
                         "name": "size#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "size#set",
@@ -23904,7 +23932,7 @@
                     },
                     {
                         "name": "tileMode#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "tileMode#set",
@@ -23912,7 +23940,7 @@
                     },
                     {
                         "name": "adaptiveModeThreshold#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "adaptiveModeThreshold#set",
@@ -24286,7 +24314,7 @@
                     },
                     {
                         "name": "highlightedTrigger#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "highlightedTrigger#set",
@@ -24294,7 +24322,7 @@
                     },
                     {
                         "name": "pressedTrigger#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "pressedTrigger#set",
@@ -24302,7 +24330,7 @@
                     },
                     {
                         "name": "selectedTrigger#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "selectedTrigger#set",
@@ -24484,7 +24512,7 @@
                     },
                     {
                         "name": "highlightedColor#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "highlightedColor#set",
@@ -24492,7 +24520,7 @@
                     },
                     {
                         "name": "pressedColor#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "pressedColor#set",
@@ -24500,7 +24528,7 @@
                     },
                     {
                         "name": "selectedColor#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "selectedColor#set",
@@ -24524,7 +24552,7 @@
                     },
                     {
                         "name": "fadeDuration#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fadeDuration#set",
@@ -24770,7 +24798,7 @@
                     },
                     {
                         "name": "mode#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "mode#set",
@@ -24870,7 +24898,7 @@
                     },
                     {
                         "name": "highlightedSprite#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "highlightedSprite#set",
@@ -24878,7 +24906,7 @@
                     },
                     {
                         "name": "pressedSprite#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "pressedSprite#set",
@@ -24886,7 +24914,7 @@
                     },
                     {
                         "name": "selectedSprite#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "selectedSprite#set",
@@ -25144,7 +25172,7 @@
                     },
                     {
                         "name": "startColor#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "targetColor#get",
@@ -25152,7 +25180,7 @@
                     },
                     {
                         "name": "targetColor#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "tweenMode#get",
@@ -25160,39 +25188,39 @@
                     },
                     {
                         "name": "tweenMode#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "duration#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "duration#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ignoreTimeScale#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ignoreTimeScale#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "TweenValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddOnChangedCallback",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetIgnoreTimescale",
@@ -25204,7 +25232,7 @@
                     },
                     {
                         "name": "ValidTarget",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "getHashCode",
@@ -25216,7 +25244,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -25226,7 +25254,7 @@
                 "instanceMethods": [
                     {
                         "name": "Start",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Init",
@@ -25234,7 +25262,7 @@
                     },
                     {
                         "name": "StartTween",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "StopTween",
@@ -25284,7 +25312,7 @@
                     },
                     {
                         "name": "mainTexture#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "depth#get",
@@ -25870,7 +25898,7 @@
                     },
                     {
                         "name": "OnPointerClick",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnSubmit",
@@ -25878,7 +25906,7 @@
                     },
                     {
                         "name": "Press",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnFinishSubmit",
@@ -26792,7 +26820,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -27838,11 +27866,11 @@
                     },
                     {
                         "name": "ResizeInternalArray",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResizeInternalArray$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddFloatToInternalTextBackingArray",
@@ -29254,7 +29282,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -29270,7 +29298,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -30934,11 +30962,11 @@
                     },
                     {
                         "name": "PlayMusic",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PlayMusic$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "StopSFXSource2",
@@ -31276,7 +31304,7 @@
                     },
                     {
                         "name": "UpdateSkewerAtFistPlate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Lose",
@@ -31327,8 +31355,36 @@
                         "excluded": true
                     },
                     {
-                        "name": "SpawnDisks",
+                        "name": "OnGoToStore",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EndGameAndGoToStore",
+                        "excluded": false
+                    },
+                    {
+                        "name": "WaitForEndLevel",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CheckSpawnPlate",
                         "excluded": true
+                    },
+                    {
+                        "name": "FindPlate",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SpawnPlates",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CheckRemainPalete",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ResetPlates",
+                        "excluded": false
                     }
                 ]
             },
@@ -34664,7 +34720,7 @@
                     },
                     {
                         "name": "toString",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35423,6 +35479,10 @@
                     {
                         "name": "OnMouseDown",
                         "excluded": true
+                    },
+                    {
+                        "name": "OnGoToStore",
+                        "excluded": true
                     }
                 ]
             },
@@ -35482,7 +35542,7 @@
                     },
                     {
                         "name": "LogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LogReport",
@@ -35530,7 +35590,7 @@
                     },
                     {
                         "name": "ShouldLogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetDebugDataMessage",
@@ -35626,7 +35686,7 @@
                     },
                     {
                         "name": "Add",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetTotErrors",
@@ -35652,7 +35712,7 @@
                 "instanceMethods": [
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35682,7 +35742,7 @@
                     },
                     {
                         "name": "AddActiveTweenToSequence",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DespawnAll",
@@ -35702,11 +35762,11 @@
                     },
                     {
                         "name": "AddTweenLink",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RemoveTweenLink",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResetCapacities",
@@ -35742,11 +35802,11 @@
                     },
                     {
                         "name": "ForceInit",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Goto",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Pause",
@@ -35814,7 +35874,7 @@
                     },
                     {
                         "name": "EvaluateTweenLink",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddActiveTween",
@@ -36670,7 +36730,7 @@
                     },
                     {
                         "name": "SetLink$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTarget",
@@ -36678,11 +36738,11 @@
                     },
                     {
                         "name": "SetLoops",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetLoops$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetEase$2",
@@ -36778,7 +36838,7 @@
                     },
                     {
                         "name": "Append",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Prepend",
@@ -36786,7 +36846,7 @@
                     },
                     {
                         "name": "Join",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Insert",
@@ -42796,7 +42856,7 @@
                     },
                     {
                         "name": "DoInsert",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DoAppendInterval",
@@ -43690,7 +43750,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "init",
@@ -43710,7 +43770,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -43906,7 +43966,7 @@
                     },
                     {
                         "name": "ResizeMeshInfo",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResizeMeshInfo$1",
@@ -43954,7 +44014,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -44024,11 +44084,11 @@
                     },
                     {
                         "name": "Resize",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Resize$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -44266,7 +44326,7 @@
                     },
                     {
                         "name": "UnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UnRegisterTextElementForRebuild",
@@ -44314,7 +44374,7 @@
                     },
                     {
                         "name": "InternalUnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -44348,7 +44408,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -44358,7 +44418,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -44378,7 +44438,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -44437,6 +44497,94 @@
                     {
                         "name": "ON_COMPUTE_DT_EVENT",
                         "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "CoinManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetCoin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddCoin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnAddCoin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShakeBag",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PlateCompleted",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Appear",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClearDisk",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PopUp",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnGoToStore",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Tutorial",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StartTutorial",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
                     }
                 ]
             }
@@ -44512,8 +44660,8 @@
                 "default": {
                     "channels": 1,
                     "startTime": "00:00.000",
-                    "endTime": "00:00.000",
-                    "lengthInSeconds": 0.0,
+                    "endTime": "00:30.000",
+                    "lengthInSeconds": 30.0,
                     "bitrate": 32,
                     "script": "",
                     "ext": ""

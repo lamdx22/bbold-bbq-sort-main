@@ -20,11 +20,11 @@ public class LockOfGrillOB : BaseOB
         sprRendGrillLocked.gameObject.SetActive(true);
         sprRendAdsUnlock.gameObject.SetActive(true);
         textLocked.gameObject.SetActive(true);
-        textLocked.text += "UnLock Oven";
-        if (timeBonus > 0)
-            textLocked.text += "+ " + timeBonus.ToString() + "s";
-        if (coinBonus > 0)
-            textLocked.text += " + " + coinBonus.ToString() + " Coins";
+        //textLocked.text += "UnLock Oven";
+        //if (timeBonus > 0)
+        //    textLocked.text += "+ " + timeBonus.ToString() + "s";
+        //if (coinBonus > 0)
+        //    textLocked.text += " + " + coinBonus.ToString() + " Coins";
     }
     public void SetUILockBySkewer(int skewerTypeLocked)
     {
@@ -78,6 +78,12 @@ public class LockOfGrillOB : BaseOB
             sprRendGrillLocked.gameObject.SetActive(false);
         });
     }
+
+    public void OnGoToStore()
+    {
+        Luna.Unity.Playable.InstallFullGame();
+    }
+
     private void OnMouseDown()
     {
         if (GameManager.GameState != GameState.Playing) return;
@@ -90,7 +96,8 @@ public class LockOfGrillOB : BaseOB
                 break;
             case GrillUnLockType.LockedByAds:
                 //watch ads to unlock
-                grill.UnLockByAds();
+                //grill.UnLockByAds();
+                OnGoToStore();
                 break;
         }
     }

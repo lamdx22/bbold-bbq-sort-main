@@ -52,6 +52,7 @@
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/AudioManager/AudioManager.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/GamePlay/ComboVfx.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/AudioManager/AudioClipId.cs",
+      "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/CoinManager.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/Loading/LoadingScreenController.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/Loading/LoadSceneManager.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/GameStartController.cs",
@@ -63,6 +64,7 @@
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/HomeScreen.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/Manager/ScreenUI.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/Manager/UIManager.cs",
+      "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/PopUp.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/Share/TimeFormatter.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/MultiLanguage/LocalizationText.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/MultiLanguage/LocalizationTextMeshPro.cs",
@@ -95,6 +97,7 @@
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/AudioManager/AudioHelper.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/SkewerMouseEvent.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/GamePlay/PreviewLv.cs",
+      "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/Tutorial.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/GamePlay/PlateCompleted.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/GrillMouseEvent.cs",
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/BB/PopupSystem/PopupSetting.cs",
@@ -277,9 +280,6 @@
     ],
     [
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/GamePlay/SprDataSO.cs"
-    ],
-    [
-      "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/LamDX/CoinManager.cs"
     ],
     [
       "D:/Projects/Unity/bbold-bbq-sort-main/LunaTemp/stage3/processed-scripts/Assets/_GAME/Scripts/SafeArea.cs"

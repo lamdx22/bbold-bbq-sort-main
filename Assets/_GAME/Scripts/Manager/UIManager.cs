@@ -12,7 +12,8 @@ public class UIManager : MonoBehaviour
     public Canvas canvas;
     public Camera camUI;
     public GameObject transition;
-    
+    public PopUp popUpLose;
+    public PopUp popUpWin;
 
     private ScreenUI _activeScreen;
 

@@ -70,7 +70,7 @@ public class PlayScreen : ScreenUI
         }
         else
         {
-            curLevelCtrl?.Lose();
+            //curLevelCtrl?.Lose();
         }
         if (!isFreezeTime)
             timeLimitLv -= Time.deltaTime;
@@ -188,9 +188,10 @@ public class PlayScreen : ScreenUI
         //}
         AudioManager.Instance.musicSource.UnPause();
         AudioManager.Instance.PlaySFX(AudioClipId.GameWin);
-        Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameWin)
-            .SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
-        StopTimeWanring();
+        //Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameWin)
+        //    .SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
+        //StopTimeWanring();
+        UIManager.popUpWin.ShowUp();
     }
 
     public void LoseLv()
@@ -203,9 +204,10 @@ public class PlayScreen : ScreenUI
     public void LoseDirect()
     {
         // TO do: POpUPLose
-        Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameLose)
-        .SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
-        StopTimeWanring();
+        //Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameLose)
+        //.SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
+        //StopTimeWanring();
+        UIManager.popUpLose.ShowUp();
     }
     public void OnRevive()
     {
