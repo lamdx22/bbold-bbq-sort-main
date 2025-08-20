@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 63456896}
   - component: {fileID: 63456898}
   - component: {fileID: 63456897}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -122.9999, y: -125.64996}
+  m_AnchoredPosition: {x: -122.99991, y: -125.64996}
   m_SizeDelta: {x: 136, y: 151}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &223919471
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 122.000015, y: 25}
+  m_AnchoredPosition: {x: 122, y: 25}
   m_SizeDelta: {x: 470.00003, y: 3251.892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &398967802
@@ -1733,7 +1733,7 @@ GameObject:
   - component: {fileID: 571420294}
   - component: {fileID: 571420296}
   - component: {fileID: 571420295}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1944,8 +1944,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -17813,7 +17813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Match 3 skewers \nand make your business"
+  m_text: "Match 3 skewers \nand complete the order"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5d80ce504e826c41aba2bf4809e33b6, type: 2}
   m_sharedMaterial: {fileID: 3644209544063822052, guid: e5d80ce504e826c41aba2bf4809e33b6, type: 2}
@@ -18084,7 +18084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1080672441
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19269,7 +19269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -122.000015, y: 98}
+  m_AnchoredPosition: {x: -122, y: 98}
   m_SizeDelta: {x: 470.00003, y: 3251.892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297884654
@@ -19494,7 +19494,7 @@ GameObject:
   - component: {fileID: 1379918406}
   - component: {fileID: 1379918408}
   - component: {fileID: 1379918407}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19753,7 +19753,7 @@ GameObject:
   - component: {fileID: 1435539330}
   - component: {fileID: 1435539332}
   - component: {fileID: 1435539331}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35376,7 +35376,7 @@ GameObject:
   - component: {fileID: 1732130201}
   - component: {fileID: 1732130203}
   - component: {fileID: 1732130202}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36087,7 +36087,7 @@ GameObject:
   - component: {fileID: 1812742658}
   - component: {fileID: 1812742660}
   - component: {fileID: 1812742659}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56397,7 +56397,7 @@ GameObject:
   - component: {fileID: 5266904906950016506}
   - component: {fileID: 4341434556305283535}
   - component: {fileID: 6842985472801519061}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56415,7 +56415,7 @@ GameObject:
   - component: {fileID: 3551370700257255014}
   - component: {fileID: 6368653907958807070}
   - component: {fileID: 7581398230293043967}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100201,7 +100201,7 @@ GameObject:
   - component: {fileID: 8736745818032848547}
   - component: {fileID: 8736745818032848546}
   - component: {fileID: 8736745818032848548}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MyPopupWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124614,6 +124614,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3861789885770544832, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3991685452931787099, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656232561345269441, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 642163776}
     - target: {fileID: 4656232561345269441, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -124637,6 +124649,14 @@ PrefabInstance:
     - target: {fileID: 5807360202005670559, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
       propertyPath: m_fontSizeBase
       value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052294398683830661, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275293086400857292, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6563323862084534555, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
       propertyPath: m_Pivot.x
@@ -124737,6 +124757,10 @@ PrefabInstance:
     - target: {fileID: 7619820698146826181, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
       propertyPath: m_Name
       value: MyPopupLose
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619820698146826181, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7619820698146826181, guid: 67cfec5f5e3331842b27973911b5b4aa, type: 3}
       propertyPath: m_IsActive
@@ -124952,7 +124976,7 @@ GameObject:
   - component: {fileID: 4233426543471850154}
   - component: {fileID: 3483765020881811261}
   - component: {fileID: 1485478786272937050}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125011,6 +125035,10 @@ PrefabInstance:
       propertyPath: prefabTextVfxs.Array.data[3]
       value: 
       objectReference: {fileID: 5452731034139067537, guid: 38f5f88cbcb520e4bb8376f32b95e6e0, type: 3}
+    - target: {fileID: 467092234782846670, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2633444533188619740, guid: dfe102be837fea34a879a0b33752f914, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -125091,6 +125119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3377814001928977024, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4249053568394733829, guid: dfe102be837fea34a879a0b33752f914, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -125102,6 +125134,14 @@ PrefabInstance:
     - target: {fileID: 4333809733638858277, guid: dfe102be837fea34a879a0b33752f914, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002055147557657186, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002055147557657186, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5183205672569973781, guid: dfe102be837fea34a879a0b33752f914, type: 3}
       propertyPath: m_Name
@@ -125115,6 +125155,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5739729909070867477, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073293747539427202, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6379653101085341350, guid: dfe102be837fea34a879a0b33752f914, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -125123,7 +125171,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9009368977172223585, guid: dfe102be837fea34a879a0b33752f914, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 467092234782846670, guid: dfe102be837fea34a879a0b33752f914, type: 3}
     m_RemovedGameObjects:
     - {fileID: 78540260128430105, guid: dfe102be837fea34a879a0b33752f914, type: 3}
     - {fileID: 2553404213167411513, guid: dfe102be837fea34a879a0b33752f914, type: 3}
@@ -129853,7 +129906,7 @@ GameObject:
   - component: {fileID: 58541063530771660}
   - component: {fileID: 6807181113296437386}
   - component: {fileID: 7342888602113267063}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}

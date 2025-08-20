@@ -112,7 +112,7 @@ public class LevelCtr : MonoBehaviour
     public void Init(LevelData levelData)
     {
         StartCoroutine(StartPlay(levelData));
-        StartCoroutine(WaitForEndLevel());
+        //StartCoroutine(WaitForEndLevel());
     }
 
     IEnumerator StartPlay(LevelData levelData)
@@ -125,9 +125,10 @@ public class LevelCtr : MonoBehaviour
         SpawnPlates();
         yield return new WaitForSeconds(0.1f);
         numOfSkewer = onGrillSkewers.Count + onPlateSkewers.Count;
-        orderShipper = levelDatas.order;
+        orderShipper = 0;//levelDatas.order;
         stepShipper = numOfSkewer / (orderShipper + 1);
         countMatch = 0;
+        //CheckSpawnShipper();
 
         yield return new WaitForSeconds(0.2f);
         //SwapSkewerTypeInit();
@@ -144,6 +145,9 @@ public class LevelCtr : MonoBehaviour
         {
             grill.lockGrillOB.SetUIUnlockInit();
         }
+
+        //StartCoroutine(WaitForEndLevel(7));
+
         //CheckSpawnPlate();
         //if (PlayerData.current.level == 1)
         //{
@@ -164,9 +168,9 @@ public class LevelCtr : MonoBehaviour
         Luna.Unity.Playable.InstallFullGame();
     }
 
-    IEnumerator WaitForEndLevel()
+    IEnumerator WaitForEndLevel(int limitCount)
     {
-        yield return new WaitUntil(() => countMatch >= 7 || isFinishLv);
+        yield return new WaitUntil(() => countMatch >= limitCount || isFinishLv);
         UIManager.Instance.transition.SetActive(true);
         Luna.Unity.LifeCycle.GameEnded();
     }
@@ -512,17 +516,17 @@ public class LevelCtr : MonoBehaviour
     }
     bool isShowPopupGuideOrder = false;
     public  Action ShowPoupGuideOrder;
-    protected void CheckSpawnShipper()
+    public void CheckSpawnShipper()
     {
-        Debug.Log("666Shipper");
+        //Debug.Log("666Shipper");
 
         if (doneOrders + 1 > orderShipper) return;
         Debug.Log("6666Shipper");
-        if (numOfCompletedSkewer >= stepShipper * (doneOrders + 1))
+        if (numOfCompletedSkewer >= stepShipper * (doneOrders) && numOfCompletedSkewer < orderShipper*3) //(doneOrders + 1)
         {
             Debug.Log("66666Shipper");
             SpawnShipper();
-            doneOrders++;
+            //doneOrders++;
         }
 
         if (PlayerData.current.fakeIndexLevel == 10 || PlayerData.current.fakeIndexLevel == 24)
@@ -601,7 +605,7 @@ public class LevelCtr : MonoBehaviour
     }
     IEnumerator OnWin()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         Win();
     }
 

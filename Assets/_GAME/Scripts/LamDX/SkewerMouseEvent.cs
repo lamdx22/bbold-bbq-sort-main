@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SkewerMouseEvent : MonoBehaviour
 {
@@ -19,13 +20,23 @@ public class SkewerMouseEvent : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("OnMouseDown");
+        // Nếu đang click vào UI -> không xử lý collider dưới
+        //if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        //{
+        //    //Debug.Log("Click lên UI -> block collider bên dưới");
+        //    return;
+        //}
+        //Debug.Log("OnMouseDown");
+        if (UIManager.Instance.IsShowPopUp()) return;
         skewer.MouseDown();
     }
 
     private void OnMouseUp()
     {
         //Debug.Log("OnMouseUp");
+        // Nếu đang click vào UI -> không xử lý collider dưới
+        if (UIManager.Instance.IsShowPopUp()) return;
+
         skewer.MouseUp();
     }
 }

@@ -1,0 +1,324 @@
+{
+    "BuildID": "46b726c5-374f-4278-b42e-8af30c3f06ef",
+    "Command": "project:deploy",
+    "ProjectID": "9fd9c6f453db0854f930de01c72b834f",
+    "ProjectStateHash": "73607053aaf11d95c09f0568f072f352ee8f2c84a466c6172ec1874220dd7926",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1755685799097,
+    "EndTime": 1755685832865,
+    "PlaygroundUserID": 16373,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.62f1",
+    "LunaVersion": "6.3.0",
+    "LogCount": 13,
+    "Logs": [
+        {
+            "LogID": "d09fc6a9-3f45-4764-8da1-e0e5db9bead9",
+            "Order": 6,
+            "Timestamp": 1755685833044,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 77,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\_GAME\\Scripts\\GameStartController.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "9eee334b-461c-4ae3-b812-723ffdb49116",
+            "Order": 6,
+            "Timestamp": 1755685833097,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 20,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\Model.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "8896e363-0d4e-4823-aed1-36bf3627070f",
+            "Order": 6,
+            "Timestamp": 1755685833097,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 29,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\Model.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "ecafa628-fedc-4bca-a36d-3c398e501db1",
+            "Order": 6,
+            "Timestamp": 1755685833134,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 78,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\Core\\PopupSystem.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "537d923d-77dd-4d01-9801-dd4139601c7c",
+            "Order": 6,
+            "Timestamp": 1755685833139,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 56,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\PopupRating.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "3d071a7b-1d5e-4151-a53d-c8546aa56d10",
+            "Order": 6,
+            "Timestamp": 1755685833141,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3014",
+            "Description": "You are using the wrong API: Application.OpenURL.",
+            "Details": [
+                "You are using the wrong API: Application.OpenURL. which can lead to ad networks rejecting the playable. Please use Luna.Unity.Playable.InstallFullGame() instead. "
+            ],
+            "DescriptionValues": [
+                "Application.OpenURL"
+            ],
+            "DetailsValues": [
+                "Application.OpenURL"
+            ],
+            "LogCount": 1,
+            "LinePosition": 250,
+            "FilePath": "D:\\Projects\\Unity\\bbold-bbq-sort-main\\Assets\\BB\\PopupSystem\\PopupSetting.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "b31fe97b-0cfc-4029-8b41-77b100edaf6f",
+            "Order": 6,
+            "Timestamp": 1755685833891,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "9e1ac1b2-48f2-4e23-9f7d-bb158c599149",
+            "Order": 6,
+            "Timestamp": 1755685833891,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "f26bf0d3-36ca-47dc-997f-8d45bc2c3016",
+            "Order": 0,
+            "Timestamp": 1755685811001,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 106."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "106"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "7e1f71ee-01b1-4567-8015-cc179754dc26",
+            "Order": 1,
+            "Timestamp": 1755685811001,
+            "Stage": 1,
+            "ErrorType": 1,
+            "ErrorCode": "LP1023",
+            "Description": "Too many files for facebook platform",
+            "Details": [
+                "Too many files for facebook platform in use ($200) only $100 available"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "200",
+                "100"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "1093d36a-27b5-4284-8a61-439cd512277b",
+            "Order": 2,
+            "Timestamp": 1755685811027,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "5f551451-655e-4183-a614-5ffd2428db91",
+            "Order": 3,
+            "Timestamp": 1755685811027,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "7bea0db7-59ef-48db-b4a1-008744c4efa9",
+            "Order": 4,
+            "Timestamp": 1755685811027,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.8.6)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "D:/Projects/Unity/bbold-bbq-sort-main/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}

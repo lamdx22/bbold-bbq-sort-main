@@ -59,6 +59,10 @@ public class PlayScreen : ScreenUI
         {
             OnLimitedTimeWarning();
         }
+        if (timeLimitLv <= 0f && !UIManager.Instance.IsShowPopUp())
+        {
+            LoseDirect();
+        }
         if (timeLimitLv > 0)
         {
             int minutes = Mathf.FloorToInt(timeLimitLv / 60);
@@ -190,7 +194,7 @@ public class PlayScreen : ScreenUI
         AudioManager.Instance.PlaySFX(AudioClipId.GameWin);
         //Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameWin)
         //    .SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
-        //StopTimeWanring();
+        StopTimeWanring();
         UIManager.popUpWin.ShowUp();
     }
 
@@ -206,7 +210,10 @@ public class PlayScreen : ScreenUI
         // TO do: POpUPLose
         //Popup.PopupSystem.GetOpenBuilder().SetType(PopupType.PopupGameLose)
         //.SetCurrentPopupBehaviour(CurrentPopupBehaviour.Close).Open();
-        //StopTimeWanring();
+        //GameManager.Instance.SwitchGameState(GameState.Pause);
+        curLevelCtrl.LoseDirectly();
+        AudioManager.Instance.PlaySFX(AudioClipId.GameFail);
+        StopTimeWanring();
         UIManager.popUpLose.ShowUp();
     }
     public void OnRevive()

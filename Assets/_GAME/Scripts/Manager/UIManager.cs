@@ -48,7 +48,10 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    
+    public bool IsShowPopUp()
+    {
+        return popUpLose.gameObject.activeSelf || popUpWin.gameObject.activeSelf;
+    }
 
     public T ActiveScreen<T>(bool showTopUI = true) where T : ScreenUI
     {

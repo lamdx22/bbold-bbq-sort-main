@@ -84,7 +84,7 @@ public class Shipper : MonoBehaviour
     IEnumerator OnSpawnItemOrder(List<int> idSkewers)
     {
         //find random idskewers
-        int numOfRand = UnityEngine.Random.Range(1, 4);
+        int numOfRand = 1; // UnityEngine.Random.Range(1, 4);
         if (numOfRand > idSkewers.Count)
         {
             numOfRand = idSkewers.Count;
@@ -119,7 +119,7 @@ public class Shipper : MonoBehaviour
         //animOrderAppear?.gameObject.SetActive(true);
         animShipperSmall?.SetActive(true);
         animShipperSmall.transform.position = posAppear.position;
-        animShipperSmall.transform.DOMove(posDriveTo.position, 1f).SetEase(Ease.Linear)
+        animShipperSmall.transform.DOMove(posDriveTo.position, 0.8f).SetEase(Ease.Linear)
             .OnComplete(() =>
             {
                 cover.gameObject.SetActive(true);
@@ -149,8 +149,10 @@ public class Shipper : MonoBehaviour
             .OnComplete(() =>
             {
                 animShipperSmall?.SetActive(false);
+                levelCtr.doneOrders++;
                 levelCtr.curShipper = null;
                 Destroy(gameObject);
+                levelCtr.CheckSpawnShipper();
             });
     }
     public void OnBtnWatchAdsToSkipOrder()

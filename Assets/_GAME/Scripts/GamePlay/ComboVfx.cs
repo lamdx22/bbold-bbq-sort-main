@@ -41,7 +41,7 @@ public class ComboVfx : MonoBehaviour
         }
         comboCount++;
         comboText.text = "x"+ comboCount.ToString();
-        if(comboCount >= 3 && timeCount > 1f)
+        if(comboCount >= 2 && timeCount > 1f)
         {
             if(posCompleted != default)
             {
