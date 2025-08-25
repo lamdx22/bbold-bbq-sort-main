@@ -7,6 +7,7 @@ using System;
 using System.Linq;
 using UnityEngine.UI;
 using Spine.Unity;
+using NUnit.Framework.Constraints;
 
 public class LevelCtr : MonoBehaviour
 {
@@ -48,7 +49,9 @@ public class LevelCtr : MonoBehaviour
     public ItemOrder currOrder;
     public Transform UITransform;
     private PlateCompleted currPlate;
-    public List<PlateCompleted> plateCompleteds = new List<PlateCompleted>();
+    public List<PlateCompleted> plateList = new List<PlateCompleted>();
+    List<Shipper> shipperList = new List<Shipper>();
+    List<Vector3> queuePositions = new List<Vector3>();
 
     //tutorial
     public int typeSkewerCompleted;
@@ -122,13 +125,14 @@ public class LevelCtr : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         levelDatas = levelData;
         SpawnGrills(levelDatas);
-        SpawnPlates();
+        //SpawnPlates();
         yield return new WaitForSeconds(0.1f);
         numOfSkewer = onGrillSkewers.Count + onPlateSkewers.Count;
-        orderShipper = 0;//levelDatas.order;
+        orderShipper = numOfSkewer/3;//levelDatas.order;
         stepShipper = numOfSkewer / (orderShipper + 1);
         countMatch = 0;
-        //CheckSpawnShipper();
+        SpawnShipperBegin();
+        
 
         yield return new WaitForSeconds(0.2f);
         //SwapSkewerTypeInit();
@@ -145,6 +149,9 @@ public class LevelCtr : MonoBehaviour
         {
             grill.lockGrillOB.SetUIUnlockInit();
         }
+
+        curShipper = CheckRemainShipper();
+        curShipper.StartOrder(GetSkewIdOnGrill());
 
         //StartCoroutine(WaitForEndLevel(7));
 
@@ -323,11 +330,27 @@ public class LevelCtr : MonoBehaviour
     }
     IEnumerator OnCompletetdOneMatch3(List<Skewer> completetdSkewers, Action completetedMoveToCompletedPlate = null, Action eventHaftMoving = null)
     {
+        OnCompletedOneMatch3?.Invoke(completetdSkewers);
+        PlateCompleted plateCompleted = null;
+
+        List<Transform> skrewDestination;
+        if (currOrder != null)
+        {
+            skrewDestination = currOrder.posMoveInCompletedSkewers;
+        }
+        else
+        {
+            //plateCompleted = FindPlate();//currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+            if (plateCompleted == null) plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+            currPlate = null;
+            plateCompleted.canChoose = false;
+            skrewDestination = plateCompleted.posMoveInCompletedSkewers;
+        }
         //CheckSpawnPlate();
-        PlateCompleted plateCompleted = FindPlate();//currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
-        if (plateCompleted == null) plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
-        currPlate = null;
-        plateCompleted.canChoose = false;
+        //PlateCompleted plateCompleted = FindPlate();//currPlate;// Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+        //if (plateCompleted == null) plateCompleted = Instantiate(plateCompletedPrefab, posPlateWinAppear.position, Quaternion.identity, UITransform);
+        //currPlate = null;
+        //plateCompleted.canChoose = false;
         var numOfSkewerCompletetdMove = 0;
         float dur = 0f;
         //Tutorial check
@@ -335,10 +358,10 @@ public class LevelCtr : MonoBehaviour
         {
             typeSkewerCompleted = completetdSkewers[0].skewerType;
         }
-        for (int i = 0; i < plateCompleted.posMoveInCompletedSkewers.Count; i++)
+        for (int i = 0; i < skrewDestination.Count; i++)
         {
             var completetdSkewer = completetdSkewers[i];
-            float temdur = completetdSkewer.MoveToCompletedPlate(plateCompleted.posMoveInCompletedSkewers[i], 0.5f, () =>
+            float temdur = completetdSkewer.MoveToCompletedPlate(skrewDestination[i], 0.5f, () =>
             {
                 numOfSkewerCompletetdMove++;
                 if (onGrillSkewers.Contains(completetdSkewer))
@@ -372,35 +395,36 @@ public class LevelCtr : MonoBehaviour
         //    //Debug.Log("plate Pos:" + sprPlate.transform.position);
         //    //vfx star
         //});
-        yield return new WaitUntil(() => numOfSkewerCompletetdMove >= plateCompleted.posMoveInCompletedSkewers.Count);
+        yield return new WaitUntil(() => numOfSkewerCompletetdMove >= skrewDestination.Count);
 
         countMatch++;
         AudioManager.Instance.PlaySFX(AudioClipId.CompleteMatch3);
-        plateCompleted.vfxStar.SetActive(true);
+        //plateCompleted.vfxStar.SetActive(true);
         CoinManager.Instance.OnAddCoin(10, completetdSkewers[1].transform.position);
 
         completetedMoveToCompletedPlate?.Invoke();
-        OnCompletedOneMatch3?.Invoke(completetdSkewers);
-        NumOfCompletedSkewer += 3;
+        //OnCompletedOneMatch3?.Invoke(completetdSkewers);
         yield return new WaitForSeconds(0.5f);
 
         if (currOrder != null)
         {
-            Sequence seq = DOTween.Sequence();
+            currOrder.UpdateUIComplete();
+            currOrder = null;
+            //Sequence seq = DOTween.Sequence();
 
-            seq.Join(plateCompleted.transform.DOMove(currOrder.transform.position, 0.5f).SetEase(Ease.Linear));
-            seq.Join(plateCompleted.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack));
+            //seq.Join(plateCompleted.transform.DOMove(currOrder.transform.position, 0.5f).SetEase(Ease.Linear));
+            //seq.Join(plateCompleted.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack));
 
-            seq.OnComplete(() =>
-            {
-                currOrder = null;
-                plateCompleted.ClearDisk();
-                CheckRemainPalete();
-            });
+            //seq.OnComplete(() =>
+            //{
+            //    currOrder = null;
+            //    plateCompleted.ClearDisk();
+            //    CheckRemainPalete();
+            //});
         }
         else
         {
-            plateCompleted.transform.DOMove(posPlateWinOut.position, 1f).SetEase(Ease.Linear).OnComplete(() =>
+            plateCompleted?.transform.DOMove(posPlateWinOut.position, 1f).SetEase(Ease.Linear).OnComplete(() =>
             {
                 //Debug.Log("plate Pos:" + sprPlate.transform.position);
 
@@ -408,6 +432,8 @@ public class LevelCtr : MonoBehaviour
                CheckRemainPalete();
             });
         }
+        NumOfCompletedSkewer += 3;
+
     }
 
     public bool CheckSpawnPlate()
@@ -423,9 +449,9 @@ public class LevelCtr : MonoBehaviour
 
     PlateCompleted FindPlate()
     {
-        for (int i = plateCompleteds.Count - 1; i >= 0; i--)
+        for (int i = plateList.Count - 1; i >= 0; i--)
         {
-            PlateCompleted plateCompleted = plateCompleteds[i];
+            PlateCompleted plateCompleted = plateList[i];
             if (plateCompleted.gameObject.activeSelf && plateCompleted.canChoose)
             {
                 return plateCompleted;
@@ -448,16 +474,16 @@ public class LevelCtr : MonoBehaviour
             //    plateCompleted.gameObject.SetActive(false);
             //else plateCompleted.Appear();
 
-            plateCompleteds.Add(plateCompleted);
+            plateList.Add(plateCompleted);
         }
     }
 
     private void CheckRemainPalete()
     {
         bool remain = false;
-        for (int i = plateCompleteds.Count - 1; i >= 0; i--)
+        for (int i = plateList.Count - 1; i >= 0; i--)
         {
-            PlateCompleted plateCompleted = plateCompleteds[i];
+            PlateCompleted plateCompleted = plateList[i];
             if (plateCompleted.gameObject.activeSelf)
             {
                 remain = true;
@@ -472,15 +498,130 @@ public class LevelCtr : MonoBehaviour
         float height = Camera.main.orthographicSize * 2f;
         float width = height * Camera.main.aspect;
         //Debug.Log(platesHolder.Count);
-        for (int i = 0; i < plateCompleteds.Count; i++)
+        for (int i = 0; i < plateList.Count; i++)
         {
-            PlateCompleted plateCompleted = plateCompleteds[i];
+            PlateCompleted plateCompleted = plateList[i];
             if (Math.Abs(plateCompleted.transform.position.x) < width / 2 - 0.5f)
             {
                 if (!plateCompleted.gameObject.activeSelf) plateCompleted.Appear();
             }
             else plateCompleted.ClearDisk();
         }
+    }
+
+    public void OnDoneOrder()
+    {
+        doneOrders++;
+
+        curShipper.Reset();
+        shipperList.RemoveAt(0);
+        shipperList.Add(curShipper);
+        curShipper = null;
+
+        if (NumOfCompletedSkewer < numOfSkewer)
+        {
+            curShipper = CheckRemainShipper();
+            curShipper.StartOrder(GetSkewIdOnGrill());
+
+            for (int i = 0; i < shipperList.Count; i++)
+            {
+                if (shipperList[i] == shipperList[shipperList.Count - 1])
+                {
+                    shipperList[i].transform.position = queuePositions[i];
+                }
+                else shipperList[i].MoveTo(queuePositions[i]);
+            }
+        }
+    }
+
+    public void SpawnShipperBegin()
+    {
+        float height = Camera.main.orthographicSize * 2f;
+        float width = height * Camera.main.aspect;
+        for (int i = 0; i < 7; i++)
+        {
+            Shipper shipper = Instantiate(shipperPrefab, posSpawnShipper.transform.position, Quaternion.identity, posSpawnShipper.parent);
+            //shipper.originPos = new Vector3(-3.38f * i, shipper.transform.position.y, shipper.transform.position.z);
+            var originPos = new Vector3(4f + -3.38f * i, posSpawnShipper.position.y, posSpawnShipper.position.z);
+            queuePositions.Add(originPos);
+            shipper.transform.position = originPos;
+            //shipper.Appear();
+            //if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
+            //    plateCompleted.gameObject.SetActive(false);
+            //else plateCompleted.Appear();
+            shipper.Init(this, posAppear, posDriveTo, posDriveAway);
+            shipperList.Add(shipper);
+        }
+    }
+
+    public Shipper CheckRemainShipper()
+    {
+        bool remain = false;
+        for (int i = 0; i < shipperList.Count; i++)
+        {
+            Shipper shipper = shipperList[i];
+            if (shipper.gameObject.activeSelf)
+            {
+                remain = true;
+                return shipper;
+                //break;
+            }
+        }
+
+        Shipper newShipper = Instantiate(shipperPrefab, posSpawnShipper.transform.position, Quaternion.identity, posSpawnShipper.parent);
+        //shipper.originPos = new Vector3(-3.38f * i, shipper.transform.position.y, shipper.transform.position.z);
+        var originPos = new Vector3(-3.38f * 0, posSpawnShipper.position.y, posSpawnShipper.position.y);
+        newShipper.transform.position = originPos;
+        //shipper.Appear();
+        //if (Math.Abs(plateCompleted.transform.position.x) > width / 2 - 0.5f)
+        //    plateCompleted.gameObject.SetActive(false);
+        //else plateCompleted.Appear();
+        newShipper.Init(this, posAppear, posDriveTo, posDriveAway);
+        shipperList.Add(newShipper);
+        return newShipper;
+        //if (!remain) ResetShipper();
+    }
+
+    //public void ResetShipper()
+    //{
+    //    float height = Camera.main.orthographicSize * 2f;
+    //    float width = height * Camera.main.aspect;
+    //    //Debug.Log(platesHolder.Count);
+    //    for (int i = 0; i < plateList.Count; i++)
+    //    {
+    //        PlateCompleted plateCompleted = plateList[i];
+    //        if (Math.Abs(plateCompleted.transform.position.x) < width / 2 - 0.5f)
+    //        {
+    //            if (!plateCompleted.gameObject.activeSelf) plateCompleted.Appear();
+    //        }
+    //        else plateCompleted.ClearDisk();
+    //    }
+    //}
+
+    public List<int> GetSkewIdOnGrill()
+    {
+        List<int> skewerIds = new List<int>();
+        foreach (var skewer in onGrillSkewers)
+        {
+            int skewerType = skewer.skewerType;
+            if (skewerIds.Contains(skewerType)) continue;
+            skewerIds.Add(skewerType);
+        }
+        if (skewerIds.Count < 3)
+        {
+            UpdateSkewerAtFistPlate();
+            foreach (var skewer in onFistPlatesSkewers)
+            {
+                int skewerType = skewer.skewerType;
+                if (skewerIds.Contains(skewerType)) continue;
+                skewerIds.Add(skewerType);
+            }
+        }
+        if (skewerIds.Count <= 0)
+        {
+            Debug.LogWarning("Not enough skewers to spawn shipper");
+        }
+        return skewerIds;
     }
 
     protected void SpawnShipper()
@@ -518,6 +659,7 @@ public class LevelCtr : MonoBehaviour
     public  Action ShowPoupGuideOrder;
     public void CheckSpawnShipper()
     {
+        return; // Deactive
         //Debug.Log("666Shipper");
 
         if (doneOrders + 1 > orderShipper) return;

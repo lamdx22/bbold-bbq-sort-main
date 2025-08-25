@@ -23,6 +23,12 @@ public class Shipper : MonoBehaviour
     bool isCompletedInit;
     int numOfRandItem;
     bool isChangedEmotion;
+    Vector3 originShipperSmallLocalPos;
+
+    private void Start()
+    {
+        originShipperSmallLocalPos = animShipperSmall.transform.localPosition;
+    }
 
     public void Init(LevelCtr level, List<int> idSkewers, Transform posAppear, Transform posDriveTo, Transform posDriveAway)
     {
@@ -31,7 +37,9 @@ public class Shipper : MonoBehaviour
         this.posAppear = posAppear;
         this.posDriveTo = posDriveTo;
         this.posDriveAway = posDriveAway;
-        SpawnItemOrder(idSkewers);
+        cover.gameObject.SetActive(false);
+        //SpawnItemOrder(idSkewers);
+        numOfRandItem = 1;
         switch (numOfRandItem)
         {
             case 1:
@@ -50,6 +58,57 @@ public class Shipper : MonoBehaviour
         timerOrder = timerMax;
         isCompletedInit = true;
     }
+
+    public void Init(LevelCtr level, Transform posAppear, Transform posDriveTo, Transform posDriveAway)
+    {
+        animOrderAppear?.gameObject.SetActive(false);
+        this.levelCtr = level;
+        this.posAppear = posAppear;
+        this.posDriveTo = posDriveTo;
+        this.posDriveAway = posDriveAway;
+        cover.gameObject.SetActive(false);
+        //SpawnItemOrder(idSkewers);
+        switch (numOfRandItem)
+        {
+            case 1:
+                timerMax = 40f;
+                break;
+            case 2:
+                timerMax = 60f;
+                break;
+            case 3:
+                timerMax = 90f;
+                break;
+            default:
+                timerMax = 90f;
+                break;
+        }
+        timerOrder = timerMax;
+        isCompletedInit = true;
+    }
+
+    public void StartOrder(List<int> idSkewers)
+    {
+        isCompletedOrder = false;
+        SpawnItemOrder(idSkewers);
+    }
+
+    public void Reset()
+    {
+        for (int i = 0; i < itemOrders.Count; i++)
+        {
+            Destroy(itemOrders[i].gameObject);
+        }
+        itemOrders.Clear();
+
+        //this.transform.position = posAppear.position;
+        animShipperSmall.transform.localPosition = originShipperSmallLocalPos;
+        timerMax = 40f;
+        timerOrder = timerMax;
+        parentSpawnItem.gameObject.SetActive(false);
+        isCompletedInit = true;
+    }
+
     private void Update()
     {
         if (GameManager.GameState != GameState.Playing) return;
@@ -118,13 +177,15 @@ public class Shipper : MonoBehaviour
         AudioManager.Instance.PlaySFX(AudioClipId.NoticeOrder);
         //animOrderAppear?.gameObject.SetActive(true);
         animShipperSmall?.SetActive(true);
-        animShipperSmall.transform.position = posAppear.position;
-        animShipperSmall.transform.DOMove(posDriveTo.position, 0.8f).SetEase(Ease.Linear)
-            .OnComplete(() =>
-            {
-                cover.gameObject.SetActive(true);
-                parentSpawnItem.gameObject.SetActive(true);
-            });
+        //animShipperSmall.transform.position = posAppear.position;
+        //animShipperSmall.transform.DOMove(posDriveTo.position, 0.8f).SetEase(Ease.Linear)
+        //.OnComplete(() =>
+        //{
+        //    cover.gameObject.SetActive(true);
+        //    parentSpawnItem.gameObject.SetActive(true);
+        //});
+        cover.gameObject.SetActive(true);
+        parentSpawnItem.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.5f);
 
         animOrderAppear?.gameObject.SetActive(false);
@@ -141,18 +202,20 @@ public class Shipper : MonoBehaviour
     }
     IEnumerator OnEndOrderCompleted()
     {
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(0.5f);
         CoinManager.Instance.OnAddCoin(20, animShipperSmall.transform.position + new Vector3(1.5f, 0, 0));
         cover.gameObject.SetActive(false);
         AudioManager.Instance.PlaySFX(AudioClipId.YaHo);
         animShipperSmall.transform.DOMove(posDriveAway.position, 1f).SetEase(Ease.Linear)
             .OnComplete(() =>
             {
-                animShipperSmall?.SetActive(false);
-                levelCtr.doneOrders++;
-                levelCtr.curShipper = null;
-                Destroy(gameObject);
-                levelCtr.CheckSpawnShipper();
+                //animShipperSmall?.SetActive(false);
+                //levelCtr.doneOrders++;
+                levelCtr.OnDoneOrder();
+                //levelCtr.curShipper = null;
+                //Destroy(gameObject);
+                //levelCtr.CheckSpawnShipper();
+                
             });
     }
     public void OnBtnWatchAdsToSkipOrder()
@@ -165,5 +228,9 @@ public class Shipper : MonoBehaviour
         if (isCompletedOrder) return;
         isCompletedOrder = true;
         StartCoroutine(OnEndOrderCompleted());
+    }
+    public void MoveTo(Vector3 targetPos)
+    {
+        transform.DOMove(targetPos, 0.5f).SetEase(Ease.OutQuad);
     }
 }

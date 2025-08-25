@@ -8,7 +8,10 @@ public class ItemOrder : MonoBehaviour
 {
     public Image bg;
     public Sprite normalBg, saleBg;
-    public Image iconSkewer;
+    //public Image iconSkewer;
+    public Image iconSkewer1, iconSkewer2, iconSkewer3;
+    public Material grayMaterial;
+    private Material originalMaterial;
     public Image iconCompleted;
     //ReadOnly
     public Shipper shipper;
@@ -16,6 +19,7 @@ public class ItemOrder : MonoBehaviour
     public LevelCtr level;
     public bool isDone;
     public bool isSaleItem;
+    public List<Transform> posMoveInCompletedSkewers;
 
     public void Init(Shipper shipper, int idSkewer, LevelCtr level,bool isSaleItem = false)
     {
@@ -33,8 +37,21 @@ public class ItemOrder : MonoBehaviour
         }
         Sprite spr = Resources.Load<Sprite>("SpriteData/Skewer/" + idSkewer.ToString());
         iconCompleted.gameObject.SetActive(false);
-        iconSkewer.gameObject.SetActive(true);
-        iconSkewer.sprite = spr;
+
+        //iconSkewer.gameObject.SetActive(true);
+        //iconSkewer.sprite = spr;
+        //var colorGray = new Color(0.85f, 0.85f, 0.85f, 1f); //new Color(0.7f, 0.7f, 0.7f, 0.5f);
+        originalMaterial = iconSkewer1.material;
+        iconSkewer1.gameObject.SetActive(true);
+        iconSkewer1.sprite = spr;
+        iconSkewer1.material = grayMaterial;
+        iconSkewer2.gameObject.SetActive(true);
+        iconSkewer2.sprite = spr;
+        iconSkewer2.material = grayMaterial;
+        iconSkewer3.gameObject.SetActive(true);
+        iconSkewer3.sprite = spr;
+        iconSkewer3.material = grayMaterial;
+
         level.OnCompletedOneMatch3 += CheckCompletedOrderAndUpdateUi;
     }
     protected void CheckCompletedOrderAndUpdateUi(List<Skewer> skewers)
@@ -57,13 +74,31 @@ public class ItemOrder : MonoBehaviour
         if (skewers.First().skewerType == idSkewer)
         {
             level.currOrder = this;
-            level.OnCompletedOneMatch3 -= CheckCompletedOrderAndUpdateUi;
-            if (iconCompleted != null)
-                iconCompleted?.gameObject.SetActive(true);
-            isDone = true;
-            shipper.CheckCompletetdOrder();
+            //level.OnCompletedOneMatch3 -= CheckCompletedOrderAndUpdateUi;
+            ////if (iconCompleted != null)
+            ////    iconCompleted?.gameObject.SetActive(true);
+            //iconSkewer1.material = originalMaterial;
+            //iconSkewer2.material = originalMaterial;
+            //iconSkewer3.material = originalMaterial;
+
+            //isDone = true;
+            //shipper.CheckCompletetdOrder();
         }
     }
+
+    public void UpdateUIComplete()
+    {
+        level.OnCompletedOneMatch3 -= CheckCompletedOrderAndUpdateUi;
+        //if (iconCompleted != null)
+        //    iconCompleted?.gameObject.SetActive(true);
+        iconSkewer1.material = originalMaterial;
+        iconSkewer2.material = originalMaterial;
+        iconSkewer3.material = originalMaterial;
+
+        isDone = true;
+        shipper.CheckCompletetdOrder();
+    }
+
     private void OnDestroy()
     {
         level.OnCompletedOneMatch3 -= CheckCompletedOrderAndUpdateUi;
